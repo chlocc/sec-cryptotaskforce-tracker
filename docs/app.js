@@ -83,14 +83,15 @@ function esc(s) {
   return div.innerHTML;
 }
 
-function render() {
-  const items = DATA.items.filter(matches);
-  count.textContent = items.length + " item" + (items.length === 1 ? "" : "s");
-  if (!items.length) {
-    feed.innerHTML = '<div class="empty">No items match.</div>';
-    return;
-  }
-  feed.innerHTML = items.map(item => `
+// Lazy rendering: all items stay in memory (filters/search see everything),
+// but the DOM only gets BATCH cards at a time, appended as the user scrolls.
+const BATCH = 30;
+let filtered = [];
+let renderedCount = 0;
+const sentinel = document.getElementById("sentinel");
+
+function cardHTML(item) {
+  return `
     <article class="card">
       <div class="card-head">
         <span class="badge ${esc(item.source)}">${esc(DATA.source_labels[item.source] || item.source)}</span>
@@ -104,9 +105,48 @@ function render() {
       </ul>
       ${item.thin ? '<div class="thin-note">Automated summary unavailable — see source.</div>' : ""}
       ${item.topics.length ? `<div class="topics">${item.topics.map(t => `<button class="topic" data-topic="${esc(t)}">${esc(t)}</button>`).join("")}</div>` : ""}
-    </article>
-  `).join("");
+    </article>`;
 }
+
+function render() {
+  filtered = DATA.items.filter(matches);
+  count.textContent = filtered.length + " item" + (filtered.length === 1 ? "" : "s");
+  window.scrollTo(0, 0);  // results restart from the top; also keeps the first batch small
+  feed.innerHTML = "";
+  renderedCount = 0;
+  if (!filtered.length) {
+    feed.innerHTML = '<div class="empty">No items match.</div>';
+    return;
+  }
+  appendBatch();
+}
+
+function appendBatch() {
+  if (renderedCount >= filtered.length) return;
+  const next = filtered.slice(renderedCount, renderedCount + BATCH);
+  feed.insertAdjacentHTML("beforeend", next.map(cardHTML).join(""));
+  renderedCount += next.length;
+  // Re-observe so the observer re-evaluates: if the sentinel is still in view
+  // (short viewport / few items per screen), the callback fires again.
+  observer.unobserve(sentinel);
+  observer.observe(sentinel);
+  // Short-viewport case: if the batch didn't push the sentinel off-screen,
+  // keep filling until the page is scrollable.
+  if (nearBottom()) appendBatch();
+}
+
+function nearBottom() {
+  return window.innerHeight + window.scrollY >= document.body.scrollHeight - 900;
+}
+
+const observer = new IntersectionObserver(entries => {
+  if (entries.some(e => e.isIntersecting)) appendBatch();
+}, { rootMargin: "600px 0px" });  // start loading well before the bottom
+observer.observe(sentinel);
+
+// Fallback for environments where IntersectionObserver delivery is unreliable
+// (some embedded webviews): plain scroll-position check.
+window.addEventListener("scroll", () => { if (nearBottom()) appendBatch(); }, { passive: true });
 
 feed.addEventListener("click", e => {
   const btn = e.target.closest(".topic");
