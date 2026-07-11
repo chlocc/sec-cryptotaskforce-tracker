@@ -1,0 +1,2893 @@
+[
+ {
+  "id": "7ccee2e382b7d9ae",
+  "source": "written-input",
+  "date": "2026-07-10",
+  "title": "Re: Automated Market Makers and the Application of the Federal Securities Laws",
+  "author": "Uniswap Labs",
+  "topics": [
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-uniswap-071026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-uniswap-071026.pdf",
+  "key_points": [
+   "AMMs fundamentally differ from traditional intermediated markets; their operation is governed by transparent, rule-based smart contracts, not by entities exercising discretion or handling orders, so applying intermediary-based regulatory frameworks is legally inappropriate.",
+   "Legal responsibilities under federal securities laws should attach only where participants exercise functions analogous to intermediaries (e.g., handling orders, executing trades for others); passive liquidity providers and protocol developers do not meet this threshold and should not be subject to intermediary classification.",
+   "The Commission is urged to issue guidance and consider targeted rulemaking clarifying how existing rules apply to discrete AMM functions (such as custody or user interfaces), and to provide no-action relief or safe harbor for innovators pending comprehensive regulatory clarity."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Uniswap argues AMMs lack intermediaries, so securities laws should exempt passive LPs and developers, with SEC safe harbors issued meanwhile."
+ },
+ {
+  "id": "7da389ee57d47b56",
+  "source": "written-input",
+  "date": "2026-07-07",
+  "title": "Written Input to the SEC Crypto Task Force",
+  "author": "Persistence Analytics Group LLC",
+  "topics": [
+   "Regulatory Framework",
+   "Compliance Technology",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-2026-07-07.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-2026-07-07.pdf",
+  "key_points": [
+   "The SEC should require an implementation-verification layer for digital asset frameworks, ensuring that custody, reserves, tokenized-asset backing, customer-asset segregation, security status, trading integrity, adviser accountability, cybersecurity, sanctions exposure, and market reliance are all independently verified before market-wide reliance is permitted.",
+   "Regulatory clarity alone is insufficient; operational assumptions underlying digital asset market structures must be proven and verified to protect investors, issuers, exchanges, custodians, broker-dealers, advisers, DeFi platforms, wallets, payment systems, and federal agencies.",
+   "A fixed-scope Digital Asset Market Implementation Verification Screen should be established to identify unverified assumptions, missing evidence, responsible parties for verification, and residual risks in custody, reserves, tokenization, trading, cyber, consumer, adviser, cross-border, sanctions, and market integrity before regulatory frameworks become binding."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SEC should mandate independent verification of implementation assumptions (custody, reserves, cybersecurity) before crypto regulatory frameworks take effect."
+ },
+ {
+  "id": "dd02a2d7d9d434ff",
+  "source": "written-input",
+  "date": "2026-07-01",
+  "title": "Re:  Comment to the SEC Regarding Tokenized Securities",
+  "author": "James Johnson",
+  "topics": [
+   "Tokenization",
+   "Investor Protection",
+   "Custody"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-sec-tokenized-securities-comment-070126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-sec-tokenized-securities-comment-070126.pdf",
+  "key_points": [
+   "Tokenized securities offered to retail investors must be backed 1:1 by the actual underlying security, held by a regulated custodian, and subject to regular independent audits.",
+   "Clear, plain-language disclosure is required to explain exactly what the investor owns and what rights are attached; token holders must receive the same economic rights as ordinary shareholders, including dividends and distributions.",
+   "Custody, redemption, bankruptcy, and investor-recovery rules must be established before retail trading is allowed, and platforms must be subject to strong market-surveillance, anti-manipulation, cybersecurity, and conflict-of-interest rules."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Tokenized securities need 1:1 asset backing, equal shareholder rights, and comprehensive custody/surveillance rules before retail trading."
+ },
+ {
+  "id": "b2a8487bbec62eec",
+  "source": "written-input",
+  "date": "2026-06-18",
+  "title": "Re:  And Then Some: Request for Information Regarding National Securities Exchanges and Alternative Trading Systems Trading Crypto Assets",
+  "author": "tZERO Group, Inc.",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework",
+   "Clearing & Settlement"
+  ],
+  "url": "https://www.sec.gov/files/cft-input-tzero-rfi-response-061826.pdf",
+  "doc_url": "https://www.sec.gov/files/cft-input-tzero-rfi-response-061826.pdf",
+  "key_points": [
+   "The response advocates for a technology-neutral regulatory framework, emphasizing that rules should focus on regulatory outcomes (such as investor protection and market integrity) rather than prescribing specific technological means, and that principles-based standards are preferable to prescriptive requirements.",
+   "tZERO recommends rescinding the SEC’s “Three-Step Process” for ATS settlement of digital asset security trades, arguing that recent regulatory guidance now permits broker-dealers to custody crypto asset securities directly, making the previous workaround obsolete and unnecessarily restrictive.",
+   "The document proposes targeted amendments to existing forms (Form ATS and Form ATS-N) to clarify disclosure requirements for crypto asset security ATSs, rather than creating new forms, and suggests that public blockchain records should satisfy regulatory reporting and recordkeeping obligations, reducing duplicative compliance burdens."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "tZERO urges technology-neutral ATS rules, rescission of the Three-Step Process, and leveraging blockchain records to reduce duplicative compliance."
+ },
+ {
+  "id": "6469e0c8273190b5",
+  "source": "written-input",
+  "date": "2026-06-06",
+  "title": "Re: Conduct-level proof:privacy-preserving verification of mandate adherence for autonomous and on-chain marketactivity",
+  "author": "Inherence Labs",
+  "topics": [
+   "Compliance Technology",
+   "DeFi Protocols",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-inherence-labs-060526.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-inherence-labs-060526.pdf",
+  "key_points": [
+   "Conduct‑level adherence is identified as a distinct and currently missing compliance layer necessary for autonomous, on‑chain financial activity, ensuring that an actor’s entire sequence of actions complies with its governing mandate.",
+   "The submission recommends the SEC recognize independent verifiability as separate from enforcement, requiring compliance demonstrations to be technology‑neutral, tamper‑evident, continuous, and privacy‑preserving.",
+   "It proposes that regulated firms be permitted to satisfy demonstration obligations through cryptographic, zero‑knowledge proofs that show mandate adherence without disclosing strategies, positions, or transaction‑level detail."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Proposes zero-knowledge cryptographic proofs as a privacy-preserving method for regulated firms to continuously demonstrate on-chain mandate compliance without revealing proprietary details."
+ },
+ {
+  "id": "5d40b1cf1d4fd627",
+  "source": "written-input",
+  "date": "2026-05-22",
+  "title": "RE: Follow up from Ripple – SEC Crypto Task Force Meeting",
+  "author": "Ripple",
+  "topics": [
+   "Stablecoins",
+   "Broker-Dealer Registration",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-ripple-052226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-ripple-052226.pdf",
+  "key_points": [
+   "Ripple requests amendments or interpretive guidance under Rules 15c3‑1 and 15c3‑3 to allow Qualified Payment Stablecoins to be treated as allowable assets, cash equivalents, and eligible reserve assets, ensuring consistent treatment of stablecoins in collateral, custody, and reserve contexts.",
+   "Ripple urges the SEC to clarify that digital asset non‑securities beyond BTC and ETH may be deemed “readily marketable” when supported by exchange‑listed or competitively quoted ETPs, aligning FAQ Question 4 with broader digital commodity guidance.",
+   "Ripple recommends designating an on‑chain registry—maintained by a regulated digital transfer agent—as the authoritative legal register for directly issued tokenized securities, resolving dual‑registry ownership ambiguities under stress."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Ripple seeks SEC rule changes to treat qualified stablecoins as allowable broker-dealer assets, expand 'readily marketable' status beyond BTC/ETH, and legitimize on-chain registries for tokenized securities."
+ },
+ {
+  "id": "f2da7c6f293afc44",
+  "source": "written-input",
+  "date": "2026-05-19",
+  "title": "Structural Integrity in Tokenized Equity Markets:Ownership, Liquidity, and Governance Separation",
+  "author": "Persistence Analytics Group LLC",
+  "topics": [
+   "Tokenization",
+   "Investor Protection",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/files/sec-crypto-task-force-tokenized-equity-input.pdf",
+  "doc_url": "https://www.sec.gov/files/sec-crypto-task-force-tokenized-equity-input.pdf",
+  "key_points": [
+   "Tokenized equities risk blurring distinctions between economic exposure, liquidity access, and actual ownership/governance rights, raising potential gaps in investor protection and market‑structure integrity.",
+   "The introduction of synthetic or derivative-like tokenized representations may create divergent pricing, unclear claims, and fragmented liquidity unless regulatory standards clarify the precise rights each instrument provides.",
+   "The SEC may need a dedicated ownership‑integrity and evidence‑chain framework requiring plain‑language disclosures on rights, claims, governance, liquidity sources, and failure‑recovery mechanics for all tokenized equity instruments."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Tokenized equities risk conflating ownership, economic exposure, and governance; the SEC should require clear rights disclosures and an ownership-integrity framework."
+ },
+ {
+  "id": "b55591041434f308",
+  "source": "written-input",
+  "date": "2026-05-14",
+  "title": "The Innovation Advantage in Well-Regulated Markets",
+  "author": "World Federation of Exchanges",
+  "topics": [
+   "Regulatory Framework",
+   "Tokenization",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-world-federation-exchanges-051426.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-world-federation-exchanges-051426.pdf",
+  "key_points": [
+   "Innovation and investor protection in financial markets are complementary goals that can be achieved together through well-designed regulatory frameworks.",
+   "Tokenisation can improve post-trade processes such as reconciliation, collateral mobility, and automation, but its success depends on being implemented within established regulatory frameworks.",
+   "The history of modern equity markets shows that sustainable innovation flourishes when it strengthens trust and operates within clear and credible rules, rather than weakening governance in pursuit of speed or novelty."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "The World Federation of Exchanges argues sustainable crypto innovation requires established regulatory frameworks, not weakened governance."
+ },
+ {
+  "id": "67afb523a6dc8486",
+  "source": "written-input",
+  "date": "2026-05-11",
+  "title": "Application of the Federal Securities Laws to Certain Types of Crypto Assets and Certain Transactions Involving Crypto Assets (Release Nos. 33-11412; 34-105020; File No. S7-2026-09)",
+  "author": "Consensys Software Inc.",
+  "topics": [
+   "Safe Harbor & Exemptions",
+   "Broker-Dealer Registration",
+   "Security Status"
+  ],
+  "url": "https://www.sec.gov/files/consensys-sec-interpretive-release-051126.pdf",
+  "doc_url": "https://www.sec.gov/files/consensys-sec-interpretive-release-051126.pdf",
+  "key_points": [
+   "The letter argues that the SEC’s attachment/separation framework for investment contracts applied to non‑security crypto assets is novel, lacks jurisprudential grounding, and cannot feasibly be implemented by third‑party interface providers because issuer‑side facts determining attachment are unknowable by those providers.",
+   "It requests a Commission‑level safe harbor exempting self‑custodial, user‑directed interfaces (e.g., MetaMask) from broker‑dealer registration when facilitating secondary transactions in non‑security crypto assets, even if an investment contract may have “attached” under the Release but not yet “separated.”",
+   "It contends that without such a safe harbor, U.S. interface providers face unworkable compliance obligations that will constrain token interoperability, distort competition relative to offshore providers, and reduce user protection by pushing activity to unregulated venues."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Consensys argues the SEC's attachment/separation framework is unworkable for interface providers and seeks a safe harbor exempting self-custodial wallets from broker-dealer registration."
+ },
+ {
+  "id": "2ea8dfb8ef264e78",
+  "source": "written-input",
+  "date": "2026-05-07",
+  "title": "Narrowing the Section 404 Prohibition",
+  "author": "Yunjie Fan",
+  "topics": [
+   "Stablecoins",
+   "Regulatory Framework",
+   "Compliance Technology"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-fan-050726.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-fan-050726.pdf",
+  "key_points": [
+   "The report establishes that routing payment‑stablecoin balances into 1940 Act–registered money market funds is legally outside §404’s prohibition, because NAV‑based MMF shares are securities, not deposit‑equivalents, and §404 governs only yield on payment stablecoins.",
+   "It proposes a threshold NAV pass‑through test—requiring user‑borne downside risk, NAV‑tracking pricing, and 1099‑DIV tax treatment—under which any failure creates an irrebuttable presumption of prohibited passive yield.",
+   "It provides a six‑factor, on‑chain‑auditable framework for agencies to distinguish bona fide user‑initiated activity from disguised yield, anchoring “routing” within expected rulemaking categories (transfers and market‑making) rather than creating new statutory exceptions."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Proposes a legal framework allowing stablecoin balances to be routed into registered MMFs without triggering §404's yield prohibition."
+ },
+ {
+  "id": "4c441e1d8ca2c367",
+  "source": "written-input",
+  "date": "2026-04-29",
+  "title": "RE: Petition for Rulemaking — Persistent-Enforcement Digital Asset Systems",
+  "author": "Amy Person, TrustLogic",
+  "topics": [
+   "Regulatory Framework",
+   "Security Status",
+   "Compliance Technology"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-amy-person-trustlogic-042826.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-amy-person-trustlogic-042826.pdf",
+  "key_points": [
+   "The petition requests that the SEC establish a recognized regulatory category for “Persistent‑Enforcement Digital Asset Systems,” where conditions governing asset use are automatically and continuously enforced at the asset level, independent of intermediaries.",
+   "The proposed framework would allow the SEC to distinguish digital assets that do not rely on ongoing managerial efforts (due to embedded, self‑executing enforcement) from those that do—directly affecting the Howey securities analysis.",
+   "The petition asserts that this structure would close material investor‑protection gaps, ensuring that conditions disclosed at issuance remain enforceable throughout the asset’s lifecycle, including across platforms and autonomous/AI‑driven transactions."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Petition asks SEC to create a regulatory category for digital assets with embedded, self-executing compliance, potentially affecting Howey analysis."
+ },
+ {
+  "id": "03923cfdba3abffe",
+  "source": "written-input",
+  "date": "2026-04-23",
+  "title": "Re: Summary of Recommendations for the SEC Crypto Task Force from Recent House Financial Services Testimony",
+  "author": "Salman Banaei, Kimber Labs Inc. (\"Plume\")",
+  "topics": [
+   "Trading & Market Structure",
+   "DeFi Protocols",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-salman-banaei-kimber-labs-inc-plume-april-2026-hfsc-tokenization-recs-ctf-042326.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-salman-banaei-kimber-labs-inc-plume-april-2026-hfsc-tokenization-recs-ctf-042326.pdf",
+  "key_points": [
+   "The SEC should modernize Regulation ATS to explicitly accommodate DeFi based trading and lending protocols, providing durable legal certainty and a compliant pathway for onchain securities activities.",
+   "The Commission should issue guidance and exemptive relief under Exchange Act § 17A to allow distributed ledger based clearance and settlement—potentially granting blockchain protocols “clearing corporation” status to remedy UCC Article 8 property rights gaps.",
+   "The SEC should clarify offering, custody, and net capital treatment for tokenized securities (including onchain IPOs, broker dealer custody, and Rule 15c3 1 haircuts) to ensure these instruments receive consistent regulatory treatment with their traditional equivalents."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Plume urges the SEC to modernize ATS, clearing, and custody rules to create compliant pathways for onchain securities trading and settlement."
+ },
+ {
+  "id": "f5f7b58fc37d70f5",
+  "source": "written-input",
+  "date": "2026-04-23",
+  "title": "Tokenization and the Future of Securities: Modernizing Our Capital Markets",
+  "author": "Salman Banaei, Kimber Labs Inc. (\"Plume\")",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-salman-banaei-kimber-labs-inc-plume-march-2026-hfsc-tokenization-written-testimony.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-salman-banaei-kimber-labs-inc-plume-march-2026-hfsc-tokenization-written-testimony.pdf",
+  "key_points": [
+   "TEFRA’s bearer‑bond rules functionally prohibit tokenized bond issuance on public blockchains by denying issuers interest deductions and imposing excise taxes, creating a statutory barrier that Congress must amend to recognize compliant distributed‑ledger‑based bond registers.",
+   "Integration of tokenized securities into federal securities laws requires statutory or regulatory modernization—particularly expanding “broker” definitions, creating tailored DeFi‑broker/ATS frameworks, updating custody and transfer‑agent rules, and enabling onchain IPOs without fragmenting NMS market structure.",
+   "A BSA‑aligned compliance regime for tokenized securities—modeled on the GENIUS Act's token‑level monitoring and freeze‑and‑seize capabilities—is necessary to support pseudonymous, non‑custodial secondary trading while preserving investor protection and regulatory oversight."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "TEFRA's bearer-bond rules and outdated securities statutes must be amended to enable compliant tokenized bond issuance and onchain secondary trading."
+ },
+ {
+  "id": "79e3efb9ed454aac",
+  "source": "written-input",
+  "date": "2026-04-21",
+  "title": "Re: Staff Statement Regarding Broker-Dealer Registration of Certain User Interfaces Utilized to Prepare Transactions in Crypto Asset Securities; File No. 4-894",
+  "author": "DeFi Education Fund",
+  "topics": [
+   "Broker-Dealer Registration",
+   "DeFi Protocols",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-defi-education-fund-042126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-defi-education-fund-042126.pdf",
+  "key_points": [
+   "The Coalition supports the SEC Staff’s clarification that non‑custodial user interfaces that merely convert user‑initiated instructions into blockchain‑legible commands do not constitute broker‑dealer activity, as they neither intermediate transactions nor take possession of customer assets.",
+   "The Coalition urges the SEC to undertake formal notice‑and‑comment rulemaking to establish a durable, principles‑based definition of “broker” aligned with evolving blockchain technologies, thereby preventing future expansive interpretations that could chill innovation.",
+   "The Coalition recommends extending regulatory clarity beyond user interfaces to other neutral infrastructure providers (e.g., validators, RPC/API providers, oracles, cloud services) to ensure they are not inappropriately categorized as broker‑dealers despite not performing brokerage functions."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "DeFi Education Fund supports staff's non-custodial UI exclusion from broker-dealer rules and urges formal rulemaking covering broader neutral infrastructure."
+ },
+ {
+  "id": "cbe9d5b57ba409d5",
+  "source": "written-input",
+  "date": "2026-04-21",
+  "title": "First Amendment limits on SEC jurisdiction over software development, publication, and neutral web and blockchain infrastructure",
+  "author": "Peter Van Valkenburgh, Coin Center",
+  "topics": [
+   "Regulatory Framework",
+   "DeFi Protocols",
+   "Broker-Dealer Registration"
+  ],
+  "url": "https://www.sec.gov/files/coin-center-letter-042126.pdf",
+  "doc_url": "https://www.sec.gov/files/coin-center-letter-042126.pdf",
+  "key_points": [
+   "The SEC cannot extend broker‑dealer, exchange, or adviser jurisdiction to software developers merely because their published code facilitates transactions; publishing software is protected speech unless the developer assumes agency, custody, or client‑specific discretionary control.",
+   "Government attempts to require software to incorporate identity collection, monitoring, or intermediation functions constitute compelled speech and unconstitutional prior restraint, because they force creators to alter expressive software design to satisfy government‑preferred architectures.",
+   "Regulatory authority may constitutionally reach developers only when they move beyond publication and into professional conduct—such as holding unilateral power over user assets, executing transactions, or exercising ongoing discretionary judgment over users’ financial affairs."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Coin Center argues the First Amendment bars SEC from regulating software developers as brokers, exchanges, or advisers absent actual custody or discretionary control."
+ },
+ {
+  "id": "9c1d02b917636587",
+  "source": "written-input",
+  "date": "2026-04-20",
+  "title": "Request for Information Regarding National Securities Exchanges and Alternative Trading Systems Trading Crypto Assets",
+  "author": "The Digital Chamber",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework",
+   "Clearing & Settlement"
+  ],
+  "url": "https://www.sec.gov/files/chapman-questions-041726.pdf",
+  "doc_url": "https://www.sec.gov/files/chapman-questions-041726.pdf",
+  "key_points": [
+   "Facility status for a crypto ATS should apply only when the ATS functionally substitutes for, or extends, an exchange’s core market operations, not when the ATS merely shares enterprise infrastructure or ownership.",
+   "NMS plans and Form ATS requirements should be modernized—rather than replaced—to address 24/7 trading, crypto-specific reference data, and on‑chain settlement, maintaining regulatory equivalence between traditional and crypto markets.",
+   "Crypto ATS oversight should continue using the confidential, non‑approval Form ATS framework, complemented by targeted public disclosures and potential on‑chain alternatives to Form ATS‑R where transparency is inherently superior."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "The Digital Chamber urges modernizing ATS and NMS frameworks for crypto—narrowing facility status, enabling 24/7 trading, and preserving confidential Form ATS with on-chain transparency options."
+ },
+ {
+  "id": "c3c97a7d3d26ba19",
+  "source": "written-input",
+  "date": "2026-04-20",
+  "title": "Re: Request for Information Regarding National Securities Exchanges and Alternative Trading Systems Trading Crypto Assets",
+  "author": "The Digital Chamber",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework",
+   "Clearing & Settlement"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-response-willkie-farr-gallagher-04-17-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-response-willkie-farr-gallagher-04-17-2026.pdf",
+  "key_points": [
+   "The Digital Chamber (TDC) urges the SEC to modernize Regulation ATS Rule 302, noting that certain record keeping requirements (including time sequenced order records and USD denominated trading summaries) may be impracticable or distortive for on chain matching engines and trading pairs that do not involve U.S. dollar valuation.",
+   "TDC recommends that the SEC evaluate whether on chain settlement flows risk exposing confidential subscriber trading information, and consider permitting or encouraging measures that allow ATS subscribers to mask wallet level activity to protect trading strategies.",
+   "TDC advises the SEC to reassess the application of Rule 15c3 5 to crypto ATSs, clarifying that traditional pre trade risk controls may be unnecessary or duplicative where atomic settlement inherently prevents certain risks (e.g., duplicative trades) while still requiring controls to address order entry errors and appropriately calibrated credit limits."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "The Digital Chamber urges SEC to modernize ATS rules, recognizing that on-chain settlement and non-USD trading pairs make certain traditional requirements impracticable."
+ },
+ {
+  "id": "d3e81a4f336498bb",
+  "source": "written-input",
+  "date": "2026-04-17",
+  "title": "Request for Information Regarding National Securities Exchanges and Alternative  Trading Systems Trading Crypto Asset",
+  "author": "The Digital Chamber",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework",
+   "Compliance Technology"
+  ],
+  "url": "https://www.sec.gov/files/tdc-pierson-ferdinand-letter-041726.pdf",
+  "doc_url": "https://www.sec.gov/files/tdc-pierson-ferdinand-letter-041726.pdf",
+  "key_points": [
+   "The Commission should issue Commission‑level guidance—rather than rely on staff FAQs—to clarify how ATSs trading crypto asset securities can meet existing disclosure, order display, execution access, custody, reporting, and SCI obligations without revealing exploitable technical details, while maintaining comparability across venues.",
+   "Applying existing ATS and NMS frameworks to tokenized NMS stocks requires targeted clarification on USD‑conversion governance, staleness controls, equivalent access, integration into consolidated market data, and functional boundaries between brokerage activity, clearing agency activity, and DLT‑based settlement.",
+   "Regulation SCI should continue to apply based on technology‑neutral principles, focusing on systems the ATS operates or controls, while providing guidance on how DLT components, external blockchain dependencies, and validator‑control scenarios affect SCI scope, incident monitoring, and resilience expectations."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "The Digital Chamber urges Commission-level guidance to fit crypto asset securities into existing ATS/NMS frameworks with targeted DLT-specific clarifications."
+ },
+ {
+  "id": "28262c387ae91625",
+  "source": "written-input",
+  "date": "2026-04-17",
+  "title": "Re: Request for Information Regarding National Securities Exchanges and Alternative Trading Systems Trading Crypto Assets",
+  "author": "The Digital Chamber",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework",
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-digital-chamber-ats-rfi-response-04-17-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-digital-chamber-ats-rfi-response-04-17-2026.pdf",
+  "key_points": [
+   "The response urges the SEC to revise Regulation NMS and Regulation ATS to accommodate blockchain based market structures, recognizing that Crypto ATSs deviate materially from traditional CLOB centered architectures.",
+   "It recommends formal withdrawal of the “Three Step Process” and clarifying that Crypto ATSs may engage in clearing and settlement activities, removing unnecessary barriers created under earlier staff interpretations.",
+   "It advocates maintaining a clear legal distinction between software development and regulated financial intermediation, ensuring that non custodial, permissionless protocols and code publication alone do not constitute operating a regulated venue."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "The Digital Chamber urges SEC to modernize Reg NMS/ATS for blockchain markets, withdraw the Three Step Process, and exempt non-custodial protocol development from venue regulation."
+ },
+ {
+  "id": "8760ddabd5e62483",
+  "source": "written-input",
+  "date": "2026-04-15",
+  "title": "Re: Cryptographic Compliance Architecture for Tokenized Securities Markets: Two-Party MPC Signing, Fully Homomorphic Encryption, and the Regulatory Framework for Trustless Decentralized Infrastructure",
+  "author": "Metabyte Labs, Inc.",
+  "topics": [
+   "Compliance Technology",
+   "Custody",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-metabyte-labs-inc-041526.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-metabyte-labs-inc-041526.pdf",
+  "key_points": [
+   "The comment argues that cryptographic non‑custody (via 2PC‑MPC) creates a legally distinct category under securities law because it makes unilateral asset control mathematically impossible, materially strengthening the non-broker and non-custodial analysis.",
+   "It asserts that smart-contract‑bound compliance—which prevents non‑compliant transactions at the signing layer—should be recognized as equivalent to, or stronger than, organizational controls, supporting outcome‑based rather than structure‑based regulation.",
+   "It maintains that Threshold‑FHE enables compliant market transparency by allowing targeted regulatory disclosure and aggregate reporting without exposing individual transaction data, satisfying regulatory objectives while preserving execution privacy."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Metabyte Labs argues cryptographic techniques (2PC-MPC, FHE) eliminate custodial control and embed compliance, warranting distinct regulatory treatment for tokenized securities."
+ },
+ {
+  "id": "35a3a1ebc7366140",
+  "source": "written-input",
+  "date": "2026-04-14",
+  "title": "Re: Automated Market Makers, Tokenized Securities, and Technology Neutrality",
+  "author": "Galaxy Digital",
+  "topics": [
+   "DeFi Protocols",
+   "Trading & Market Structure",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-galaxy-digital-041426.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-galaxy-digital-041426.pdf",
+  "key_points": [
+   "AMMs that meet defined criteria (no discretionary control, full transparency, deterministic settlement, non‑discriminatory access) are not “exchanges” under the Exchange Act because they lack an organization or group of persons operating or maintaining a marketplace, and do not perform functions traditionally associated with stock exchanges.",
+   "Liquidity Providers on such AMMs are not “dealers” under the statutory dealer–trader distinction, as they trade solely for their own accounts, have no customers, and do not solicit orders or provide two‑sided quotes, making dealer registration requirements inapplicable.",
+   "The SEC could lawfully permit tokenized‑securities trading on AMMs by adopting a conditional innovation exemption, including whitelisting, volume caps, and required disclosures, to ensure market integrity while enabling compliant tokenization architectures."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Galaxy argues qualifying AMMs are neither exchanges nor dealers under existing law, and proposes a conditional exemption for tokenized-securities trading on AMMs."
+ },
+ {
+  "id": "de5c3bf2afdad639",
+  "source": "written-input",
+  "date": "2026-04-13",
+  "title": "Re: Support for Coinbase Global Inc. – Letter on Third-Party Tokenization of Publicly Traded Securities",
+  "author": "Blockchain Association",
+  "topics": [
+   "Tokenization",
+   "Safe Harbor & Exemptions",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-blockchain-association-041326.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-blockchain-association-041326.pdf",
+  "key_points": [
+   "SEC should not require issuer consent for third‑party tokenization because existing securities law frameworks already allow secondary‑market infrastructure to develop without issuer approval, and imposing such a requirement would create an unjustified barrier to lawful market activity.",
+   "Conditioning tokenization on issuer consent would distort competition by granting incumbents an effective veto over settlement infrastructure, contrary to principles of technology‑neutral regulation and the SEC’s historical approach to secondary‑market operations.",
+   "A time‑ and volume‑limited innovation exemption would allow the SEC to evaluate tokenized securities in real‑world conditions while avoiding overbroad regulatory changes and ensuring consistent, principles‑based treatment across tokenization models."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Blockchain Association argues SEC should allow third-party tokenization without issuer consent and proposes a limited innovation exemption."
+ },
+ {
+  "id": "746e34c45906002e",
+  "source": "written-input",
+  "date": "2026-04-13",
+  "title": "Support for Coinbase Global Inc. – Letter on Third-Party Tokenization of Publicly Traded Securities",
+  "author": "Blockchain Association",
+  "topics": [
+   "Tokenization",
+   "Safe Harbor & Exemptions",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ba-submission-sec-crypto-task-force-041326.pdf",
+  "doc_url": "https://www.sec.gov/files/ba-submission-sec-crypto-task-force-041326.pdf",
+  "key_points": [
+   "SEC should not require issuer consent for third‑party tokenization because existing securities law frameworks already allow secondary‑market infrastructure to develop without issuer approval, and imposing such a requirement would create an unjustified barrier to lawful market activity.",
+   "Conditioning tokenization on issuer consent would distort competition by granting incumbents an effective veto over settlement infrastructure, contrary to principles of technology‑neutral regulation and the SEC’s historical approach to secondary‑market operations.",
+   "A time‑ and volume‑limited innovation exemption would allow the SEC to evaluate tokenized securities in real‑world conditions while avoiding overbroad regulatory changes and ensuring consistent, principles‑based treatment across tokenization models."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Blockchain Association argues SEC should allow third-party tokenization without issuer consent and proposes a limited innovation exemption."
+ },
+ {
+  "id": "2a91782591385b42",
+  "source": "written-input",
+  "date": "2026-04-13",
+  "title": "Re: Ondo Finance – No-Action Request – Broker-Dealer Support of Customers’ Use of a Public Blockchain for Recordkeeping of Tokenized Security Entitlements",
+  "author": "Ondo Finance",
+  "topics": [
+   "Tokenization",
+   "Broker-Dealer Registration",
+   "Custody"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-ondo-finance-041326.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-ondo-finance-041326.pdf",
+  "key_points": [
+   "The request seeks assurance that no enforcement action will be recommended if a broker‑dealer and transfer agent use a public blockchain (Ethereum Mainnet) solely as a recordkeeping mechanism for tokenized security entitlements, while maintaining Alpaca’s off‑chain books and records as the official ledger.",
+   "The proposal preserves the existing Article 8 and DTC indirect holding system, ensuring that all fully‑paid and excess‑margin securities remain at a “good control” location and that tokenized entitlements do not alter the legal character of the underlying securities or OGM products.",
+   "The model incorporates established broker‑dealer and transfer‑agent supervisory frameworks, asserting compliance with Exchange Act Rules 17a‑3, 17a‑4, and 15c3‑3, and limiting blockchain use to controlled reconciliation, collateral monitoring, and operational efficiency functions."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Ondo seeks SEC no-action relief for using Ethereum as a supplemental recordkeeping layer for tokenized security entitlements while preserving traditional custody and compliance frameworks."
+ },
+ {
+  "id": "cfd3ec15c693c696",
+  "source": "written-input",
+  "date": "2026-04-07",
+  "title": "RE: Economic Analysis of Decentralized Finance (“DeFi”) Applications “Safe Harbor” Proposal",
+  "author": "Craig Lewis, Vanderbilt University",
+  "topics": [
+   "Safe Harbor & Exemptions",
+   "Broker-Dealer Registration",
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-craig-m-lewis-economic-analysis-defi-04-07-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-craig-m-lewis-economic-analysis-defi-04-07-2026.pdf",
+  "key_points": [
+   "The Safe Harbor Proposal establishes a rebuttable presumption of non–broker dealer status for strictly non custodial, non discretionary DeFi front end applications that do not solicit transactions and only interface with decentralized protocols.",
+   "The Proposal asserts that such apps do not create the agency risks (custody, discretionary execution, conflicts of interest, solicitation) that the Exchange Act’s broker dealer regime is designed to mitigate, thereby rendering full registration economically inefficient and legally misaligned.",
+   "The framework preserves SEC enforcement authority by allowing intervention when an app is DeFi In Name Only (DINO) and functions as a de facto centralized intermediary, ensuring investor protection principles remain intact."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Proposes a safe harbor exempting non-custodial, non-discretionary DeFi front ends from broker-dealer registration as economically inefficient and legally misaligned."
+ },
+ {
+  "id": "50399a1c3f5cbf5e",
+  "source": "written-input",
+  "date": "2026-04-06",
+  "title": "Re: Citadel Securities Letter re: Tokenized U.S. Equity Securities & DeFi Trading Protocols",
+  "author": "Blockchain Association",
+  "topics": [
+   "DeFi Protocols",
+   "Trading & Market Structure",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-ba-submission-04-06-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-ba-submission-04-06-2026.pdf",
+  "key_points": [
+   "The submission argues that DeFi protocol developers, validators, front end interfaces, liquidity providers, and other non custodial technology participants do not satisfy statutory definitions of “exchange,” “broker,” or “dealer” because they neither exercise discretion, custody assets, nor intermediate transactions.",
+   "The letter asserts that the SEC possesses clear authority under Section 36 to provide targeted exemptive relief for tokenized equity trading, consistent with longstanding incremental regulatory practice such as no action relief and conditional exemptions leading up to Regulation AB and Regulation ATS.",
+   "The analysis contends that Citadel’s expansive reading of securities intermediary obligations lacks statutory support and would improperly extend regulation to neutral technology providers, contradicting case law including SEC v. Coinbase and Risley v. Uniswap."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Blockchain Association argues DeFi participants are not exchanges, brokers, or dealers, and SEC can grant targeted exemptive relief for tokenized equity trading."
+ },
+ {
+  "id": "7b25bad2864571ea",
+  "source": "written-input",
+  "date": "2026-04-02",
+  "title": "Request for Clarification Regarding a Broker-Dealer’s Use of Dinari, Inc.’s Technology for Creating and Maintaining Blockchain-Based Secondary Records of Certain Securities Transactions and Positions",
+  "author": "Dinari, Inc.",
+  "topics": [
+   "Compliance Technology",
+   "Broker-Dealer Registration",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-dinari-inc-040226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-dinari-inc-040226.pdf",
+  "key_points": [
+   "The broker‑dealer’s use of Dinari’s blockchain system is permissible only if the off‑chain books and records remain the authoritative records fully compliant with Exchange Act Rules 17a‑3 and 17a‑4, with on‑chain tokens serving strictly as secondary, non‑economic representations.",
+   "The blockchain‑based tokens must be entirely duplicative, non‑transferable, and without independent economic or governance rights to ensure they do not alter customer ownership rights or create a separate asset class.",
+   "Broker‑dealers must maintain policies and supervisory procedures ensuring continuous alignment between on‑chain and off‑chain records, including reconciliation and exception reporting to prevent false or misleading customer information."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Dinari seeks confirmation that broker-dealers may use its blockchain tokens as secondary, non-authoritative records if off-chain books remain the sole compliant records."
+ },
+ {
+  "id": "1b75dc0ab69e4fd6",
+  "source": "written-input",
+  "date": "2026-04-02",
+  "title": "Re: OTCM Protocol — Supplemental Update to January 30, 2026 Written Submission Incorporating SEC Release No. 33-11412 (March 17, 2026) and Common Class B Share Architecture Adopted Following SEC Crypto Task Force Feedback (March 30, 2026)",
+  "author": "Groovy Company, Inc. dba OTCM Protocol",
+  "topics": [
+   "Tokenization",
+   "Security Status",
+   "Custody"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-goovy-company-inc-dba-otcm-protocol-040226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-goovy-company-inc-dba-otcm-protocol-040226.pdf",
+  "key_points": [
+   "SEC Release No. 33‑11412 establishes the binding five‑category digital‑asset taxonomy and confirms OTCM’s ST22 instruments as Category 1 Model B Digital Securities, with the DLT ledger serving as the authoritative shareholder record",
+   "OTCM’s migration from Preferred Series “M” shares to Common Class B Shares ensures full shareholder rights (voting, dividends, liquidation) and directly satisfies Model B’s requirement that tokenized securities represent true equity ownership.",
+   "Empire Stock Transfer is formalized as the sole qualified custodian and onboarding authority, centralizing KYC/KYB/AML/OFAC compliance and custody under SEC‑regulated oversight for all ST22 issuers."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "OTCM aligns its tokenized equity structure and custody model with the SEC's new five-category digital-asset taxonomy for Category 1 Model B compliance."
+ },
+ {
+  "id": "943f49db37cfc6aa",
+  "source": "written-input",
+  "date": "2026-04-01",
+  "title": "Re: Request for Information Regarding National Securities Exchanges and Alternative Trading Systems Trading Crypto Assets",
+  "author": "Solana Policy Institute",
+  "topics": [
+   "DeFi Protocols",
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-solana-040126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-solana-040126.pdf",
+  "key_points": [
+   "The letter argues that existing exchange and ATS regulations cannot be automatically applied to disintermediated protocols because these systems lack core intermediary functions such as custody, order‑book operation, discretion, or agency on behalf of users.",
+   "It urges the Commission to distinguish between true intermediaries and neutral software or protocol developers, emphasizing that misclassification would impose technologically impossible obligations and effectively prohibit DeFi activity in the U.S.",
+   "The submission advocates for a function‑based, technology‑neutral regulatory framework—mirroring the Commission’s historic approach to emerging technologies—that maintains investor protection without forcing decentralized systems into legacy market‑structure models."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Solana Policy Institute argues DeFi protocols lack intermediary functions and must not be forced into exchange/ATS frameworks designed for centralized actors."
+ },
+ {
+  "id": "f5c0feb99d6bcc32",
+  "source": "written-input",
+  "date": "2026-04-01",
+  "title": "Re: Request for Information Regarding National Securities Exchanges and Alternative Trading Systems Trading Crypto Assets",
+  "author": "DeFi Education Fund",
+  "topics": [
+   "DeFi Protocols",
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-defi-education-fund-040126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-defi-education-fund-040126.pdf",
+  "key_points": [
+   "The letter urges the SEC to adopt a functional test for “facility” under the Exchange Act so that only technologies actually performing exchange functions fall within regulatory scope, thereby preventing overreach to DeFi software, AMMs, smart contracts, or developers.",
+   "It argues that “group of persons” should not be interpreted broadly; developers or entities lacking unified intent or control over exchange functions should not be regulated as an exchange merely because their software is used by one.",
+   "The letter maintains that DeFi technologies providing liquidity or autonomous functionality (e.g., AMMs, self-custodial tools) perform non‑exchange functions and therefore cannot be treated as exchange facilities or components of an exchange."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "DeFi Education Fund urges SEC to adopt a functional test for exchange \"facility\" to prevent regulatory overreach into DeFi software and developers."
+ },
+ {
+  "id": "bcf89c3c0b67a8aa",
+  "source": "written-input",
+  "date": "2026-04-01",
+  "title": "Re: Why Third-Party Tokenization of Publicly Traded Securities Should Not Require Issuer Approval",
+  "author": "Coinbase Global, Inc.",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-coinbase-global-inc-040126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-coinbase-global-inc-040126.pdf",
+  "key_points": [
+   "Requiring issuer consent for third‑party tokenization would contradict longstanding federal securities law principles, including Section 4(a)(1), Rule 17Ad‑20, and decades of SEC precedent that prohibit issuer-imposed restrictions on secondary‑market portability.",
+   "Third‑party tokenization does not create a new security and preserves full shareholder rights; therefore, conditioning tokenization on issuer consent would improperly grant issuers veto authority over lawful secondary‑market transfers.",
+   "Recent SEC actions—such as Nasdaq’s tokenized trading approval and the DTCC Tokenization Services pilot—explicitly operated without issuer‑consent requirements, making any new consent mandate a reversal of established regulatory logic and potentially anticompetitive."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Coinbase argues third-party tokenization of public securities requires no issuer consent under existing federal securities law and SEC precedent."
+ },
+ {
+  "id": "1a82ea936557295a",
+  "source": "written-input",
+  "date": "2026-03-30",
+  "title": "Re: Automated Market Makers and the Consistent Application of Securities Market Regulations",
+  "author": "SIFMA (Securities Industry and Financial Markets Association)",
+  "topics": [
+   "Trading & Market Structure",
+   "DeFi Protocols",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-sifma-033026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-sifma-033026.pdf",
+  "key_points": [
+   "AMM‑based trading of tokenized securities must be regulated based on function, not technology, ensuring that entities performing exchange, ATS, broker, or dealer roles—such as protocol deployers, governance bodies, significant liquidity providers, and front‑ends—are subject to corresponding federal securities law obligations.",
+   "AMMs introduce structural investor‑protection and market‑integrity risks (MEV/front‑running, slippage, oracle failures, pseudonymous trading, lack of surveillance, limited dispute resolution, liquidity fragmentation) that must be mitigated through mandatory controls, disclosures, AML/KYC application, and integration with existing market‑structure requirements.",
+   "To support compliant securities trading, AMM venues must incorporate price discovery, reporting, systems integrity, and operational resilience comparable to Regulation NMS and Regulation SCI, including reliable market data, transparent execution, and accountable entities capable of maintaining and upgrading smart‑contract trading systems"
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SIFMA argues AMM-based tokenized securities trading must meet the same functional regulatory obligations as traditional exchanges, ATSs, and broker-dealers."
+ },
+ {
+  "id": "9def8c6e001d79f7",
+  "source": "written-input",
+  "date": "2026-03-27",
+  "title": "Re: Practitioner Input — Digital Asset Record Infrastructure Gap",
+  "author": "Dawson Smith, VARfacts",
+  "topics": [
+   "Compliance Technology",
+   "Regulatory Framework",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-varfacts-032726.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-varfacts-032726.pdf",
+  "key_points": [
+   "Digital‑asset documentation is often fragmented across exchanges, wallets, tax reports, platform statements, and user‑generated materials, creating evidentiary uncertainty in legal, fiduciary, and insurance contexts.",
+   "Because regulatory treatment may hinge on issuer representations, managerial efforts, and disclosures—not merely asset characteristics—the reliability and completeness of record sets materially affect legal determinations.",
+   "The absence of a neutral infrastructure for assessing completeness, consistency, and evidentiary sufficiency of digital‑asset records creates a procedural gap that impairs courts, fiduciaries, and counterparties in evaluating claims."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Fragmented digital-asset records create evidentiary gaps that impair legal determinations, fiduciary oversight, and regulatory compliance."
+ },
+ {
+  "id": "ac92742bccb76f27",
+  "source": "written-input",
+  "date": "2026-03-24",
+  "title": "Re: Written Submission to the Crypto Task Force and Project Crypto; Architectural Framework for the Tokenization of Real-World Assets on Digital Ledgers and Its Implications for the Commission’s Regulatory Framework",
+  "author": "PraSaga Foundation",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Compliance Technology"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-letter-sec-cryptotf-prasaga-03-24-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-letter-sec-cryptotf-prasaga-03-24-2026.pdf",
+  "key_points": [
+   "The submission urges the SEC to distinguish legally between tokenization and canonicalization, arguing that only canonicalized, ledger-native asset objects allow the Commission to examine, audit, and enforce regulatory obligations at the protocol level.",
+   "It recommends that Regulation Crypto include architectural requirements for digital-asset securities, potentially through a class definition certification regime that embeds compliance logic in canonical class definitions rather than relying on issuer-by-issuer contract code.",
+   "It advises that safe harbors, custody rules, and settlement frameworks must account for ledger architecture, warning that permitting trading on smart contract systems lacking canonical asset identity leaves the SEC unable to enforce against assets the ledger cannot natively identify."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "PraSaga urges the SEC to require canonicalized, ledger-native asset architectures—not mere tokenization—so compliance logic and enforcement can operate at the protocol level."
+ },
+ {
+  "id": "10f3adcd61e4e58f",
+  "source": "written-input",
+  "date": "2026-03-20",
+  "title": "Re: Request for Information Regarding National Securities Exchanges and Alternative Trading Systems Trading Crypto Assets",
+  "author": "Fidelity Investments",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework",
+   "Clearing & Settlement"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-fidelity-investments-032026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-fidelity-investments-032026.pdf",
+  "key_points": [
+   "The SEC should continue developing a clear regulatory framework enabling broker‑dealers to custody, trade, and support crypto asset securities, including on ATSs, to reduce legal uncertainty and enable compliant market participation.",
+   "The SEC should issue bright‑line standards for tokenized securities, ensuring ATSs can rely on the regulatory status ascribed to a tokenized instrument—critical for avoiding unintended securities‑based swap or unregistered offering violations.",
+   "The SEC should provide regulatory clarity permitting on‑chain recordkeeping and settlement by broker‑dealers without triggering clearing‑agency status, enabling lawful integration of distributed‑ledger processes into securities market infrastructure."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Fidelity urges the SEC to provide clear rules enabling broker-dealers to custody, trade, and settle crypto asset securities on-chain and via ATSs."
+ },
+ {
+  "id": "619009d75f6a29dc",
+  "source": "written-input",
+  "date": "2026-03-17",
+  "title": "Re: RFI Response to SEC RFI “And Then Some” and Linked FAQ",
+  "author": "SIFMA (Securities Industry and Financial Markets Association)",
+  "topics": [
+   "Trading & Market Structure",
+   "Tokenization",
+   "Broker-Dealer Registration"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-sifma-ats-rfi-letter-03-17-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-sifma-ats-rfi-letter-03-17-2026.pdf",
+  "key_points": [
+   "SIFMA urges that Regulations ATS and NMS must continue to apply fully to tokenized securities and on chain trading platforms, cautioning against lowering standards for crypto ATSs or exempting new entrants from established investor protection obligations.",
+   "Consistent registration requirements (exchange, ATS, broker dealer) are deemed essential for any on chain trading venue, as integration into SIPs/TRFs and market wide surveillance is impossible without formal regulatory status.",
+   "Price discovery, transparency, and post trade reporting must remain intact, including harmonized volatility controls and prevention of market fragmentation across tokenized, wrapped, and traditional securities trading environments."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SIFMA insists existing ATS, NMS, and broker-dealer rules must apply equally to tokenized securities platforms without exemptions."
+ },
+ {
+  "id": "7cd5160bd6add60f",
+  "source": "written-input",
+  "date": "2026-03-15",
+  "title": "RE: Structural Enforcement Standards for Digital Assets",
+  "author": "Amy Pearson",
+  "topics": [
+   "Tokenization",
+   "Safe Harbor & Exemptions",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-trustlogic-sec-submission-03-16-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-trustlogic-sec-submission-03-16-2026.pdf",
+  "key_points": [
+   "The submission proposes a Structural Enforcement Standard that embeds legally binding transfer conditions, remedies, revocability, and dispute resolution terms directly into a token’s architecture, ensuring obligations survive every transfer and eliminating reliance on platform-level enforcement.",
+   "The model applies traditional trust law architecture—separating authority (trustee) from beneficial rights (beneficiary)—to digital assets through a dual layer token structure that enables automatic, on chain enforcement consistent with established legal doctrine.",
+   "The author urges the SEC to grant regulatory clarity and potential safe harbor for tokens adopting this structure, arguing it provides superior investor protection, clearer legal classification, and a scalable foundation for institutional tokenization."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Proposal embeds enforceable legal obligations directly into token architecture using trust law principles, seeking SEC safe harbor for compliant tokens."
+ },
+ {
+  "id": "f597d5cdee45bb47",
+  "source": "written-input",
+  "date": "2026-03-15",
+  "title": "Re: Inquiry Regarding the Commission's Position on Scalable Regulatory Frameworks for the Tokenization of Real-World Assets, with Specific Reference to Residential and Commercial Real Estate",
+  "author": "Nicholas Moeller",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Compliance Technology"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-sec-rwa-inquiry-letter-03-16-2025.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-sec-rwa-inquiry-letter-03-16-2025.pdf",
+  "key_points": [
+   "The letter underscores that applying existing securities-law pathways (Reg A, Reg D, Reg CF, broker dealer requirements, transfer agent rules, and blue sky compliance) to millions of small value real estate tokenizations is economically prohibitive, creating a structural mismatch between current securities regulation and the scale of RWA tokenization.",
+   "It raises the question of whether the SEC will consider new, scalable regulatory frameworks tailored to real property tokenization, distinct from those used for institutional grade tokenized assets, to avoid overwhelming regulatory capacity.",
+   "It proposes AI assisted disclosure and verification systems as a potential lawful infrastructure for scalable compliance, while acknowledging legal concerns around delegation, data reliability, and alignment with state property law."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Existing securities-law pathways are economically prohibitive for mass small-value real estate tokenization, requiring new scalable frameworks and AI-assisted compliance."
+ },
+ {
+  "id": "e7236645ffdfb7db",
+  "source": "written-input",
+  "date": "2026-03-10",
+  "title": "Written Input to the SEC Crypto Task Force",
+  "author": "Dario Lo Buglio, Brickken",
+  "topics": [
+   "Compliance Technology",
+   "Tokenization",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-sec-crypto-task-force-buglio-030926.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-sec-crypto-task-force-buglio-030926.pdf",
+  "key_points": [
+   "Standardized compliance interfaces such as ERC‑7943 can reduce operational risk and fragmentation by enabling consistent eligibility checks, transfer controls, freezing, and enforcement mechanisms across tokenized instruments.",
+   "The existence or absence of onchain compliance controls should not be treated as a legal classification test; tokenization does not alter whether the underlying asset is a security under U.S. law.",
+   "Tokenized instruments incorporating administrative powers like freezing or forced transfers require transparent disclosure of authority, governance processes, emitted events, and remediation pathways to safeguard investor protection."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "ERC-7943 standardized compliance interfaces can reduce fragmentation in tokenized securities without altering underlying legal classification."
+ },
+ {
+  "id": "471e9cb30dcbaccf",
+  "source": "written-input",
+  "date": "2026-03-05",
+  "title": "Letter to the Crypto Task Force",
+  "author": "Peter Van Valkenburgh, Coin Center",
+  "topics": [
+   "Regulatory Framework",
+   "Safe Harbor & Exemptions",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-coin-center-030526.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-coin-center-030526.pdf",
+  "key_points": [
+   "The letter urges the SEC to favor prospective rulemaking over individualized no‑action or exemptive relief, arguing that selective relief fragments the market, creates uneven treatment, and implicitly advantages entities able to petition for relief.",
+   "It recommends establishing a formal safe harbor via notice‑and‑comment to accommodate decentralized networks that cannot seek exemptive relief, enabling tokenization on both permissionless and permissioned systems with appropriate investor protections.",
+   "The letter argues that tokenized‑security recordkeeping and compliance functions can be embedded directly in blockchain systems, potentially reducing or eliminating mandated transfer agents and other intermediaries, provided issuers retain responsibility and optional delegation rights."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Coin Center urges the SEC to adopt broad prospective rules and safe harbors rather than case-by-case relief, enabling tokenization on permissionless networks."
+ },
+ {
+  "id": "70e70c6a214ef5ab",
+  "source": "written-input",
+  "date": "2026-02-27",
+  "title": "Letter Regarding Non-Custodial Wallet Providers and Broker-Dealer Regulation",
+  "author": "SIFMA (Securities Industry and Financial Markets Association)",
+  "topics": [
+   "Broker-Dealer Registration",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/files/sifma-follow-wallet-letter-022726.pdf",
+  "doc_url": "https://www.sec.gov/files/sifma-follow-wallet-letter-022726.pdf",
+  "key_points": [
+   "Wallet providers performing order‑routing, price‑curation, execution‑related functions, or earning transaction‑based compensation may be deemed brokers under the Exchange Act, even without custody of customer assets.",
+   "Broker analysis is fact‑specific, requiring a holistic evaluation of wallet‑provider activities; the SEC v. Coinbase ruling does not create a categorical exemption for non‑custodial wallet providers.",
+   "Regulatory clarity should ensure “like activities are regulated alike,” preventing regulatory arbitrage and ensuring wallet providers performing securities‑intermediation functions meet broker‑dealer obligations."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SIFMA argues non-custodial wallet providers performing order-routing or execution functions should face broker-dealer registration requirements despite lacking custody."
+ },
+ {
+  "id": "efd7255dd3c7fef5",
+  "source": "written-input",
+  "date": "2026-02-23",
+  "title": "Re: The Ontology of the Token: A Structural Transatlantic Convergence Between the European Blockchain Sandbox and U.S. Regulatory Practice",
+  "author": "Monica Elizabeth Pagano",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Security Status"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-european-blockchain-sandbox-02-23-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-european-blockchain-sandbox-02-23-2026.pdf",
+  "key_points": [
+   "Both EU and U.S. frameworks converge on the need to define the legal nature of a token before issuance, not after circulation. This includes identifying whether it is a financial instrument under MiFID II, a crypto asset under MiCAR, or subject to U.S. securities law.",
+   "The token’s legal identity cannot be inferred from the asset it references. Tokenization may create a new legal object, requiring autonomous analysis of rights, transferability, and executable behavior.",
+   "Declared rights and restrictions in issuance documents must align with the smart contract’s executable logic. Divergence between narrative and technical behavior triggers regulatory reclassification and systemic risk."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Tokens require autonomous legal classification before issuance, and smart contract logic must match declared rights to avoid regulatory reclassification."
+ },
+ {
+  "id": "ce334636038953ef",
+  "source": "written-input",
+  "date": "2026-02-20",
+  "title": "Comment Letter on Rule 603, Vendor Display Rule",
+  "author": "Brandon Ferrick, Douro Labs LLC",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework",
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/douro-labs-comment-letter-rule-603-vendor-display-rule-022026.pdf",
+  "doc_url": "https://www.sec.gov/files/douro-labs-comment-letter-rule-603-vendor-display-rule-022026.pdf",
+  "key_points": [
+   "Replace Rule 603’s prescriptive SIP-based consolidated display requirement with a principles-based “Fair Quote Presentation Rule” that focuses on anti-misleading standards, disclosure of data sources, and transparency rather than mandating a single data model.",
+   "Explicitly allow alternative, verifiable data sources—including cryptographically verifiable distributed ledger states, venue-native order books, and modern feeds like Pyth—for DeFi platforms, tokenized ATSs, and crypto-native venues under the Commission’s Innovation Exception framework.",
+   "Maintain investor protection through disclosure, timestamp integrity, and supervisory controls instead of enforcing reliance on centralized SIP infrastructure, which imposes cost and governance inefficiencies incompatible with modern markets."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Douro Labs proposes replacing Rule 603's SIP mandate with a principles-based display rule allowing crypto-native and DLT-based data sources."
+ },
+ {
+  "id": "2f2f8cd09e889d6a",
+  "source": "written-input",
+  "date": "2026-02-20",
+  "title": "Beyond Reg NMS - A Market Structure Framework for the Modern Era",
+  "author": "Brandon Ferrick, Douro Labs LLC",
+  "topics": [
+   "Trading & Market Structure",
+   "Tokenization",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/douro-labs-beyond-reg-nms-022026.pdf",
+  "doc_url": "https://www.sec.gov/files/douro-labs-beyond-reg-nms-022026.pdf",
+  "key_points": [
+   "The SEC should replace the current one-dimensional “best execution” rule with a principles-based, multi-factor framework that accounts for factors like certainty of execution, privacy, atomicity, finality, and all-in cost, especially in tokenized markets.",
+   "The SEC should confirm that the Order Protection Rule under Reg NMS does not apply to transactions offering non-regular-way settlement (e.g., atomic settlement), aligning with existing law rather than requiring new exemptions.",
+   "Regulators should prioritize transparency, competition, and innovation by moving from prescriptive routing mandates to principles- and disclosures-based compliance, and consider sandboxes for testing new execution modalities."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SEC should replace prescriptive Reg NMS rules with a principles-based, multi-factor best execution framework suited to tokenized and atomic settlement markets."
+ },
+ {
+  "id": "906016b84098f8da",
+  "source": "written-input",
+  "date": "2026-02-11",
+  "title": "Op-Ed: Innovation Needs Trust: Why Crypto Market Structure Must Protect Investors",
+  "author": "Dennis Milligan, Arkansas Auditor of State",
+  "topics": [
+   "Regulatory Framework",
+   "Investor Protection",
+   "Security Status"
+  ],
+  "url": "https://www.sec.gov/files/op-ed-crypto-currency-dennis-milligan-021126.pdf",
+  "doc_url": "https://www.sec.gov/files/op-ed-crypto-currency-dennis-milligan-021126.pdf",
+  "key_points": [
+   "Congress must establish common-sense rules for crypto firms engaging in traditional financial activities (capital raising, custody, trading) to ensure investor protection and market integrity.",
+   "Registration requirements, anti-fraud provisions, and oversight mechanisms are essential to mitigate risks such as market volatility, financial crimes, and scams, preserving trust in digital asset markets.",
+   "Legislation should define when cryptocurrencies qualify as securities, commodities, or other asset classes to enable proper compliance and handling of unclaimed digital assets."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Arkansas Auditor urges Congress to enact crypto market structure legislation prioritizing investor protection, clear asset classification, and registration requirements."
+ },
+ {
+  "id": "d4e789b966e591ce",
+  "source": "written-input",
+  "date": "2026-02-10",
+  "title": "Re: Non‑Custodial Wallet Software and Neutral User Interfaces",
+  "author": "Solana Policy Institute and DeFi Education Fund",
+  "topics": [
+   "Broker-Dealer Registration",
+   "DeFi Protocols",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-letter-02-10-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-letter-02-10-2026.pdf",
+  "key_points": [
+   "Determining whether non-custodial wallet providers qualify as brokers under the Exchange Act requires a functional, facts-and-circumstances assessment—not reliance on labels or interface appearance.",
+   "The court held that non-custodial wallets with embedded interfaces do not constitute brokers absent meaningful participation in effecting transactions, reinforcing that commission-based payment alone is not dispositive.",
+   "SEC and judicial precedents confirm that transaction-based compensation and routing services, standing alone, are insufficient to trigger broker status without discretionary control or core trading functions."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Non-custodial wallet providers should not be deemed brokers absent discretionary control or core trading functions, regardless of embedded interfaces or transaction-based fees."
+ },
+ {
+  "id": "393b70f4d1b1f443",
+  "source": "written-input",
+  "date": "2026-02-05",
+  "title": "Op-Ed: Protecting Pennsylvania investors in a rapidly changing financial landscape",
+  "author": "Scott W. Carr",
+  "topics": [
+   "Investor Protection",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/swc-sec-comment-020526.pdf",
+  "doc_url": "https://www.sec.gov/files/swc-sec-comment-020526.pdf",
+  "key_points": [
+   "The comment references an Op-Ed intended to inform the SEC’s review process, suggesting reliance on external expert analysis for regulatory considerations.",
+   "It emphasizes investor protection in the context of evolving financial markets, aligning with the SEC’s statutory mandate under securities laws.",
+   "The submission implicitly advocates for regulatory responsiveness to rapid changes in financial products and practices, which may impact compliance and enforcement frameworks."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Op-Ed urges SEC to prioritize Pennsylvania investor protection as financial markets and products rapidly evolve."
+ },
+ {
+  "id": "b6812b33840eb2d2",
+  "source": "written-input",
+  "date": "2026-02-05",
+  "title": "From No-Action to No Doctrine",
+  "author": "Mónica Elizabeth Pagano",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Security Status"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-pagano-020526.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-pagano-020526.pdf",
+  "key_points": [
+   "Tokenization cannot rely solely on technical execution; legal legitimacy must be established before issuance. Without a clear, verifiable legal regime and enforceable rights embedded ex ante, automatic execution creates systemic risk.",
+   "SEC no-action letters do not constitute approval or doctrinal clarity; they are ad hoc containment tools. Their recurrence reflects the absence of a standardized framework for determining whether a token qualifies as a security or other legal object prior to issuance.",
+   "Smart contracts transform norms into automatic execution, eliminating ex post correction margins. This demands rigorous alignment between legal documentation and code, with enforceable restrictions coded and auditable to prevent reliance on narrative-only limitations."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Tokenization requires enforceable legal frameworks established before issuance; SEC no-action letters are insufficient substitutes for doctrinal clarity."
+ },
+ {
+  "id": "d0d798bb7c1fa5a5",
+  "source": "written-input",
+  "date": "2026-02-05",
+  "title": "Subject: Modernizing investor accreditation for on-chain capital markets",
+  "author": "Joris Delanoue, Fairmint, Inc.",
+  "topics": [
+   "Investor Protection",
+   "Compliance Technology",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-joris-delanoue-fairmint-inc-020426.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-joris-delanoue-fairmint-inc-020426.pdf",
+  "key_points": [
+   "Current wealth-based thresholds under Rule 501 of Regulation D are outdated; Fairmint advocates for knowledge-based and conditional accreditation frameworks to expand investor access.",
+   "Proposal for an SEC-administered, easily accessible online exam (“Accreditation Series”) to qualify individuals regardless of wealth or income, aligning with the Equal Opportunity for All Investors Act of 2025.",
+   "Suggests embedding accreditation and eligibility checks into programmable securities via smart contracts, enabling pre-trade enforcement and cryptographic auditability for regulatory compliance."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Fairmint proposes replacing wealth-based accreditation with knowledge-based exams and smart-contract-enforced eligibility checks for on-chain securities."
+ },
+ {
+  "id": "62f619c15b181884",
+  "source": "written-input",
+  "date": "2026-02-02",
+  "title": "Support for Project Crypto and Responsible Innovation and Integration within the U.S. Securities Markets",
+  "author": "Crypto Council for Innovation and Superstate",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/cftc-written-input-crypto-council-020226.pdf",
+  "doc_url": "https://www.sec.gov/files/cftc-written-input-crypto-council-020226.pdf",
+  "key_points": [
+   "The SEC should use its exemptive authority and staff guidance to enable tokenized securities trading under clear, principles-based conditions while formal rulemaking is developed.",
+   "A technology-neutral regulatory approach is essential to avoid rules that become obsolete and to ensure fair competition without favoring specific technologies.",
+   "Interim measures like pilot programs and conditional relief are critical to gather data, address investor protection and oversight concerns, and inform comprehensive rulemaking."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SEC should use exemptive authority and pilot programs to enable tokenized securities trading under technology-neutral, principles-based interim frameworks."
+ },
+ {
+  "id": "595d4cc23a6ef47c",
+  "source": "written-input",
+  "date": "2026-01-30",
+  "title": "Re: OTCM Protocol - Updated Roadmap for Issuer-Authorized Tokenized Securities Aligned with SEC January 28, 2026 Guidance",
+  "author": "Frank Yglesias",
+  "topics": [
+   "Tokenization",
+   "Safe Harbor & Exemptions",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-otcm-protocol-013026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-otcm-protocol-013026.pdf",
+  "key_points": [
+   "OTCM’s ST22 Security Token model fully satisfies SEC Category 1 requirements, including direct issuer board authorization, SEC-registered transfer agent custody, CUSIP assignment, and 1:1 preferred share backing.",
+   "The submission advocates targeted regulatory relief and safe harbor provisions for issuer-authorized tokenization models serving abandoned OTC markets, emphasizing qualified custody and verifiable 1:1 backing.",
+   "OTCM integrates protective conversion triggers and programmable compliance controls (e.g., circuit breakers, wallet concentration limits) to mitigate counterparty and bankruptcy risks identified by the SEC."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "OTCM proposes its ST22 tokenized security model meets SEC Category 1 standards and seeks safe harbor relief for issuer-authorized tokenization in abandoned OTC markets."
+ },
+ {
+  "id": "136bc49610572299",
+  "source": "written-input",
+  "date": "2026-01-26",
+  "title": "Response to the letter from Ripple dated January 9, 2026",
+  "author": "Teresa Goody Guillen",
+  "topics": [
+   "Regulatory Framework",
+   "Safe Harbor & Exemptions",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/files/tgg-sec-crypto-task-force-letter-012626.pdf",
+  "doc_url": "https://www.sec.gov/files/tgg-sec-crypto-task-force-letter-012626.pdf",
+  "key_points": [
+   "The proposed Digital Markets Restructure Act of 2026 establishes a uniform federal framework for the issuance, trading, custody, and supervision of digital assets, preempting inconsistent state laws and eliminating duplicative registration requirements for entities operating under joint SEC and CFTC oversight.",
+   "Regulatory jurisdiction over digital assets is determined by a risk-based classification model: enterprise risk falls under SEC, exposure risk under CFTC, and market risk is subject to joint oversight, with hybrid instruments supervised collaboratively and lead supervisor designation rotating as risk profiles change.",
+   "The Act introduces proportionate, technologically adaptive regulation, recognizing that digital assets may modularize economic rights and risks, and mandates that regulatory requirements scale according to residual risk rather than asset form or label, with safe harbor provisions for innovation and privacy-preserving compliance mechanisms."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Proposed Digital Markets Restructure Act creates a unified federal framework splitting SEC/CFTC jurisdiction by risk type with proportionate, tech-adaptive regulation."
+ },
+ {
+  "id": "195a02c7e2285f29",
+  "source": "written-input",
+  "date": "2026-01-22",
+  "title": "RE: Tokenized U.S. Equities, DeFi Trading, and the SEC’s Exemptive Authority: An Economic Analysis",
+  "author": "James Overdahl, Delta Strategy Group",
+  "topics": [
+   "Safe Harbor & Exemptions",
+   "Trading & Market Structure",
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-james-overdahl-tokenized-us-equities-01-22-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-james-overdahl-tokenized-us-equities-01-22-2026.pdf",
+  "key_points": [
+   "The SEC’s exemptive authority under Section 36 of the Exchange Act allows exemptions only if “necessary or appropriate in the public interest” and consistent with investor protection, requiring consideration of efficiency, competition, and capital formation.",
+   "Exempting DeFi trading venues and order-entry firms from registration could disapply core investor protections (e.g., best execution, trade reporting, financial responsibility), creating a parallel regulatory regime for the same securities.",
+   "Granting exemptions based solely on technological differences risks regulatory arbitrage, undermining market integrity and potentially impairing liquidity, transparency, and resiliency across U.S. equity markets."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Exempting DeFi venues from broker-dealer rules for tokenized equities risks regulatory arbitrage and erosion of core investor protections."
+ },
+ {
+  "id": "2f244fc1d360eebf",
+  "source": "written-input",
+  "date": "2026-01-20",
+  "title": "Opinion: Louisiana Families Deserve Financial Innovation That Works For Everyone",
+  "author": "DK Willard",
+  "topics": [
+   "Investor Protection",
+   "Regulatory Framework",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/dk-willard-012026.pdf",
+  "doc_url": "https://www.sec.gov/files/dk-willard-012026.pdf",
+  "key_points": [
+   "Congress is considering market structure legislation for digital assets that must include clear registration requirements, transparency standards, and anti-fraud/anti-manipulation rules to protect investors.",
+   "Louisiana legislation such as HB 488 affirms residents’ right to self-custody of digital assets, providing regulatory clarity and preventing exploitation through loopholes.",
+   "Exemptions in some federal proposals could allow developers to bypass core investor protections, increasing risks of fraud and financial crimes for consumers."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Federal digital asset legislation must pair innovation with strong investor protections and avoid exemptions that enable fraud."
+ },
+ {
+  "id": "a57c6b0932bc0ac7",
+  "source": "written-input",
+  "date": "2026-01-20",
+  "title": "Re: Proprietary Trading Firm Liquidity Provision Following Tokenized Equity DeFi Innovation Exemptions",
+  "author": "Blockchain Association Trading Firm Working Group",
+  "topics": [
+   "Broker-Dealer Registration",
+   "Trading & Market Structure",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-ba-trading-firm-wg-tokenized-securities-01-20-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-ba-trading-firm-wg-tokenized-securities-01-20-2026.pdf",
+  "key_points": [
+   "The SEC should clarify that proprietary trading for one’s own account in tokenized equity markets—without customer solicitation, custody, or agency execution—does not trigger dealer registration under Exchange Act §3(a)(5).",
+   "Innovation exemptions must ensure tokenized equity markets can function effectively by allowing liquidity providers to engage in on-chain trading, price discovery, and arbitrage without registration obligations designed for customer-facing intermediaries.",
+   "Existing broker-dealer regulations (e.g., Reg NMS, Reg SHO, custody, clearing) require tailored adaptation for smart contract-based settlement; exemptions should provide time for these frameworks to evolve while enabling immediate liquidity provision."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Proprietary trading firms seeking clarity that providing liquidity in tokenized equity DeFi markets without customer-facing activity should not trigger dealer registration."
+ },
+ {
+  "id": "6af281ec51b40143",
+  "source": "written-input",
+  "date": "2026-01-15",
+  "title": "Letter Regarding Wallet Providers and Broker Dealer Regulation",
+  "author": "Securities Industry and Financial Markets Association (SIFMA)",
+  "topics": [
+   "Broker-Dealer Registration",
+   "Custody",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/sifma-letter-wallet-provider-regulation-011526.pdf",
+  "doc_url": "https://www.sec.gov/files/sifma-letter-wallet-provider-regulation-011526.pdf",
+  "key_points": [
+   "Wallet providers performing broker-dealer functions for tokenized securities must register under the Exchange Act; exemptions or no-action relief are inappropriate as they undermine investor protection and market integrity.",
+   "Clear regulatory distinctions are required between true non-custodial wallet services and models involving custody or safekeeping, as the latter may trigger broker-dealer or other regulatory obligations.",
+   "Regulatory clarity should be achieved through durable, notice-and-comment rulemaking that defines when wallet providers are or are not brokers, rather than through ad hoc exemptions or safe harbors."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SIFMA argues wallet providers acting as brokers for tokenized securities must register, opposing exemptions in favor of formal rulemaking."
+ },
+ {
+  "id": "6455b94b50c8a230",
+  "source": "written-input",
+  "date": "2026-01-09",
+  "title": "MooneySummaryV1.docx",
+  "author": "Charles W. Mooney, Jr., New Hampshire Commission on Uniform State Laws",
+  "topics": [
+   "Tokenization",
+   "Clearing & Settlement",
+   "Custody"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-input-charles-w-mooney-jr-new-hampshire-commission-uniform-state-laws-010926.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-charles-w-mooney-jr-new-hampshire-commission-uniform-state-laws-010926.pdf",
+  "key_points": [
+   "The SEC should mandate DTCC cooperation to enable near real-time movement of registered ownership between direct and intermediated holding, creating a level playing field for tokenized securities.",
+   "Infrastructure reform is necessary to remove regulatory and market barriers to direct holding and self-custody, ensuring benefits equivalent to intermediated accounts for direct holders.",
+   "The SEC should request proposals for a reformed infrastructure and clarify broker-dealer authority to execute transfers of directly held securities for trading in traditional markets."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SEC should mandate DTCC reforms enabling seamless movement between direct and intermediated holding to level the playing field for tokenized securities."
+ },
+ {
+  "id": "6e44473c774c2e36",
+  "source": "written-input",
+  "date": "2026-01-09",
+  "title": "Ripple Letter To Crypto Task Force",
+  "author": "Stuart Alderoty, Sameer Dhond, and Deborah McCrimmon, Ripple",
+  "topics": [
+   "Security Status",
+   "Regulatory Framework",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/files/ripple-letter-crypto-task-force-010926.pdf",
+  "doc_url": "https://www.sec.gov/files/ripple-letter-crypto-task-force-010926.pdf",
+  "key_points": [
+   "SEC authority should hinge on enforceable promises and legal claims, not mere expectations of profit or passive economic interest. Without privity or contractual rights, speculation does not create securities status.",
+   "Securities regulation should apply to primary distributions where privity exists (e.g., ICOs), not to perpetual secondary-market trades. Treating every issuer sale as a capital raise creates legal fictions and operational paralysis.",
+   "Regulatory focus should target cases where an issuer or affiliated group retains unilateral control over network rules or token functionality, as this may constitute an ongoing obligation. Control must be objectively defined; mere influence or inventory holdings do not qualify."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Ripple urges SEC to limit securities classification to transactions with enforceable contractual rights and issuer privity, not secondary-market speculation."
+ },
+ {
+  "id": "6714d2da28b82642",
+  "source": "written-input",
+  "date": "2026-01-09",
+  "title": "Re: Request for Information Regarding National Securities Exchanges and Alternative Trading Systems Trading Crypto Assets — Request No. 16",
+  "author": "Miller Whitehouse-Levine and Patrick Wilson, Solana Policy Institute",
+  "topics": [
+   "DeFi Protocols",
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/cft-written-rfi-response-01092026.pdf",
+  "doc_url": "https://www.sec.gov/files/cft-written-rfi-response-01092026.pdf",
+  "key_points": [
+   "The SEC should adopt a technology-neutral framework that distinguishes true intermediaries (those holding funds or controlling execution) from developers of non-custodial, non-discretionary software tools.",
+   "Interpretive guidance should confirm that publishing or maintaining non-custodial software (wallets, smart contracts, passive interfaces) does not constitute operating an exchange, clearing agency, or effecting transactions for others.",
+   "The definition of “exchange” should exclude non-custodial, non-discretionary software that does not perform marketplace functions, ensuring communication layers and read-only tools remain outside regulatory scope."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Solana Policy Institute urges SEC to exclude non-custodial, non-discretionary software from exchange, clearing, and broker-dealer definitions."
+ },
+ {
+  "id": "a86c27c71d9b8bf8",
+  "source": "written-input",
+  "date": "2026-01-05",
+  "title": "Re: Input on Principles for Onchain Security and Investor Protection",
+  "author": "Pete Eskew, Blockaid",
+  "topics": [
+   "Investor Protection",
+   "Compliance Technology",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-written-blockaid-submission-01-05-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-blockaid-submission-01-05-2026.pdf",
+  "key_points": [
+   "SEC duties under the Exchange Act should encompass real-time transaction simulation and validation to prevent fraud before execution, given the immutability of onchain transactions.",
+   "Controls consistent with SCI objectives in digital-asset markets include pre-execution exploit detection and continuous monitoring to preserve system integrity and resiliency.",
+   "Technology-neutral application should recognize pre-signature safeguards (e.g., malicious destination detection and real-time alerts) as reasonable measures to protect customer assets where reversals are impossible."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Blockaid urges the SEC to incorporate real-time, pre-execution transaction simulation and exploit detection as core investor-protection measures for irreversible onchain transactions."
+ },
+ {
+  "id": "c91980f348d7ee9f",
+  "source": "cryptosec",
+  "date": "2026-05-29",
+  "title": "Self-Regulatory Organizations; Nasdaq Stock Market LLC; Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1 Thereto, to List and Trade Shares of the iShares Bitcoin Premium Income ETF under NASDAQ Rule 5711(d) (Commodity-Based Trust Shares)",
+  "author": "U.S. Securities and Exchange Commission",
+  "topics": [
+   "Crypto ETPs",
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-105582.pdf",
+  "doc_url": "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-105582.pdf",
+  "key_points": [
+   "Nasdaq filed a proposed rule change on September 30, 2025, under Exchange Act Section 19(b)(1) and Rule 19b-4, to list and trade shares of the iShares Bitcoin Premium Income ETF.",
+   "The proposal seeks listing under Nasdaq Rule 5711(d), governing Commodity-Based Trust Shares.",
+   "The SEC's order grants accelerated approval of the proposed rule change, as modified by Amendment No. 1."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude",
+  "takeaway": "SEC grants accelerated approval for Nasdaq to list and trade iShares Bitcoin Premium Income ETF as Commodity-Based Trust Shares."
+ },
+ {
+  "id": "3edf58d543a4e502",
+  "source": "cryptosec",
+  "date": "2026-05-27",
+  "title": "Paxos Securities Settlement Company, LLC; Order Granting an Application for Temporary Registration as a Clearing Agency under Section 17A of the Securities Exchange Act of 1934",
+  "author": "U.S. Securities and Exchange Commission",
+  "topics": [
+   "Clearing & Settlement",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/rules/other/2026/34-105562.pdf",
+  "doc_url": "https://www.sec.gov/files/rules/other/2026/34-105562.pdf",
+  "key_points": [
+   "On April 28, 2026, Paxos Securities Settlement Company, LLC (“PSSC”) requested that the Commission grant temporary registration pursuant to Rule 17Ab2-1(c). This order grants PSSC’s Application and request for temporary registration as a clearing agency with an exemption from Sections 17A(b)(3)(A) and 17A(b)(3)(F) of the Exchange Act for a period not to exceed 18 months."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SEC grants Paxos Securities Settlement Company temporary clearing agency registration for up to 18 months with specific Exchange Act exemptions."
+ },
+ {
+  "id": "82b10fc7914ecb3a",
+  "source": "cryptosec",
+  "date": "2026-05-22",
+  "title": "Self-Regulatory Organizations; Nasdaq PHLX LLC; Notice of Filing of Amendment No. 1 and Order Granting Accelerated Approval of a Proposed Rule Change, as Modified by Amendment No. 1, to List and Trade Nasdaq Bitcoin Index Options",
+  "author": "U.S. Securities and Exchange Commission",
+  "topics": [
+   "Trading & Market Structure",
+   "Crypto ETPs",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/rules/sro/phlx/2026/34-105549.pdf",
+  "doc_url": "https://www.sec.gov/files/rules/sro/phlx/2026/34-105549.pdf",
+  "key_points": [
+   "On September 23, 2025, Nasdaq PHLX LLC filed a proposed rule change with the SEC under Section 19(b)(1) of the Exchange Act and Rule 19b-4 to list and trade options on the Nasdaq Bitcoin Index.",
+   "The SEC issued a notice soliciting public comment on the proposed rule change, as modified by Amendment No. 1.",
+   "The Commission granted accelerated approval of the proposed rule change, as modified by Amendment No. 1, permitting Nasdaq PHLX to list and trade Nasdaq Bitcoin Index options."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude",
+  "takeaway": "SEC granted accelerated approval for Nasdaq PHLX to list and trade options on the Nasdaq Bitcoin Index."
+ },
+ {
+  "id": "f6d606b16a8aa7db",
+  "source": "cryptosec",
+  "date": "2026-05-04",
+  "title": "No-Action Letter Request Related to the Use of HQLAx’s Platform by U.S. Participants to Transfer Securities on a Private, Permissioned Distributed Ledger",
+  "author": "Division of Trading and Markets",
+  "topics": [
+   "Clearing & Settlement",
+   "Tokenization",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/tm/no-action/hqlax-nal-request-050426.pdf",
+  "doc_url": "https://www.sec.gov/files/tm/no-action/hqlax-nal-request-050426.pdf",
+  "key_points": [
+   "The Division of Trading and Markets stated it would not recommend enforcement action under Section 17A(b)(1) against HQLAx or Clearstream International for operating their platform with U.S. participants.",
+   "The no-action position is based on the specific facts and circumstances described in HQLAx and Clearstream International's request letter.",
+   "The Staff explicitly stated it was not necessarily concurring with the conclusions and analysis presented by HQLAx and Clearstream International in their request."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude",
+  "takeaway": "SEC staff granted no-action relief for HQLAx/Clearstream's DLT-based securities transfer platform involving U.S. participants under Section 17A(b)(1)."
+ },
+ {
+  "id": "46e564fd1e06d412",
+  "source": "cryptosec",
+  "date": "2026-04-17",
+  "title": "Notice of Filing and Immediate Effectiveness of Proposed Rule Change to Amend the Exchange’s Rules to Enable the Trading of Securities on the Exchange in Tokenized Form",
+  "author": "U.S. Securities and Exchange Commission",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/rules/sro/nyse/2026/34-105260.pdf",
+  "doc_url": "https://www.sec.gov/files/rules/sro/nyse/2026/34-105260.pdf",
+  "key_points": [
+   "Pursuant to Section 19(b)(1) of the Securities Exchange Act of 1934 and Rule 19b-4 thereunder, on April 9, 2026, New York Stock Exchange LLC filed with the Securities and Exchange Commission (the “Commission”) a proposed rule change, and the Commission has published this notice to solicit comments on the proposed rule change from interested persons."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "NYSE filed a rule change with the SEC to enable trading of securities in tokenized form on its exchange."
+ },
+ {
+  "id": "6f5f77eba89618c3",
+  "source": "cryptosec",
+  "date": "2026-04-13",
+  "title": "Staff Statement Regarding Broker-Dealer Registration of Certain User Interfaces Utilized to Prepare Transactions in Crypto Asset Securities",
+  "author": "Division of Trading and Markets",
+  "topics": [
+   "Broker-Dealer Registration",
+   "Trading & Market Structure",
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized-prepare-staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized-prepare-staff-statement-regarding-broker-dealer-registration-certain-user-interfaces-utilized",
+  "key_points": [
+   "Division of Trading and Markets staff issued a statement providing views on broker-dealer registration requirements under Exchange Act Section 15(a) as applied to certain crypto asset security transaction interfaces.",
+   "The statement addresses persons who create, offer, and/or operate interfaces enabling users to prepare transactions in crypto asset securities.",
+   "The document is characterized as a staff statement reflecting staff views, not a Commission rule or official interpretation."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude",
+  "takeaway": "SEC Trading and Markets staff clarified broker-dealer registration views for interfaces enabling crypto asset security transactions."
+ },
+ {
+  "id": "19c20f9fe28adbbd",
+  "source": "cryptosec",
+  "date": "2026-03-18",
+  "title": "Commission Order",
+  "author": "U.S. Securities and Exchange Commission",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-105047.pdf",
+  "doc_url": "https://www.sec.gov/files/rules/sro/nasdaq/2026/34-105047.pdf",
+  "key_points": [
+   "Nasdaq filed a proposed rule change on September 8, 2025, under Exchange Act Section 19(b)(1) and Rule 19b-4, to permit trading of securities in tokenized form on the Exchange.",
+   "The proposal, as modified by amendment, was published for public comment in the Federal Register.",
+   "The SEC's order approves the proposed rule change as modified by amendment, permitting tokenized securities trading on Nasdaq."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude",
+  "takeaway": "SEC approved Nasdaq's proposed rule change to permit trading of securities in tokenized form on the Exchange."
+ },
+ {
+  "id": "6485a31c13ba9c7c",
+  "source": "cryptosec",
+  "date": "2026-03-17",
+  "title": "Application of the Federal Securities Laws to Certain Types of Crypto Assets and Certain Transactions Involving Crypto Assets",
+  "author": "U.S. Securities and Exchange Commission",
+  "topics": [
+   "Security Status",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/rules/interp/2026/33-11412.pdf",
+  "doc_url": "https://www.sec.gov/files/rules/interp/2026/33-11412.pdf",
+  "key_points": [
+   "The Securities and Exchange Commission issues an interpretation regarding the application of the Federal securities laws to certain types of crypto assets and certain transactions involving crypto assets. The Commodity Futures Trading Commission provides guidance relating to that interpretation."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SEC issues formal interpretation on how federal securities laws apply to certain crypto assets and transactions, with CFTC providing related guidance."
+ },
+ {
+  "id": "f7d42a8b0fc44eda",
+  "source": "cryptosec",
+  "date": "2026-02-23",
+  "title": "WisdomTree Digital Trust, et al.",
+  "author": "U.S. Securities and Exchange Commission",
+  "topics": [
+   "Crypto ETPs",
+   "Safe Harbor & Exemptions",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/rules/ic/2026/ic-35968.pdf",
+  "doc_url": "https://www.sec.gov/files/rules/ic/2026/ic-35968.pdf",
+  "key_points": [
+   "WisdomTree Digital Trust and affiliated entities filed an application on May 8, 2025, later amended on January 16, 2026, seeking exemptive relief under the Investment Company Act of 1940.",
+   "The applicants requested exemption from Section 22(d) and Rule 22c-1, plus relief under Section 17(d) and Rule 17d-1, to permit certain joint transactions.",
+   "The SEC granted the requested exemptions under Section 6(c) and the Rule 17d-1 relief, effective immediately, subject to conditions in the amended application."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude",
+  "takeaway": "SEC granted WisdomTree Digital Trust exemptive relief under the Investment Company Act for certain trading and joint transaction provisions."
+ },
+ {
+  "id": "051e1f3c488a26ff",
+  "source": "cryptosec",
+  "date": "2026-02-19",
+  "title": "Frequently Asked Questions Relating to Crypto Asset Activities and Distributed Ledger Technology",
+  "author": "Division of Trading and Markets",
+  "topics": [
+   "Stablecoins",
+   "Broker-Dealer Registration",
+   "Broker-Dealer Registration"
+  ],
+  "url": "https://www.sec.gov/rules-regulations/staff-guidance/trading-markets-frequently-asked-questions/frequently-asked-questions-relating-crypto-asset-activities-distributed-ledger-technology",
+  "doc_url": "https://www.sec.gov/rules-regulations/staff-guidance/trading-markets-frequently-asked-questions/frequently-asked-questions-relating-crypto-asset-activities-distributed-ledger-technology",
+  "key_points": [
+   "The staff of the Division of Trading and Markets have prepared a response to a frequently asked question relating to the capital treatment of certain stablecoins by broker-dealers registered with the Commission."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "SEC Trading and Markets staff issued FAQ guidance on capital treatment of certain stablecoins by registered broker-dealers."
+ },
+ {
+  "id": "2df301b6feb51451",
+  "source": "cryptosec",
+  "date": "2026-01-28",
+  "title": "Statement on Tokenized Securities",
+  "author": "Division of Corporation Finance Division of Investment Management Division of Trading and Markets",
+  "topics": [
+   "Tokenization",
+   "Security Status",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
+  "key_points": [
+   "As part of an effort to provide greater clarity on the application of the federal securities laws to crypto assets, the Division of Corporation Finance, Division of Investment Management, and Division of Trading and Markets are providing their views on the taxonomies associated with tokenized securities."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "takeaway": "Three SEC divisions jointly clarify how federal securities laws apply to tokenized securities taxonomies."
+ },
+ {
+  "id": "b698aef8896f715c",
+  "source": "cryptosec",
+  "date": "2026-01-15",
+  "title": "No Action Letter- MegPrime Holding LLC",
+  "author": "Division of Corporation Finance",
+  "topics": [
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/megprime-holding-llc-011526",
+  "doc_url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/megprime-holding-llc-011526",
+  "key_points": [
+   "The Division of Corporation Finance stated it will not recommend enforcement action if MegPrime offers and sells its tokens as described in counsel's letter, without Securities Act Section 5 registration.",
+   "The no-action position also extends to not registering the MegPrime tokens as a class of equity securities under Exchange Act Section 12(g).",
+   "The Division's position is based on the specific facts and circumstances presented and relies on the opinion of MegPrime's counsel."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude",
+  "takeaway": "SEC staff granted MegPrime a no-action letter permitting token offers and sales without Securities Act or Exchange Act registration."
+ },
+ {
+  "id": "8f0cffbabcbdd702",
+  "source": "meetings",
+  "date": "2026-07-07",
+  "title": "Meeting with American CryptoFed DAO LLC",
+  "author": "American CryptoFed DAO LLC",
+  "topics": [
+   "Regulatory Framework",
+   "Safe Harbor & Exemptions",
+   "Public Offerings"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-american-cryptofed-dao-llc-070726.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-american-cryptofed-dao-llc-070726.pdf",
+  "key_points": [
+   "American CryptoFed representatives described their refiled Form 10 to register the Locke governance token and noted the entity's conversion to a Wyoming nonprofit association, ultimately intended to operate under Wyoming's DUNA Act.",
+   "The representatives asserted that, under Section 12(g) of the Exchange Act, their Form 10 should automatically become effective 60 days after the June 16, 2026 filing, regardless of outstanding staff comments.",
+   "American CryptoFed contended that Locke token resales on Uniswap could comply with Rule 144 without transfer agent or broker involvement, citing SEC guidance that it 'will not normally intervene' in legend-removal disputes.",
+   "The representatives stated they adopted the token definition from Commissioner Peirce's Token Safe Harbor Proposal 2.0 and sought to identify areas for continued dialogue with the Task Force."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "American CryptoFed DAO met with the SEC Crypto Task Force to argue its refiled Form 10 should auto-activate and Locke token resales can bypass traditional intermediaries."
+ },
+ {
+  "id": "a19ae10fc01f92a3",
+  "source": "meetings",
+  "date": "2026-06-23",
+  "title": "Meeting with Republic of Korea General Assembly, National Assembly Staff, Congressional Staff, the Embassy of the Republic of Korea, DAsset Inc., MRI Inc., Lee & Ko LLM, DAXA, and Bay Pacific Inc.",
+  "author": "Republic of Korea General Assembly, National Assembly Staff, Congressional Staff, the Embassy of the Republic of Korea, DAsset Inc., MRI Inc., Lee & Ko LLM, DAXA, and Bay Pacific Inc.",
+  "topics": [
+   "Regulatory Framework",
+   "Tokenization",
+   "Security Status"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-republic-korea-ga-na-staff-congressional-staff-embassy-republic-korea-dasset-inc-mri-inc.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-republic-korea-ga-na-staff-congressional-staff-embassy-republic-korea-dasset-inc-mri-inc.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on June 23, 2026 with a bipartisan Korean National Assembly delegation and representatives from the Korean Embassy, DAsset, MRI, Lee & Ko, DAXA, and Bay Pacific to discuss crypto asset regulation.",
+   "In a letter to Commissioner Peirce, Rep. Min Byoungdug framed the visit as a comparative policy exchange to understand U.S. initiatives, including the GENIUS Act and CLARITY Act, and to inform Korea's digital asset legislative framework.",
+   "The delegation's proposed agenda identified discussion topics including digital asset classification and securities law boundaries, tokenized securities and market infrastructure, and cross-border regulatory interoperability.",
+   "The agenda stated the meeting was not a request for legal advice, registration guidance, enforcement relief, or comment on any pending matter."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Korean National Assembly delegation met with SEC Crypto Task Force staff for comparative policy exchange on digital asset regulation and cross-border interoperability."
+ },
+ {
+  "id": "ee350dd6bcd8f754",
+  "source": "meetings",
+  "date": "2026-06-15",
+  "title": "Meeting with Miden",
+  "author": "Miden",
+  "topics": [
+   "Compliance Technology",
+   "Custody",
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-miden-061526.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-miden-061526.pdf",
+  "key_points": [
+   "Miden representatives described the project as a zero-knowledge blockchain infrastructure focused on client-side proving, localized data storage, assisted self-custody, and selective disclosure intended to support both privacy and compliance.",
+   "Miden stated it has intentionally not launched a native token, prioritizing maturation of technology and compliance frameworks, and discussed exploring stablecoin-denominated transaction fees as an alternative to native-token fee models.",
+   "Representatives presented a 'Guardian' assisted self-custody framework and discussed how selective disclosure and permissioned compliance environments may coexist with user privacy on shared infrastructure.",
+   "Miden discussed phased decentralization tradeoffs, arguing some components may remain centralized early on, and compared architectural approaches across permissioned, zone-based, and privacy-preserving public blockchain models."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Miden presented zero-knowledge blockchain infrastructure emphasizing assisted self-custody, selective disclosure for compliance, and intentional avoidance of a native token."
+ },
+ {
+  "id": "c1f629d184903948",
+  "source": "meetings",
+  "date": "2026-06-02",
+  "title": "Meeting with Phylax Systems, Inc.",
+  "author": "Phylax Systems, Inc.",
+  "topics": [
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-phylax-060226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-phylax-060226.pdf",
+  "key_points": [
+   "Phylax representatives characterized DeFi security incidents as irreversible 'physics events' and argued that instant settlement, while enabling capital efficiency, also amplifies the destructiveness of exploits.",
+   "Phylax stated that common emergency controls—admin keys, security councils, multisigs—create a tension in which safety measures intended to protect users can themselves introduce centralization concerns relevant to regulators.",
+   "Phylax described its approach as autonomous, rule-based circuit breakers that let protocols predefine unacceptable economic outcomes and block them automatically, without discretionary human intervention.",
+   "Phylax suggested regulators consider transparent security attestations in disclosures—covering audits, emergency controls, upgrade authority, and limitations—to differentiate discretionary from precommitted controls."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Phylax proposed autonomous circuit breakers and transparent security attestations to mitigate DeFi exploit risks without introducing centralization."
+ },
+ {
+  "id": "db9bbc7f5e6160bd",
+  "source": "meetings",
+  "date": "2026-06-02",
+  "title": "Meeting with Aave Labs Ltd. and Winston & Strawn LLP",
+  "author": "Aave Labs Ltd. and Winston & Strawn LLP",
+  "topics": [
+   "DeFi Protocols",
+   "Tokenization",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-aave-labs-ltd-winston-strawn-llp-060226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-aave-labs-ltd-winston-strawn-llp-060226.pdf",
+  "key_points": [
+   "On June 2, 2026, Crypto Task Force staff met with representatives of Aave Labs Ltd. and Winston & Strawn LLP to discuss approaches to regulating crypto assets, based on a document the participants provided.",
+   "In a May 12, 2026 meeting request, Aave Labs described itself as the core service provider to the Aave protocol, characterized as the largest decentralized lending protocol by total value locked.",
+   "Aave Labs proposed presenting on the ERC-4626 tokenized vault standard and its implementation in Aave, including vault mechanics, yield accrual, and the Hub-and-Spoke architecture introduced in Aave V4."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Aave Labs met with the SEC Crypto Task Force to discuss regulating DeFi lending, focusing on the ERC-4626 tokenized vault standard and Aave V4 architecture."
+ },
+ {
+  "id": "4f9c5cf5beb0d14b",
+  "source": "meetings",
+  "date": "2026-05-19",
+  "title": "Meeting with The Digital Finance Company and Arktorous PLLC",
+  "author": "The Digital Finance Company and Arktorous PLLC",
+  "topics": [
+   "Compliance Technology",
+   "DeFi Protocols",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-digital-finance-company-arktorous-pllc-051926.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-digital-finance-company-arktorous-pllc-051926.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on May 19, 2026 with representatives of The Digital Finance Company (TDFC) and Arktorous PLLC to discuss approaches to crypto asset regulation.",
+   "According to the attached agenda, TDFC described itself as a builder of compliance software for DeFi markets, with a flagship product called Sunbreak aimed at DeFi user interfaces.",
+   "TDFC stated that Sunbreak improves compliance posture regarding sanctions, anti-money laundering, and market integrity obligations without collecting sensitive PII.",
+   "TDFC requested to demo the product and discuss the Task Force's thinking on compliance obligations for DeFi user interfaces, noting Sunbreak monitors over $50 billion in monthly trading volume."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "TDFC pitched its Sunbreak compliance tool for DeFi interfaces to the Crypto Task Force, seeking guidance on DeFi compliance obligations."
+ },
+ {
+  "id": "5e1276ed60177a32",
+  "source": "meetings",
+  "date": "2026-05-19",
+  "title": "Meeting with TX Labs, LC, CoreNest Capital Limited, and Texture Capital, Inc.",
+  "author": "TX Labs, LC, CoreNest Capital Limited, and Texture Capital, Inc.",
+  "topics": [
+   "Tokenization",
+   "Compliance Technology",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-tx-labs-lc-corenest-capital-limited-texture-capital-inc-051926.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-tx-labs-lc-corenest-capital-limited-texture-capital-inc-051926.pdf",
+  "key_points": [
+   "Representatives of tx (TX Labs), CoreNest Capital, and Texture Capital met with Crypto Task Force staff on May 19, 2026, to discuss regulatory approaches to crypto assets and tokenized real-world assets.",
+   "The participants described tx as a Layer-1 blockchain for tokenized RWAs, with regulated activities conducted through affiliates such as Texture Capital, which they said has FINRA approval to issue SoloTex Stock Tokens.",
+   "The participants highlighted 'Smart Token' functionality embedding compliance controls (whitelisting, transfer restrictions, freeze/clawback) at the token level, rather than relying solely on smart contracts or third parties.",
+   "The participants expressed interest in the SEC's Innovation Exemption, clarity for non-custodial interfaces, and pathways to compliant decentralized secondary-market trading of tokenized assets currently limited to primary issuance and redemption."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "TX Labs and affiliates urged the SEC to enable compliant secondary trading of tokenized RWAs using embedded compliance controls and sought Innovation Exemption clarity."
+ },
+ {
+  "id": "caee3ba202b4f3a4",
+  "source": "meetings",
+  "date": "2026-05-13",
+  "title": "Meeting with Copper Technologies (UK) Limited and Sobba Public, LLC",
+  "author": "Copper Technologies (UK) Limited and Sobba Public, LLC",
+  "topics": [
+   "Clearing & Settlement",
+   "Custody",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-copper-technologies-uk-limited-sobba-public-051326.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-copper-technologies-uk-limited-sobba-public-051326.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on May 13, 2026 with Amar Kuchinad of Copper Technologies (UK) Limited and Alan Sobba of Sobba Public, LLC to discuss regulatory approaches to crypto assets.",
+   "Copper described itself as B2B market infrastructure for institutional custody, settlement, and collateral mobility of blockchain-based assets, highlighting its ClearLoop Network for pledging and moving derivatives collateral.",
+   "The presenters raised questions about which regulators would oversee purchase/sale permutations (digital securities, digital commodities, fiat, stablecoins) and how capital requirements would apply across DvP, DvD, and FoP/FoD settlement.",
+   "The presenters asked whether SEC-regulated clearinghouses and security-based swap dealers may accept blockchain-based assets as initial and variation margin, and sought clarification on the April 13, 2026 staff statement regarding Covered User Interface Providers, qualified custodians, and financing arrangements."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Copper Technologies and Sobba Public discussed institutional custody, settlement, and collateral mobility regulation with the SEC Crypto Task Force."
+ },
+ {
+  "id": "89c230231c400548",
+  "source": "meetings",
+  "date": "2026-05-13",
+  "title": "Meeting with Wall Street Blockchain Alliance",
+  "author": "Wall Street Blockchain Alliance",
+  "topics": [
+   "Regulatory Framework",
+   "Trading & Market Structure",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-wall-street-blockchain-alliance-051326.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-wall-street-blockchain-alliance-051326.pdf",
+  "key_points": [
+   "Crypto Task Force staff met with Wall Street Blockchain Alliance (WSBA) representatives on May 13, 2026 to discuss approaches to regulating crypto assets, based on an agenda document provided by WSBA.",
+   "The proposed agenda indicated WSBA planned to share perspectives on recent SEC interpretive guidance, SEC-CFTC coordination, and institutional compliance considerations affecting U.S. market competitiveness.",
+   "WSBA's agenda covered digital asset market structure topics including ETFs, tokenization, broker-dealer and custody frameworks, tokenized securities, and market infrastructure such as settlement and interoperability.",
+   "Additional agenda items included payment stablecoins in regulated markets, registration pathways for intermediaries, distinguishing securities from non-securities, and WSBA priorities for further SEC guidance and structured industry engagement."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "WSBA met with SEC Crypto Task Force to discuss broad digital asset market structure topics including tokenization, custody, stablecoins, and regulatory frameworks."
+ },
+ {
+  "id": "5c11a7627f230798",
+  "source": "meetings",
+  "date": "2026-05-12",
+  "title": "Meeting with sFOX Inc.",
+  "author": "sFOX Inc.",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-sfox-inc-051226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-sfox-inc-051226.pdf",
+  "key_points": [
+   "sFOX representatives met with Crypto Task Force staff on May 12, 2026 to discuss a proposed two-phase pilot for institutional secondary-market trading of tokenized real-world assets under an Innovation Exemption framework.",
+   "sFOX described Phase 1 as tokenized commodities (e.g., gold, silver) using its existing Wyoming trust and FinCEN MSB authorities, and Phase 2 as tokenized securities subject to federal securities laws and exemption conditions.",
+   "sFOX stated it intends to operate as a trading venue and intermediary rather than an issuer or originator, partnering with third-party tokenization platforms and serving institutional clients only.",
+   "sFOX sought staff feedback on guardrails, SEC-CFTC jurisdictional harmonization, and whether the pilot should proceed via registration, exemptive relief, or no-action assurances."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "sFOX proposed a two-phase pilot for institutional trading of tokenized real-world assets, seeking SEC guidance on exemptive relief and cross-agency jurisdictional coordination."
+ },
+ {
+  "id": "41548a9eaf1b4314",
+  "source": "meetings",
+  "date": "2026-05-11",
+  "title": "Meeting with BSV Association, 3 Hare Court Chambers, Cozen O’Connor Public Strategies, LLC",
+  "author": "BSV Association, 3 Hare Court Chambers, Cozen O’Connor Public Strategies, LLC",
+  "topics": [
+   "Security Status",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-bsv-association-3-hare-court-chambers-cozen-o-connor-public-strategies-llc-051126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-bsv-association-3-hare-court-chambers-cozen-o-connor-public-strategies-llc-051126.pdf",
+  "key_points": [
+   "BSV Association representatives, joined by advisors from 3 Hare Court Chambers and Cozen O'Connor Public Strategies, met with Crypto Task Force staff on May 11, 2026 to discuss regulation of crypto assets.",
+   "The requestors stated their purpose was to provide technical and governance context—not to seek relief or exemptions—regarding how BSV's utility-based design interacts with the SEC's recent token taxonomy guidance.",
+   "The requestors proposed to characterize BSV as scalable data/transaction infrastructure, describe the BSV Association as a standards body rather than issuer, and highlight objective, non-discretionary network access rules.",
+   "The requestors suggested the taxonomy guidance may benefit from further clarification as applied to utility-first blockchains, distinguishing native-token technical use from investment-contract use."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "BSV Association met with SEC Crypto Task Force to argue BSV's utility-based design warrants distinct treatment under the SEC's token taxonomy guidance."
+ },
+ {
+  "id": "289d21f374b4b8ab",
+  "source": "meetings",
+  "date": "2026-04-30",
+  "title": "Meeting with European Fund and Asset Management Association, The Investment Association, BNP Paribas Asset Management, Irish Funds, Asset Management Association Switzerland, and Generali Investments Holding S.p.A.",
+  "author": "European Fund and Asset Management Association, The Investment Association, BNP Paribas Asset Management, Irish Funds, Asset Management Association Switzerland, and Generali Investments Holding S.p.A.",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Stablecoins"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-euro-fund-asset-mgmt-assn-investment-assn-bnp-paribas-asset-mgmt-irish-funds-asset-mgmt.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-euro-fund-asset-mgmt-assn-investment-assn-bnp-paribas-asset-mgmt-irish-funds-asset-mgmt.pdf",
+  "key_points": [
+   "EFAMA and co-participants met with Crypto Task Force staff on April 30, 2026 to discuss crypto asset regulation, tokenization market developments, the US Clarity Act, the SEC's January statement on tokenized securities, and EU frameworks including MiCA and the DLT Pilot Regime.",
+   "EFAMA's shared report projected tokenized asset market growth of roughly 20% annually to €2 trillion by 2030, and characterized digital assets as no longer experimental within European asset management.",
+   "EFAMA recommended raising DLT Pilot Regime thresholds, harmonizing national digital asset custody rules, aligning UCITS/AIFMD with MiCA, and permitting UCITS to hold MiCA-compliant e-money tokens as liquid payment instruments.",
+   "EFAMA stated it is neutral on cash-on-chain solutions, favoring coexistence of a digital euro, MiCA-regulated stablecoins, and CBMTs, and urged an industry-agreed digital asset taxonomy and clarifications supporting tokenized MMFs as collateral."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "European asset management groups urged SEC Crypto Task Force to harmonize tokenization rules, raise DLT thresholds, and align EU-US regulatory frameworks."
+ },
+ {
+  "id": "35fff1e422c7c6d2",
+  "source": "meetings",
+  "date": "2026-04-29",
+  "title": "Meeting with Presume, Inc. and Pillsbury Winthrop Shaw Pittman LLP",
+  "author": "Presume, Inc. and Pillsbury Winthrop Shaw Pittman LLP",
+  "topics": [
+   "Security Status",
+   "Safe Harbor & Exemptions",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-presume-inc-pillsbury-winthrop-shaw-pittman-llp-042926.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-presume-inc-pillsbury-winthrop-shaw-pittman-llp-042926.pdf",
+  "key_points": [
+   "Presume, Inc. and Pillsbury Winthrop Shaw Pittman met with Crypto Task Force staff on April 29, 2026 to discuss regulatory approaches to Presume's Programmable Interest Tokens (PITs).",
+   "Presume noted that its counsel submitted a March 30, 2026 no-action request to the Division of Corporation Finance, arguing PITs qualify as 'digital tools' under the Commission's March 17, 2026 interpretive release rather than securities.",
+   "Presume represented that PITs function as interoperable loyalty rewards redeemable for Partner discounts subject to a Margin Cap, confer no equity, revenue, yield, or profit rights, and are issued via a non-discretionary formula.",
+   "Presume expressed continued interest in Commissioner Peirce's Safe Harbor concept and offered to participate in any pilot programs or testbed initiatives for early-stage crypto companies."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Presume sought Task Force guidance arguing its Programmable Interest Tokens are digital tools, not securities, and referenced a pending no-action request."
+ },
+ {
+  "id": "3e4a9411c090dbf1",
+  "source": "meetings",
+  "date": "2026-04-28",
+  "title": "Meeting with StratX LLC",
+  "author": "StratX LLC",
+  "topics": [
+   "Compliance Technology",
+   "Broker-Dealer Registration",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-stratx-llc-042826.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-stratx-llc-042826.pdf",
+  "key_points": [
+   "StratX representatives described their platform as a non-custodial, non-executing supervisory validation layer and asked the Task Force to confirm whether it falls outside broker-dealer, exchange, or ATS registration requirements.",
+   "StratX presented a pre-execution compliance model with fail-closed defaults and institution-authored policy overlays, asserting this approach shifts oversight from post-hoc enforcement to preventative validation.",
+   "StratX stated its audit outputs use ISO 20022, ISO 8601, ISO 4217, GLEIF LEI, and XBRL-compatible formats, and asked whether these satisfy Commission ingestion and evidentiary expectations.",
+   "StratX indicated it is not seeking registration, exemption, or no-action relief, but dialogue on classification, potential sandbox or pilot use, and cross-agency (SEC/CFTC) coordination through versioned policy updates."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "StratX asked the SEC Crypto Task Force to clarify whether its non-custodial, pre-execution compliance validation layer falls outside existing registration requirements."
+ },
+ {
+  "id": "192e886aad60227b",
+  "source": "meetings",
+  "date": "2026-04-24",
+  "title": "Meeting with Etherealize, Inc.",
+  "author": "Etherealize, Inc.",
+  "topics": [
+   "Tokenization",
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-etherealize-inc-042426.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-etherealize-inc-042426.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on April 24, 2026 with Etherealize representatives Vivek Raman, Danny Ryan, and Steve Yelderman to discuss approaches to crypto asset regulation.",
+   "Etherealize sought discussion on applying existing frameworks (Regulation D, Rule 144A, Regulation S) to tokenized fixed-income and real-world assets issued on the Ethereum blockchain using compliance-aware token standards.",
+   "Etherealize raised regulatory considerations for on-chain utility of tokenized securities, including collateralization, lending, and automated settlement via smart contracts interacting with decentralized finance protocols.",
+   "Etherealize expressed interest in discussing zero-knowledge cryptography for privacy-preserving compliance and areas where additional Commission guidance would facilitate institutional participation in on-chain markets."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Etherealize discussed applying existing securities exemptions to tokenized real-world assets on Ethereum, including DeFi utility and privacy-preserving compliance."
+ },
+ {
+  "id": "416a6b43176e9cf5",
+  "source": "meetings",
+  "date": "2026-04-22",
+  "title": "Meeting with Ledger and Thorn Run Partners LLC",
+  "author": "Ledger and Thorn Run Partners LLC",
+  "topics": [
+   "Custody",
+   "Broker-Dealer Registration",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-ledger-thorn-run-partners-llc-042226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-ledger-thorn-run-partners-llc-042226.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on April 22, 2026 with representatives of Ledger and Thorn Run Partners LLC to discuss approaches to crypto asset regulation, referencing an attached letter dated April 6, 2026.",
+   "Ledger's representatives requested discussion of how self-custodial wallets and wallet software front-end interfaces should be treated under broker-dealer and exchange registration requirements of the Securities Exchange Act of 1934.",
+   "Ledger's representatives also sought to discuss enabling self-custody by retail and institutional customers for crypto asset securities, tokenized securities, and funds.",
+   "Attendees for Ledger included Seth Hertlein and Reuben Smith-Vaughan, joined by Chris Hayes of Thorn Run Partners."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Ledger met with SEC Crypto Task Force to discuss regulatory treatment of self-custodial wallets under broker-dealer and exchange registration requirements."
+ },
+ {
+  "id": "5ba7a39cd405a72e",
+  "source": "meetings",
+  "date": "2026-04-21",
+  "title": "Meeting with Octet, Variant Fund, and Arktouros PLLC",
+  "author": "Octet, Variant Fund, and Arktouros PLLC",
+  "topics": [
+   "Compliance Technology",
+   "Tokenization",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-octet-variant-fund-arktouros-pllc-042126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-octet-variant-fund-arktouros-pllc-042126.pdf",
+  "key_points": [
+   "Representatives of Octet, Variant Fund, and Arktouros PLLC met with Crypto Task Force staff on April 21, 2026 to discuss approaches to crypto asset regulation, submitting a written agenda for discussion.",
+   "Octet's representatives argued that securities law, citing Reg S and Morrison v. National Australia Bank, treats transaction location as dispositive, and contended KYC does not verify a party's location at the moment of an onchain transaction.",
+   "The submission asserted that the Commission's March 2026 Joint Interpretation confirms sanctions screening obligations apply to tokenized instruments, and urged continuous jurisdictional verification before onchain settlement.",
+   "Octet described its device-level cryptographic proof of physical presence and asked how such privacy-preserving location proofs might fit Reg S safe harbor, sanctions screening, and tokenized securities compliance."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Octet, Variant Fund, and Arktouros urged the Task Force to consider device-level location proofs for Reg S compliance and sanctions screening of tokenized securities."
+ },
+ {
+  "id": "fb0cf415f54da20d",
+  "source": "meetings",
+  "date": "2026-04-21",
+  "title": "Meeting with Trek Labs, Inc. and Barbour, Griffith & Rogers",
+  "author": "Trek Labs, Inc. and Barbour, Griffith & Rogers",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework",
+   "Custody"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-trek-labs-inc-barbour-griffith-rogers-042126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-trek-labs-inc-barbour-griffith-rogers-042126.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on April 21, 2026 with representatives of Trek Labs (Backpack) — Can Sun and Mark Wetjen — and Keaghan Ames of BGR Group to discuss crypto asset regulatory issues.",
+   "According to the attached agenda, Backpack planned to describe its business model, trading, custody, and risk management practices, and its prior regulatory engagement in other jurisdictions.",
+   "Backpack indicated it would outline its rationale for entering or re-entering the U.S. market and stated a commitment to operating within U.S. regulatory frameworks.",
+   "The agenda stated Backpack would update staff on its CFTC discussions regarding potential DCM and/or DCO registration and discuss how it is evaluating securities law implications of its products, including token listings."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Backpack (Trek Labs) met with SEC staff to discuss its U.S. market entry plans, trading/custody practices, and parallel CFTC registration efforts."
+ },
+ {
+  "id": "909b2bad139024a5",
+  "source": "meetings",
+  "date": "2026-04-20",
+  "title": "Meeting with Blockaid, Inc. and Gibson, Dunn & Crutcher LLP",
+  "author": "Blockaid, Inc. and Gibson, Dunn & Crutcher LLP",
+  "topics": [
+   "Compliance Technology",
+   "Regulatory Framework",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-blockaid-inc-gibson-dunn-crutcher-llp-042026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-blockaid-inc-gibson-dunn-crutcher-llp-042026.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on April 20, 2026 with representatives of Blockaid, Inc. and Gibson, Dunn & Crutcher LLP to discuss approaches to regulating crypto assets, referencing an attached document.",
+   "In its February 24, 2026 meeting request, Blockaid cited Chairman Atkins's Project Crypto speech and argued that a fit-for-purpose digital asset framework should be paired with measures strengthening ecosystem security, investor protection, and market confidence.",
+   "Blockaid described itself as a provider of transaction-level threat prevention and simulation technology, and offered to brief staff on onchain security challenges, market-tested risk controls, and potential principles-based regulatory approaches.",
+   "Blockaid proposed attendees Ido Ben Natan (CEO), Roni Sidi (General Counsel), and Pete Eskew (VP Government), and referenced its prior written submission dated January 5, 2026."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Blockaid pitched its onchain threat-prevention technology and urged pairing a digital-asset regulatory framework with stronger ecosystem security measures."
+ },
+ {
+  "id": "8148fc7881d333ee",
+  "source": "meetings",
+  "date": "2026-04-16",
+  "title": "Meeting with Collab+Currency, as well as Students Arjun Yenamandra, Osian Guthrie, Hugo Okada, Jacob Handler, Rishab Rai, and Julia Ostroff",
+  "author": "Collab+Currency, as well as Students Arjun Yenamandra, Osian Guthrie, Hugo Okada, Jacob Handler, Rishab Rai, and Julia Ostroff",
+  "topics": [
+   "Regulatory Framework",
+   "Stablecoins",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-collab-currency-yenamandra-guthrie-okada-handler-rai-ostroff-041626.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-collab-currency-yenamandra-guthrie-okada-handler-rai-ostroff-041626.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on April 16, 2026 with a Collab+Currency representative and six university students to discuss approaches to crypto asset regulation, based on a document the participants provided.",
+   "Collab+Currency described itself as a seed-stage venture firm investing in decentralized technology and running a student engagement platform across university blockchain clubs.",
+   "The participants proposed student presentations on three topics: harmonizing U.S. stablecoin rules with global frameworks; crypto-backed mortgages via on-chain debt capital markets; and token networks as capital formation mechanisms.",
+   "The participants stated the session's goal was constructive dialogue to identify regulatory friction points and explore how Commission clarity could keep builders operating within U.S. jurisdiction."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Collab+Currency and university students presented proposals on stablecoin harmonization, crypto-backed mortgages, and token-based capital formation to the Crypto Task Force."
+ },
+ {
+  "id": "56295eec5355f393",
+  "source": "meetings",
+  "date": "2026-04-14",
+  "title": "Meeting with Alpaca Securities LLC and Lowenstein Sandler LLP",
+  "author": "Alpaca Securities LLC and Lowenstein Sandler LLP",
+  "topics": [
+   "Custody",
+   "Broker-Dealer Registration",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-alpaca-securities-llc-lowenstein-sandler-llp-041426.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-alpaca-securities-llc-lowenstein-sandler-llp-041426.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on April 14, 2026 with representatives of Alpaca Securities LLC and Lowenstein Sandler LLP to discuss approaches to regulating crypto assets, referencing a document Alpaca provided.",
+   "Alpaca described a proposed expansion into digital asset securities activities, including direct custody for customers and proprietary accounts and omnibus custody at a transfer agent treated as a good control location under Rule 15c3-3.",
+   "Alpaca stated it would apply controls such as MPC, HSMs, policy-based key governance, direct ledger access, contingency planning, and daily reconciliation to meet Rule 15c3-3(b)(1) possession requirements.",
+   "Alpaca argued that recent Division of Trading and Markets and Division of Investment Management guidance leaves a gap for clearing broker-dealers, and requested interpretive guidance, no-action relief, or other Commission action."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Alpaca Securities seeks SEC relief to custody digital asset securities directly and via omnibus accounts under Rule 15c3-3 as a clearing broker-dealer."
+ },
+ {
+  "id": "94ccf4797e84ece1",
+  "source": "meetings",
+  "date": "2026-04-07",
+  "title": "Meeting with QCP Capital Pte. Ltd., Winston & Strawn LLP, and McIntyre & Lemon, PLLC",
+  "author": "QCP Capital Pte. Ltd., Winston & Strawn LLP, and McIntyre & Lemon, PLLC",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-qcp-capital-pte-ltd-winston-strawn-llp-mcintyre-lemon-pllc-040726.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-qcp-capital-pte-ltd-winston-strawn-llp-mcintyre-lemon-pllc-040726.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on April 7, 2026 with representatives of QCP Capital Pte. Ltd., Winston & Strawn LLP, and McIntyre & Lemon, PLLC.",
+   "According to the memorandum, the discussion addressed approaches to regulating crypto assets.",
+   "The memorandum notes that the participating representatives provided a document that was discussed during the meeting."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "QCP Capital and legal counsel met with the Crypto Task Force to discuss approaches to regulating crypto assets."
+ },
+ {
+  "id": "2b13bc38309ae198",
+  "source": "meetings",
+  "date": "2026-04-06",
+  "title": "Meeting with Internet Capital Market Exchange, Inc., BakerHostetler LLP, Sidley Austin LLP, and C Guidry Law, PLLC",
+  "author": "Internet Capital Market Exchange, Inc., BakerHostetler LLP, Sidley Austin LLP, and C Guidry Law, PLLC",
+  "topics": [
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-icme-060626.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-icme-060626.pdf",
+  "key_points": [
+   "Crypto Task Force staff, including Commissioner Peirce, met on April 6, 2026 with representatives of Internet Capital Market Exchange (ICME), BakerHostetler, Sidley Austin, and C Guidry Law to discuss crypto asset regulation.",
+   "ICME representatives requested exemptive relief for a proposed 'Innovation Program,' the specifics of which they asked to keep confidential.",
+   "According to the submission, the proposed program would draw on elements of Regulation Crowdfunding and Regulation A to make tokenized securities retail-accessible and liquid while reducing issuer costs."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "ICME sought SEC exemptive relief for a confidential program blending Reg CF and Reg A elements to offer liquid, retail-accessible tokenized securities."
+ },
+ {
+  "id": "e2cb32b8905a35e9",
+  "source": "meetings",
+  "date": "2026-04-01",
+  "title": "Meeting with Figure Technology Solutions, Inc.",
+  "author": "Figure Technology Solutions, Inc.",
+  "topics": [
+   "Stablecoins",
+   "Regulatory Framework",
+   "Security Status"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-figure-technology-solutions-inc-040126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-figure-technology-solutions-inc-040126.pdf",
+  "key_points": [
+   "Figure Technology Solutions representative Mike Cagney met with Crypto Task Force staff on April 1, 2026 to discuss transfer agent requirements as applied to yielding (security) stablecoins, specifically YLDS.",
+   "Cagney stated that the SEC's position requiring transfer agents to obtain security holders' names and addresses effectively serves as a proxy for KYC enforcement, which he argued is outside the SEC's domain.",
+   "Cagney contended that a transfer agent's role is primarily for quorum purposes, for which a wallet address should suffice.",
+   "Cagney asserted that the SEC's current stance disadvantages security-version yielding stablecoins relative to GENIUS Act stablecoins, which he said should not be the agency's intent."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Figure's CEO argued SEC transfer agent KYC requirements unfairly burden yielding security stablecoins like YLDS versus GENIUS Act stablecoins."
+ },
+ {
+  "id": "d6baf03ff8316565",
+  "source": "meetings",
+  "date": "2026-03-30",
+  "title": "Meeting with Groovy Company, Inc.",
+  "author": "Groovy Company, Inc.",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Custody"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-groovy-033026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-groovy-033026.pdf",
+  "key_points": [
+   "Crypto Task Force staff met with Groovy Company, Inc. (dba OTCM Protocol) on March 30, 2026, to discuss approaches to crypto asset regulation, per the meeting memorandum.",
+   "Groovy representatives described OTCM Protocol as a Solana-based tokenization platform for illiquid OTC/Expert/Grey Market securities, using SPL Token-2022 Transfer Hooks to enforce 42 compliance controls and Empire Stock Transfer as transfer agent.",
+   "The company argued its architecture maps to Category 1 Model B of the January 28, 2026 Joint Staff Statement on Tokenized Securities, with the transfer agent holding the authoritative record and blockchain serving as notification layer.",
+   "Groovy requested SEC guidance or no-action relief on five questions, including whether transfer agents can serve as qualified custodians for tokenized securities on permissionless blockchains and whether its CEDEX bonding-curve AMM requires exchange or ATS registration."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Groovy Company sought SEC guidance on its Solana-based tokenization platform for illiquid OTC securities, requesting no-action relief on custody and exchange registration questions."
+ },
+ {
+  "id": "f5521f48fbc4a9e7",
+  "source": "meetings",
+  "date": "2026-03-25",
+  "title": "Meeting with Republic and C Guidry Law, PLLC",
+  "author": "Republic and C Guidry Law, PLLC",
+  "topics": [
+   "Tokenization",
+   "Safe Harbor & Exemptions",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-republic-032526.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-republic-032526.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on March 25, 2026 with representatives of Republic and C Guidry Law, PLLC to discuss approaches to crypto asset regulation, following a March 5 meeting with Commissioner Uyeda.",
+   "Republic expressed appreciation for the staff Statement on Tokenized Securities and the December DTC No-Action Letter, and sought to discuss potential expansions of that relief.",
+   "Republic indicated support for the Chairman's proposed Innovation Exemption and offered its perspective on tokenization developments in the EU and UK that it believes could be introduced in the U.S.",
+   "Republic requested additional staff guidance on secondary markets for private securities and asked that Corporation Finance's Office of Small Business Policy and Commissioner advisors be included."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Republic sought expanded tokenized securities relief, secondary market guidance for private securities, and discussed international tokenization models."
+ },
+ {
+  "id": "57d439d3fd6b9aa0",
+  "source": "meetings",
+  "date": "2026-03-20",
+  "title": "Meeting with Ripple, Ripple Prime, and Katten Muchin Rosenman LLP",
+  "author": "Ripple, Ripple Prime, and Katten Muchin Rosenman LLP",
+  "topics": [
+   "Stablecoins",
+   "Broker-Dealer Registration",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-ripple-rippleprime-katten-muchin-rosenman-llp-032026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-ripple-rippleprime-katten-muchin-rosenman-llp-032026.pdf",
+  "key_points": [
+   "Ripple and Ripple Prime representatives met with Crypto Task Force staff on March 20, 2026 to discuss regulation of payment stablecoins and tokenized securities under broker-dealer net capital (15c3-1) and customer protection (15c3-3) rules.",
+   "Ripple's submission requested aligning payment stablecoin treatment as a cash substitute, referenced the February 19, 2026 Division of Trading and Markets FAQ applying a 2% haircut, and urged calibrating haircuts to short-dated U.S. government debt.",
+   "Ripple proposed permitting self-custody or custody at regulated digital asset custodians for firm assets, and extending to broker-dealers the custody relief available to 1940 Act funds for client assets held at federally chartered digital asset banks.",
+   "Ripple argued existing SEC rules should apply consistently to tokenized securities carrying equivalent risks, and asked whether clarity should come via industry-wide guidance or firm-specific no-action relief."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Ripple urged the SEC to treat payment stablecoins as cash substitutes and align broker-dealer capital and custody rules for tokenized securities."
+ },
+ {
+  "id": "77074bcdcb0c409c",
+  "source": "meetings",
+  "date": "2026-03-16",
+  "title": "Meeting with InfoChat, Inc.",
+  "author": "InfoChat, Inc.",
+  "topics": [
+   "Broker-Dealer Registration",
+   "DeFi Protocols",
+   "Security Status"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-infochat-031626.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-infochat-031626.pdf",
+  "key_points": [
+   "InfoChat described itself as a non-custodial, on-chain social platform that routes trades to third-party DEXs and prediction market protocols (e.g., Hyperliquid, Polymarket), offers fiat on/off-ramps via a stablecoin provider, embedded debit cards, and yield/staking access.",
+   "InfoChat asked whether routing orders to third-party DEXs without matching or custody—while collecting builder fees—triggers broker-dealer registration, and what registration pathway exists for non-custodial on-chain platforms.",
+   "InfoChat requested the Commission's views on whether binary outcome tokens on third-party prediction markets constitute securities or security-based swaps, and whether front-end providers bear the same obligations as market operators.",
+   "InfoChat sought guidance on AI agents executing trades and transfers under human ownership, and asked about potential exemptions, no-action relief, or sandbox pathways for early-stage non-custodial platforms."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "InfoChat sought SEC guidance on whether its non-custodial order-routing social platform triggers broker-dealer registration and how prediction market tokens are classified."
+ },
+ {
+  "id": "508f09d77f3a1a8d",
+  "source": "meetings",
+  "date": "2026-03-09",
+  "title": "Meeting with Yuma, Digital Currency Group, Inc., and Cooley LLP",
+  "author": "Yuma, Digital Currency Group, Inc., and Cooley LLP",
+  "topics": [
+   "Security Status",
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-yuma-digital-currency-group-inc-cooley-llp-030926.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-yuma-digital-currency-group-inc-cooley-llp-030926.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on March 9, 2026 with representatives of Yuma, Digital Currency Group, and Cooley LLP to discuss regulatory approaches to crypto assets.",
+   "Yuma requested staff views on whether a 'Subnet Token Staking Transaction'—a subnet operator acquiring TAO, swapping it for subnet tokens, and staking those tokens to a subnet validator on Bittensor—constitutes a securities transaction.",
+   "The submitted agenda indicated Yuma's representatives planned to outline a legal analysis arguing that Subnet Token Staking Transactions do not constitute securities transactions and to discuss the need for staff relief."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Yuma and allies sought SEC staff views on whether Bittensor subnet token staking transactions qualify as securities transactions."
+ },
+ {
+  "id": "0d2ae59a61ffc71e",
+  "source": "meetings",
+  "date": "2026-03-02",
+  "title": "Meeting with Molecule AG and Cahill Gordon & Reindel LLP",
+  "author": "Molecule AG and Cahill Gordon & Reindel LLP",
+  "topics": [
+   "Security Status",
+   "Safe Harbor & Exemptions",
+   "DeFi Protocols"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-molecule-ag-cahill-gordon-reindel-llp-030226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-molecule-ag-cahill-gordon-reindel-llp-030226.pdf",
+  "key_points": [
+   "Molecule AG and Cahill Gordon representatives met with Crypto Task Force staff on March 2, 2026 to present the 'Coin-to-Company' (C2C) model for funding decentralized science (DeSci) research.",
+   "Molecule's submission proposes a dual-entity structure—a Delaware LLC 'DevCo' issuing tokens and equity, and a Delaware Unincorporated Nonprofit Association DAO—asserting that utility tokens remain categorically separate from equity securities.",
+   "The presenters argued that project tokens, lacking economic rights or enforceable claims, fall outside Howey, and that voluntary token locking does not constitute an option under Gwozdzinsky v. Zell-Chilmark Fund.",
+   "Molecule requested Task Force views on token classification, Rule 701 use for community contributors, DAO liability under Samuels v. Lido DAO, and possible safe harbors or tailored DeSci guidance."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Molecule AG proposed a dual-entity DeSci funding model arguing utility tokens fall outside Howey and sought Task Force guidance on classification and safe harbors."
+ },
+ {
+  "id": "e69e19d52a8c3dd8",
+  "source": "meetings",
+  "date": "2026-02-17",
+  "title": "Meeting with Superform Labs and Manatt, Phelps & Phillips LLP",
+  "author": "Superform Labs and Manatt, Phelps & Phillips LLP",
+  "topics": [
+   "Safe Harbor & Exemptions",
+   "DeFi Protocols",
+   "Broker-Dealer Registration"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-superform-021726.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-superform-021726.pdf",
+  "key_points": [
+   "Superform Labs and Manatt, Phelps & Phillips representatives met with Crypto Task Force staff on February 17, 2026 to discuss regulatory approaches for non-custodial onchain yield infrastructure.",
+   "Superform's representatives requested no-action relief, exemptive relief, or rulemaking establishing a conditional safe harbor, describing their platform as a non-custodial interface that never holds user assets or executes transactions on users' behalf.",
+   "Superform proposed safe harbor conditions—including no custody, no discretionary execution, standardized risk and conflict disclosures, neutral interface design, and operator transparency—that would clarify non-applicability of broker-dealer, adviser, and Investment Company Act frameworks.",
+   "Superform's submission invoked Section 230 as an analogy for distinguishing access-providing platforms from intermediaries, while acknowledging anti-fraud provisions under Securities Act Section 17(a) and Exchange Act Rule 10b-5 would still apply."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Superform Labs sought safe harbor or no-action relief to exempt non-custodial onchain yield interfaces from broker-dealer, adviser, and Investment Company Act requirements."
+ },
+ {
+  "id": "7b9b537d042f63d0",
+  "source": "meetings",
+  "date": "2026-01-28",
+  "title": "Meeting with Blue Gold Limited, Blockchain Intelligence Group, and Willkie Farr & Gallagher LLP",
+  "author": "Blue Gold Limited, Blockchain Intelligence Group, and Willkie Farr & Gallagher LLP",
+  "topics": [
+   "Security Status",
+   "Tokenization",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/crypto-memo-blue-gold-limited-blockchain-intelligence-group-willkie-farr-gallagher-llp-012826.pdf",
+  "doc_url": "https://www.sec.gov/files/crypto-memo-blue-gold-limited-blockchain-intelligence-group-willkie-farr-gallagher-llp-012826.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on January 28, 2026 with representatives of Blue Gold Limited, Blockchain Intelligence Group, and Willkie Farr & Gallagher LLP to discuss crypto asset regulation approaches.",
+   "Blue Gold's meeting request proposed to describe the Blue Gold One Standard Gold Token, which is planned to be backed by a reserve of physical gold bullion.",
+   "Blue Gold's representatives indicated they would argue, applying the Howey test, that the token is a product rather than a security and does not constitute an investment contract.",
+   "The representatives also sought to discuss disclosure and reporting implications for Blue Gold as an SEC-registered public issuer that also issues a digital token."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Blue Gold sought SEC guidance on whether its gold-bullion-backed token qualifies as a product rather than a security under the Howey test."
+ },
+ {
+  "id": "b15745a126191026",
+  "source": "meetings",
+  "date": "2026-01-27",
+  "title": "Meeting with Securities Industry and Financial Markets Association, Cahill Gordon & Reindel LLP, Citadel Securities, and JPMorgan Chase & Co.",
+  "author": "Securities Industry and Financial Markets Association, Cahill Gordon & Reindel LLP, Citadel Securities, and JPMorgan Chase & Co.",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Broker-Dealer Registration"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-sifma-cahill-gordon-reindel-llp-citadel-securities-jpmorgan-chase-co-012726.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-sifma-cahill-gordon-reindel-llp-citadel-securities-jpmorgan-chase-co-012726.pdf",
+  "key_points": [
+   "SIFMA representatives, joined by Cahill Gordon & Reindel, Citadel Securities, and JPMorgan Chase, met with Crypto Task Force staff on January 27, 2026 to discuss four prior submissions on tokenized securities regulation.",
+   "SIFMA argued that tokenized securities should be subject to the same investor protection and market integrity principles as other securities, and that any exemptive relief should be narrow, economically grounded, and paired with notice-and-comment rulemaking.",
+   "SIFMA contended that DeFi models performing broker, dealer, or exchange functions should be regulated as such, and warned that large-scale peer-to-peer or peer-to-crowd securities trading outside federal securities laws would resemble pre-1930s unregulated markets.",
+   "SIFMA proposed a taxonomy distinguishing native tokenized securities, wrapped tokenized securities, and security entitlement tokens, and stated wallet providers conducting brokerage activities or holding customer keys should register as broker-dealers."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "SIFMA urged the SEC to regulate tokenized securities under existing frameworks, requiring broker-dealer registration for DeFi and wallet providers performing regulated functions."
+ },
+ {
+  "id": "17e5dad1fde1ff3d",
+  "source": "meetings",
+  "date": "2026-01-23",
+  "title": "Meeting with Bluprynt and Chainlink Labs",
+  "author": "Bluprynt and Chainlink Labs",
+  "topics": [
+   "Compliance Technology",
+   "Tokenization",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-bluprynt-chainlink-labs-012326.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-bluprynt-chainlink-labs-012326.pdf",
+  "key_points": [
+   "Bluprynt and Chainlink Labs representatives met with Crypto Task Force staff on January 23, 2026 to demonstrate Know-Your-Issuer (KYI), Bluprynt's Policy Engine, and Chainlink's Automated Compliance Engine (ACE) as tools for tokenized-market compliance.",
+   "The presenters argued that adoption of new compliance infrastructure is impeded by switching costs, incumbent reticence absent regulatory signals, reliance on traditional gatekeepers, and network effects, and urged including compliance technology in any SEC innovation exemption.",
+   "Referencing the DTCC/DTC tokenization no-action letter as constructive but potentially narrowing, Bluprynt asked that tokenization pilots preserve modular, competitive compliance innovation rather than harden centralized chokepoints.",
+   "The participants requested non-mandatory SEC staff guidance clarifying that Verified Wallet Identifiers, on-chain permissioned ledger records, and private-key possession with provenance attestations can satisfy Rules 17Ad-7/9/10, 15c3-3, and 17a-3/4."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Bluprynt and Chainlink urged the SEC to issue guidance recognizing on-chain compliance tools for tokenized markets and preserve competitive innovation in exemption frameworks."
+ },
+ {
+  "id": "1561ed081370d392",
+  "source": "meetings",
+  "date": "2026-01-21",
+  "title": "Meeting with Restored Law PLLC, Indiana House, and Megawatt",
+  "author": "Restored Law PLLC, Indiana House, and Megawatt",
+  "topics": [
+   "Regulatory Framework",
+   "Crypto ETPs",
+   "Custody"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-restored-law-pllc-indiana-house-megawatt-012126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-restored-law-pllc-indiana-house-megawatt-012126.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on January 21, 2026 with representatives of Restored Law PLLC, Indiana House, and Megawatt to discuss approaches to crypto asset regulation.",
+   "The participants shared an introduced Indiana House bill (LS 6415) that would require certain state retirement and savings plans to offer cryptocurrency ETFs and permit other public funds to invest in crypto or stablecoin ETFs.",
+   "The bill would also establish a Blockchain and Digital Assets Task Force to recommend up to two pilot projects, and preempt local rules restricting digital asset payments, self-custody, mining, or noncustodial software.",
+   "The bill provides that noncustodial digital asset transfer software is not money transmission and that courts may compel disclosure of a private key only when no other means suffices."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Indiana House bill LS 6415 would mandate crypto ETF options in state retirement plans and preempt local restrictions on digital asset activities."
+ },
+ {
+  "id": "aff4454dff0d0706",
+  "source": "meetings",
+  "date": "2026-01-20",
+  "title": "Meeting with CompliLedger",
+  "author": "CompliLedger",
+  "topics": [
+   "Compliance Technology",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-compliledger-012026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-compliledger-012026.pdf",
+  "key_points": [
+   "CompliLedger's representative, Founder and CCO Maranda Harris, met with Crypto Task Force staff on January 20, 2026 to discuss compliance automation for digital asset firms under Regulation S-P, Regulation S-ID, cybersecurity, and recordkeeping requirements.",
+   "The CompliLedger brief identified industry challenges it observed, including translating regulatory text into enforced technical controls, aligning policies with system behavior, demonstrating ongoing rather than point-in-time compliance, and balancing transparency with data protection.",
+   "CompliLedger stated that compliance automation should support rather than replace human judgment, maintain auditability, avoid 'checkbox compliance,' and use data minimization and least-privilege access to generate evidence without over-disclosing customer data.",
+   "CompliLedger stated the meeting sought SEC staff perspectives on deficiencies in automation approaches and appropriate guardrails, and did not seek legal advice, interpretive guidance, or regulatory relief."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "CompliLedger met with SEC Crypto Task Force to discuss compliance automation challenges for digital asset firms under existing regulatory requirements."
+ },
+ {
+  "id": "7d901f14dea2c89c",
+  "source": "meetings",
+  "date": "2026-01-20",
+  "title": "Meeting with Flow Traders U.S. LLC",
+  "author": "Flow Traders U.S. LLC",
+  "topics": [
+   "Broker-Dealer Registration",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-flow-traders-u-s-llc-012026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-flow-traders-u-s-llc-012026.pdf",
+  "key_points": [
+   "Flow Traders U.S. LLC representatives met with Crypto Task Force staff on January 20, 2026, to discuss regulation of crypto assets, providing a document describing the firm as a proprietary liquidity provider active in digital assets.",
+   "Flow Traders requested discussion of broker-dealer activity on blockchain infrastructure, including trading tokenized securities for its own account, Rule 15c3-1 net capital considerations, custody, clearance, settlement, and use of permissionless blockchains for books and records.",
+   "Flow Traders also sought guidance on DeFi issues, including proprietary liquidity provision in decentralized pools, potential exchange/broker/dealer classification of protocol interactions, and extraterritorial application of U.S. securities laws."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Flow Traders met with the Crypto Task Force to discuss broker-dealer rules for blockchain-based trading and DeFi liquidity provision."
+ },
+ {
+  "id": "00bb6b3984652a28",
+  "source": "meetings",
+  "date": "2026-01-14",
+  "title": "Meeting with Finternet Global LLP and Bodin Advisory LLC",
+  "author": "Finternet Global LLP and Bodin Advisory LLC",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Compliance Technology"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-finternet-global-llp-bodin-advisory-llc-011426.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-finternet-global-llp-bodin-advisory-llc-011426.pdf",
+  "key_points": [
+   "The submission from Finternet Global LLP and Bodin Advisory LLC responds to the SEC Crypto Task Force's tokenization roundtable, proposing universal technical standards and flow-based regulatory approaches informed by U.S., EU, and Singapore frameworks.",
+   "The authors advocate for technology-neutral baseline standards, including a Unified Interledger Protocol enabling interoperability across ledgers without presupposing an asset's legal classification.",
+   "The authors argue regulation should accommodate both self-custody and third-party custody, while recommending mandatory qualified custodians for institutional investors, tokenized securities settlements, and high-risk public interest contexts.",
+   "The authors recommend shifting from asset-classification to flow-based regulation with programmable compliance (e.g., ERC-3643, tokenized identity, Travel Rule-style controls), implemented via a phased framework and sandbox pilots."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Finternet Global and Bodin Advisory propose universal interoperability standards and flow-based, programmable compliance as alternatives to asset-classification regulation for tokenized assets."
+ },
+ {
+  "id": "399ccc6440668ac9",
+  "source": "meetings",
+  "date": "2026-01-13",
+  "title": "Meeting with Injective Labs, Inc., Injective, LLC, and Injective Foundation",
+  "author": "Injective Labs, Inc., Injective, LLC, and Injective Foundation",
+  "topics": [
+   "DeFi Protocols",
+   "Safe Harbor & Exemptions",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-injective-labs-011326.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-injective-labs-011326.pdf",
+  "key_points": [
+   "Injective Labs, Injective LLC, and Injective Foundation representatives met with Crypto Task Force staff on January 13, 2026 to discuss crypto asset regulatory approaches, submitting a prior letter and comment exhibits.",
+   "The Injective representatives requested discussion of whether qualifying decentralized DeFi protocols should be excluded from 'exchange' and 'broker-dealer' definitions, and a safe harbor modeled on Commissioner Peirce's proposed Rule 195.",
+   "Injective sought exemptive relief for neutral DeFi frontend interfaces and confirmation that specified non-custodial, over-collateralized DeFi credit protocols do not involve Howey investment contracts or Reves notes.",
+   "Injective also proposed discussing compliance paths for tokenized real-world assets and tokenized equities, including transfer agent, broker-dealer, and ATS licensing options."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Injective sought exclusion of decentralized protocols from exchange/broker-dealer definitions, safe harbor relief, and compliance paths for tokenized assets."
+ },
+ {
+  "id": "3974c2d35bde1e45",
+  "source": "meetings",
+  "date": "2026-01-13",
+  "title": "Meeting with Lumia and Gibson, Dunn & Crutcher LLP",
+  "author": "Lumia and Gibson, Dunn & Crutcher LLP",
+  "topics": [
+   "Stablecoins",
+   "Tokenization",
+   "Compliance Technology"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-lumia-gibson-dunn-crutcher-llp-011326.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-lumia-gibson-dunn-crutcher-llp-011326.pdf",
+  "key_points": [
+   "Crypto Task Force staff met on January 13, 2026 with representatives of Lumia (including Co-Founder/CTO Deniz Dalkilic and Head of Communications Mark Herndon) and Gibson, Dunn & Crutcher LLP to discuss approaches to crypto asset regulation.",
+   "Lumia's proposed agenda described its rwaUSD stablecoin design as aligned with GENIUS Act principles, citing reserve integrity, disclosures, redemption safeguards, and KYC-linked issuance.",
+   "Lumia outlined its Lumia Stream and L-Tokens for liquidity aggregation, and proposed zk-audit proofs and permission-aware architecture to reconcile compliance with investor privacy.",
+   "Lumia proposed collaboration through sandbox engagement using anonymized data and offered to serve as a case study for tokenized real estate, stablecoins, and credit products, and discussed AI applications in onboarding and tokenization."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Lumia presented its rwaUSD stablecoin and tokenization infrastructure to the SEC Crypto Task Force, proposing sandbox collaboration and compliance-oriented architecture."
+ },
+ {
+  "id": "81519ceda40d2bea",
+  "source": "meetings",
+  "date": "2026-01-12",
+  "title": "Meeting with USIG Digital",
+  "author": "USIG Digital",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/files/ctf-memo-usig-digital-011226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-usig-digital-011226.pdf",
+  "key_points": [
+   "Crypto Task Force staff met with representatives of USIG Digital on January 12, 2026 to discuss approaches to regulating crypto assets.",
+   "USIG Digital provided documents during the meeting, which primarily introduced the company's leadership team, advisors, and their backgrounds in capital markets and digital assets.",
+   "The materials indicate USIG's stated mission focuses on modernizing on-chain collateral mobility, with team experience spanning tokenized Treasuries, real-world asset structuring, and the Canton Network."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "USIG Digital met with Crypto Task Force staff to discuss crypto regulation, highlighting its focus on on-chain collateral mobility and real-world asset tokenization."
+ },
+ {
+  "id": "2ba742bd0f9dd97a",
+  "source": "newsroom",
+  "date": "2026-06-02",
+  "title": "Base Case: Remarks at the IC3 Blockchain Camp",
+  "author": "Hester M. Peirce",
+  "topics": [
+   "DeFi Protocols",
+   "Regulatory Framework",
+   "Safe Harbor & Exemptions"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-remarks-ic3-blockchain-camp-060226",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-remarks-ic3-blockchain-camp-060226",
+  "key_points": [
+   "Commissioner Peirce urged the crypto industry to address problems such as DeFi hacks through technical and self-regulatory measures rather than waiting for legal fixes, citing steps like code audits, delays, and key-management standards.",
+   "Peirce outlined guiding principles: publishing open-source code is First Amendment-protected speech; blockchains are general-purpose infrastructure outside the SEC's remit; and neutral infrastructure providers should not be treated as securities market participants.",
+   "She distinguished 'genuine DeFi' from onchain CeFi, stating that centralized actors with discretion or custody may warrant securities regulation, while non-custodial software tools enabling peer transactions should not.",
+   "Peirce noted the SEC is proceeding cautiously, referencing the April 2026 staff statement on user interfaces and a planned innovation exemption for onchain NMS stock trading, and called for reconsidering exchange and broker definitions."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Commissioner Peirce argues genuine DeFi protocols are not securities intermediaries and urges industry self-regulation alongside narrowly tailored SEC oversight."
+ },
+ {
+  "id": "b7e3f53f1f9e1a76",
+  "source": "newsroom",
+  "date": "2026-04-21",
+  "title": "Keynote Remarks at The Economic Club of Washington",
+  "author": "Paul S. Atkins",
+  "topics": [
+   "Regulatory Framework",
+   "Security Status",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-keynote-remarks-economic-club-washington-042126",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-keynote-remarks-economic-club-washington-042126",
+  "key_points": [
+   "Chairman Atkins outlined an 'A-C-T' strategy to advance modernized rules, clarify jurisdiction, and transform the SEC rulebook, describing it as a course correction from the prior administration's approach.",
+   "On digital assets, Atkins stated the SEC launched Project Crypto, published a crypto-token taxonomy classifying five categories (four deemed non-securities), and is preparing an 'innovation exemption' for compliant on-chain trading of tokenized securities.",
+   "Atkins reported that he and CFTC Chairman Mike Selig signed an MOU aligning definitions, clarifying jurisdiction, and coordinating oversight in shared areas including digital assets.",
+   "Atkins described a 'Make IPOs Great Again' agenda, directing staff to evaluate an IPO on-ramp, broader smaller-company accommodations, easier shelf registration, and optional semiannual reporting."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Chairman Atkins unveiled a broad SEC modernization agenda including a crypto-token taxonomy, innovation exemption for tokenized securities, and SEC-CFTC jurisdictional MOU."
+ },
+ {
+  "id": "a4d7cf084bfd1aa9",
+  "source": "newsroom",
+  "date": "2026-04-13",
+  "title": "Interfacing With Our Inner Demons: Comments on the Division of Trading and Markets' Statement on Certain User Interfaces",
+  "author": "Hester M. Peirce",
+  "topics": [
+   "Broker-Dealer Registration",
+   "Custody",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-041326-interfacing-our-inner-demons-comments-division-trading-markets-statement-certain-user-interfaces",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-041326-interfacing-our-inner-demons-comments-division-trading-markets-statement-certain-user-interfaces",
+  "key_points": [
+   "Commissioner Peirce commended the Division of Trading and Markets' statement describing circumstances in which staff will not object to interface providers for self-custodial wallets operating without broker-dealer registration under Exchange Act Section 15(b).",
+   "Peirce stated she prefers a more permanent regulatory approach over staff statements, arguing existing law already indicates that wallets and interfaces enabling self-custody, data viewing, or message formatting are not brokers.",
+   "Peirce criticized what she characterized as the SEC's history of expansively interpreting 'broker' through no-action letters and enforcement actions, citing her prior Neovest dissent.",
+   "Peirce solicited public feedback to inform future rulemaking reassessing terms like 'broker' in light of new technologies."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Commissioner Peirce supports permanent rules clarifying that self-custodial wallet interfaces are not brokers, rather than relying on staff no-action statements."
+ },
+ {
+  "id": "ebb125c78a4cabab",
+  "source": "newsroom",
+  "date": "2026-03-24",
+  "title": "Opening Remarks at the Digital Asset Summit 2026",
+  "author": "Paul S. Atkins",
+  "topics": [
+   "Security Status",
+   "Regulatory Framework",
+   "Public Offerings"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-digital-asset-summit-032426",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-digital-asset-summit-032426",
+  "key_points": [
+   "Chairman Atkins stated that the SEC last week published a token taxonomy and interpretation of Howey intended to clarify when a crypto asset implicates the federal securities laws.",
+   "According to Atkins, the framework identifies five categories of digital assets, four of which are not securities, and begins outlining compliance paths for crypto fundraises.",
+   "Atkins characterized the interpretation as a foundation rather than an endpoint, saying only Congress can 'future-proof' regulation through comprehensive market structure legislation.",
+   "Atkins noted the remarks reflect his own views, not necessarily those of the SEC or other Commissioners."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Chairman Atkins announced a new SEC token taxonomy clarifying most digital asset categories are not securities, while urging Congress to legislate comprehensive market structure."
+ },
+ {
+  "id": "6a41c32c5b97ca05",
+  "source": "newsroom",
+  "date": "2026-03-17",
+  "title": "SEC Clarifies the Application of Federal Securities Laws to Crypto Assets",
+  "author": "Press Release",
+  "topics": [
+   "Security Status",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets",
+  "doc_url": "https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets",
+  "key_points": [
+   "The SEC issued an interpretation clarifying how federal securities laws apply to certain crypto assets and transactions, with the CFTC joining to administer the Commodity Exchange Act consistently.",
+   "Chairman Atkins stated that most crypto assets are not themselves securities and that investment contracts can come to an end, describing the interpretation as a bridge pending Congressional market structure legislation.",
+   "According to the release, the interpretation provides a token taxonomy (digital commodities, collectibles, tools, stablecoins, and securities) and addresses when non-security crypto assets become or cease being subject to investment contracts.",
+   "The interpretation also clarifies how federal securities laws apply to airdrops, protocol mining, protocol staking, and wrapping of non-security crypto assets."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "SEC issued a joint interpretation with the CFTC creating a token taxonomy and clarifying when crypto assets are subject to securities laws, pending Congressional legislation."
+ },
+ {
+  "id": "d0bd82b332c35f5d",
+  "source": "newsroom",
+  "date": "2026-03-12",
+  "title": "Remarks at the Investor Advisory Committee Meeting",
+  "author": "Paul S. Atkins",
+  "topics": [
+   "Safe Harbor & Exemptions",
+   "Tokenization",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-iac-031226",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-iac-031226",
+  "key_points": [
+   "Chairman Atkins stated he expects the Commission to soon consider a time- and scope-limited innovation exemption to facilitate limited trading of certain tokenized securities while a longer-term framework is developed.",
+   "Atkins thanked the Investor Advisory Committee for engaging with tokenization of equity securities and acknowledged its recognition that tokenization can enhance settlement efficiency, reduce settlement risk, and eliminate unnecessary intermediaries.",
+   "Atkins noted the Crypto Task Force has, over thirteen months, held roundtables, met with hundreds of market participants, and received written input to inform calibration of rules for novel trading.",
+   "Atkins said the Commission continues to welcome public comment on the design of the potential innovation exemption."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Chairman Atkins signals the SEC will soon consider a time-limited innovation exemption enabling trading of certain tokenized securities."
+ },
+ {
+  "id": "a6f9f76a139576e6",
+  "source": "newsroom",
+  "date": "2026-03-12",
+  "title": "Adam’s Lib: Remarks at the Meeting of the SEC Investor Advisory Committee",
+  "author": "Hester M. Peirce",
+  "topics": [
+   "Tokenization",
+   "Safe Harbor & Exemptions",
+   "Regulatory Framework"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-remarks-iac-031226",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-remarks-iac-031226",
+  "key_points": [
+   "Commissioner Peirce invoked Adam Smith's classical liberalism to urge regulatory humility and welcomed the Investor Advisory Committee's input on paring back public company disclosure requirements she views as potentially obfuscating.",
+   "Peirce stated that fund proxy quorum requirements under the Investment Company Act are burdensome, and emphasized that proxy votes belong to the fund, not individual shareholders, obligating advisers to vote in the fund's interest.",
+   "Peirce noted SEC staff is developing a narrow innovation exemption for limited trading of certain tokenized securities, narrower than the 'blanket' exemption in the Committee's draft recommendation.",
+   "Peirce posed questions to the Committee on tokenization, including sufficiency of existing disclosures, necessity of T+1 reforms for atomic settlement, regulation where intermediaries are absent or undefined, issuer consent, and safeguards against regulatory arbitrage."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Commissioner Peirce signals SEC staff is crafting a narrow tokenized-securities trading exemption while posing key policy questions to the Investor Advisory Committee."
+ },
+ {
+  "id": "a6d4fb6c6b661fa2",
+  "source": "newsroom",
+  "date": "2026-03-12",
+  "title": "Remarks for the Investor Advisory Committee Meeting",
+  "author": "Mark T. Uyeda",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-remarks-iac-031226",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-remarks-iac-031226",
+  "key_points": [
+   "Commissioner Uyeda thanked departing Investor Advisory Committee members and previewed panels on Regulation S-K disclosure reform and fund proxy voting, noting staff have begun a comprehensive review of S-K requirements.",
+   "Uyeda stated that fund proxy voting faces quorum challenges and rising costs borne by shareholders, and invited Committee ideas on modernizing the framework and the SEC's role.",
+   "Uyeda said the Committee will consider a draft recommendation on tokenization of equity securities, comparing it to prior innovations like money market funds and ETFs that initially required exemptive relief before codification.",
+   "Uyeda suggested tokenization may not fit neatly within the existing regulatory framework and that rules may need to evolve while preserving investor protection and fair, orderly, efficient markets."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Commissioner Uyeda previewed an Investor Advisory Committee recommendation on equity tokenization, suggesting existing rules may need to evolve for the technology."
+ },
+ {
+  "id": "5e8471a60381de8d",
+  "source": "newsroom",
+  "date": "2026-03-11",
+  "title": "SEC and CFTC Announce Historic Memorandum of Understanding Between Agencies",
+  "author": "Press Release",
+  "topics": [
+   "Regulatory Framework",
+   "Clearing & Settlement",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/newsroom/press-releases/2026-26-sec-cftc-announce-historic-memorandum-understanding-between-agencies",
+  "doc_url": "https://www.sec.gov/newsroom/press-releases/2026-26-sec-cftc-announce-historic-memorandum-understanding-between-agencies",
+  "key_points": [
+   "The SEC and CFTC announced an MOU on March 11, 2026 to coordinate oversight, align regulatory definitions, and enable data sharing, which the agencies said aims to support innovation, market integrity, and investor protection.",
+   "SEC Chairman Atkins stated the MOU provides a roadmap to end regulatory turf wars and duplicative registrations; CFTC Chairman Selig said it would harmonize frameworks and close regulatory gaps.",
+   "The agencies launched a Joint Harmonization Initiative, co-led by Robert Teply (SEC) and Meghan Tente (CFTC), covering product definitions, clearing and margin, dual registrants, crypto assets, reporting, and enforcement coordination.",
+   "The agencies invited public input via a written input form or meeting request."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "SEC and CFTC signed a landmark MOU to coordinate crypto oversight, harmonize definitions, share data, and eliminate duplicative regulation."
+ },
+ {
+  "id": "4bde308e6ee33d3d",
+  "source": "newsroom",
+  "date": "2026-02-19",
+  "title": "Cutting by Two Would Do",
+  "author": "Hester M. Peirce",
+  "topics": [
+   "Stablecoins",
+   "Broker-Dealer Registration",
+   "Trading & Market Structure"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-stablecoin-021926-cutting-two-would-do",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-stablecoin-021926-cutting-two-would-do",
+  "key_points": [
+   "Commissioner Peirce noted that the SEC's Division of Trading and Markets issued an FAQ stating staff would not object to broker-dealers applying a 2% haircut on proprietary payment stablecoin positions under Exchange Act Rule 15c3-1.",
+   "Peirce expressed support for the staff's approach, stating stablecoins are essential to blockchain-based transactions and would enable broker-dealers to expand activities involving tokenized securities and other crypto assets.",
+   "Peirce said a 100% haircut, which some broker-dealers had proposed out of caution, would be unnecessarily punitive, noting the 2% figure aligns with the haircut applied to money market funds holding similar reserve instruments.",
+   "Peirce indicated interest in Commission-level amendments to Rule 15c3-1 addressing payment stablecoins and invited market participants to share views on other rules warranting modification for SEC-registered entities' stablecoin use."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Commissioner Peirce supports a 2% net capital haircut for broker-dealer stablecoin positions, replacing an overly punitive 100% haircut."
+ },
+ {
+  "id": "525cf76676f7313f",
+  "source": "newsroom",
+  "date": "2026-02-18",
+  "title": "Number Go Down and Other Schadenfreude - Remarks at ETHDenver",
+  "author": "Paul S. Atkins, Hester M. Peirce",
+  "topics": [
+   "Regulatory Framework",
+   "Safe Harbor & Exemptions",
+   "Tokenization"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-peirce-021826-number-go-down-other-schadenfreude",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-peirce-021826-number-go-down-other-schadenfreude",
+  "key_points": [
+   "Chairman Atkins and Commissioner Peirce reviewed the SEC's past-year crypto actions, including ending regulation by enforcement, issuing staff guidance on mining, staking, meme coins and stablecoins, rescinding SAB 121, approving generic listing standards for crypto ETPs, and launching a joint CFTC-SEC Project Crypto initiative.",
+   "Atkins previewed forthcoming SEC work, including a Commission framework on investment-contract analysis for crypto assets, a rulemaking on broker-dealer custody of non-security crypto assets including payment stablecoins, transfer agent modernization, and capital-raising pathways for crypto asset sales.",
+   "Atkins described a contemplated innovation exemption that would permit limited, white-listed trading of tokenized securities on AMMs and decentralized platforms, temporarily and with possible relief from certain rules, while longer-term rules are developed; Peirce cautioned expectations should be moderated.",
+   "Both stated regulators should not react to falling crypto prices; Peirce said regulatory clarity helps but value comes from building useful products, and expressed interest in enabling rights-bearing tokens that fall within the securities framework."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "Atkins and Peirce outlined the SEC's sweeping crypto reform agenda, previewing frameworks on security status, custody, capital raising, and a possible innovation exemption for tokenized securities on DeFi platforms."
+ },
+ {
+  "id": "00c8c3b0a7ff7844",
+  "source": "newsroom",
+  "date": "2026-01-29",
+  "title": "Opening Remarks at Joint SEC-CFTC Harmonization Event – Project Crypto",
+  "author": "Paul S. Atkins",
+  "topics": [
+   "Regulatory Framework",
+   "Trading & Market Structure",
+   "Investor Protection"
+  ],
+  "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-joint-sec-cftc-harmonization-event-project-crypto-012926",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-joint-sec-cftc-harmonization-event-project-crypto-012926",
+  "key_points": [
+   "Chairman Atkins announced that Project Crypto will proceed as a joint SEC-CFTC initiative, launched alongside CFTC Chairman Mike Selig at CFTC headquarters, aimed at harmonizing crypto asset market regulation across both agencies.",
+   "Atkins stated that SEC staff in 2025 issued more crypto-related clarifications than in the prior decade, citing guidance from Corporation Finance on memecoins, stablecoins, mining, and staking, and from Trading and Markets and Investment Management divisions.",
+   "Atkins argued that fragmented regulation across integrated markets creates investor confusion, and said the agencies will work to reduce friction and harmonize standards while preparing to implement pending bipartisan market structure legislation.",
+   "Atkins credited Commissioner Peirce and Selig with restoring innovator confidence in engaging the SEC, and described Selig's CFTC approach as disciplined but open to emerging market structures."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "claude-opus-4-7",
+  "takeaway": "SEC and CFTC launched Project Crypto, a joint initiative to harmonize crypto asset regulation and reduce cross-agency fragmentation."
+ }
+]

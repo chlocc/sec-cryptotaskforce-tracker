@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEC Crypto Task Force Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <h1>SEC Crypto Task Force Tracker</h1>
+    <p class="subtitle">Written input, staff statements, meetings &amp; newsroom — items from January 2026 onward, refreshed daily.
+      <span id="updated"></span></p>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-source="all">All</button>
+  <button class="tab" data-source="written-input">Written Input</button>
+  <button class="tab" data-source="cryptosec">Staff Statements</button>
+  <button class="tab" data-source="meetings">Meetings</button>
+  <button class="tab" data-source="newsroom">Newsroom</button>
+  <input type="search" id="search" placeholder="Filter by keyword, topic, or party…" aria-label="Filter items">
+</nav>
+
+<div class="topic-row" id="topic-row">
+  <span class="topic-row-label">Topics:</span>
+  <div class="topic-chips" id="topic-chips"></div>
+  <button class="topic-clear" id="topic-clear" hidden>Clear</button>
+</div>
+
+<main>
+  <div id="count" class="count"></div>
+  <div id="feed"></div>
+</main>
+
+<footer>
+  <p>Unofficial tracker. Summaries are AI-assisted or drawn from SEC-provided text — always consult the
+    <a href="https://www.sec.gov/about/crypto-task-force" target="_blank" rel="noopener">original SEC materials</a>.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
