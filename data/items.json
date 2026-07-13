@@ -2889,5 +2889,28 @@
   "date_approximate": false,
   "summarized_by": "claude-opus-4-7",
   "takeaway": "SEC and CFTC launched Project Crypto, a joint initiative to harmonize crypto asset regulation and reduce cross-agency fragmentation."
+ },
+ {
+  "id": "3b36a5361822eb54",
+  "source": "written-input",
+  "date": "2026-07-12",
+  "title": "Re SEC Tokenization Framework Should Favor Issuer-Sponsored Tokens",
+  "author": "Hinza Asif, Asia Web3 Alliance Japan (AWAJ) - Association",
+  "topics": [
+   "Tokenization",
+   "Regulatory Framework",
+   "Safe Harbor & Exemptions"
+  ],
+  "takeaway": "AWAJ proposes Japan–U.S. regulatory coordination on tokenized securities via a bilateral sandbox bridge and formal roundtable.",
+  "url": "https://www.sec.gov/files/ctf-written-input-hinza-asif-asia-web3-alliance-japan-awaj-association-071226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-hinza-asif-asia-web3-alliance-japan-awaj-association-071226.pdf",
+  "key_points": [
+   "Japan's reclassification of crypto as financial instruments under securities law creates a basis for regulatory convergence with the U.S.",
+   "Proposal recommends a bilateral Sandbox Bridge Board for mutual recognition and streamlined cross-border intake of sandbox-admitted products.",
+   "Calls for a formal Japan–U.S. roundtable covering tokenized securities, cross-border custody and trading, stablecoins, and investor protection."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-12T15:25:51+00:00",
+ "generated_at": "2026-07-13T14:07:02+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-11T19:50:24+00:00",
-  "cryptosec": "2026-07-11T19:50:25+00:00",
-  "meetings": "2026-07-11T19:50:31+00:00",
-  "newsroom": "2026-07-11T19:50:32+00:00"
+  "written-input": "2026-07-13T14:06:33+00:00",
+  "cryptosec": "2026-07-13T14:06:34+00:00",
+  "meetings": "2026-07-13T14:06:40+00:00",
+  "newsroom": "2026-07-13T14:06:40+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,29 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "3b36a5361822eb54",
+   "source": "written-input",
+   "date": "2026-07-12",
+   "title": "Re SEC Tokenization Framework Should Favor Issuer-Sponsored Tokens",
+   "author": "Hinza Asif, Asia Web3 Alliance Japan (AWAJ) - Association",
+   "topics": [
+    "Tokenization",
+    "Regulatory Framework",
+    "Safe Harbor & Exemptions"
+   ],
+   "takeaway": "AWAJ proposes Japan–U.S. regulatory coordination on tokenized securities via a bilateral sandbox bridge and formal roundtable.",
+   "url": "https://www.sec.gov/files/ctf-written-input-hinza-asif-asia-web3-alliance-japan-awaj-association-071226.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-hinza-asif-asia-web3-alliance-japan-awaj-association-071226.pdf",
+   "key_points": [
+    "Japan's reclassification of crypto as financial instruments under securities law creates a basis for regulatory convergence with the U.S.",
+    "Proposal recommends a bilateral Sandbox Bridge Board for mutual recognition and streamlined cross-border intake of sandbox-admitted products.",
+    "Calls for a formal Japan–U.S. roundtable covering tokenized securities, cross-border custody and trading, stablecoins, and investor protection."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
   {
    "id": "7ccee2e382b7d9ae",
    "source": "written-input",

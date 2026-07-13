@@ -5,7 +5,7 @@ import time
 
 import requests
 
-USER_AGENT = "SEC-CTF-Tracker (+https://github.com/chlocc/sec-cryptotaskforce-tracker)"
+USER_AGENT = "SEC-CTF-Tracker chloecc01@gmail.com"
 THROTTLE_SECONDS = 0.6
 
 log = logging.getLogger("tracker.fetch")
