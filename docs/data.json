@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T14:07:02+00:00",
+ "generated_at": "2026-07-14T15:54:58+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-13T14:06:33+00:00",
-  "cryptosec": "2026-07-13T14:06:34+00:00",
-  "meetings": "2026-07-13T14:06:40+00:00",
-  "newsroom": "2026-07-13T14:06:40+00:00"
+  "written-input": "2026-07-14T15:54:45+00:00",
+  "cryptosec": "2026-07-14T15:54:46+00:00",
+  "meetings": "2026-07-14T15:54:53+00:00",
+  "newsroom": "2026-07-14T15:54:54+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,59 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "f0b32f6984dc50fd",
+   "source": "written-input",
+   "date": "2026-07-13",
+   "title": "Written Input Ahead of the Anticipated Crypto Assets Rulemaking (RIN 3235-AN38) — Secondary-Market Disclosure Infrastructure and Qualified Disclosure Publisher Recognition",
+   "author": "Sherwood Neiss, GUARDD, Inc.",
+   "topics": [
+    "Custody",
+    "Public Offerings",
+    "Safe Harbor",
+    "Security Status",
+    "Tokenization",
+    "Trading"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-written-input-guardd-071326.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-guardd-071326.pdf",
+   "key_points": [
+    "The CLARITY Act addresses asset classification but fails to resolve secondary trading barriers for crypto assets, leaving legal assets impractical to sell due to outdated information requirements and inconsistent state exemptions.",
+    "GUARDD proposes SEC recognition of Qualified Disclosure Publishers (QDPs) to enable compliant, standardized, and accessible issuer disclosures, facilitating lawful secondary trading and preempting state manual-exemption patchworks while preserving anti-fraud authority.",
+    "The submission urges the SEC to include secondary trading in its crypto assets rulemaking, establish QDP criteria, and standardize token-specific disclosures to ensure tradability and investor protection."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
+  {
+   "id": "ffa39237265c3f72",
+   "source": "written-input",
+   "date": "2026-07-12",
+   "title": "Re: Proposal to Establish the First U.S.– Japan Crypto Regulatory Sandbox Bridge and Request for the First Japan– U.S. Crypto Regulatory Roundtable in Washington, D.C. in 2026",
+   "author": "Hinza Asif, Asia Web3 Alliance Japan (AWAJ) - Association",
+   "topics": [
+    "Custody",
+    "Public Offerings",
+    "Regulatory Sandbox",
+    "Safe Harbor",
+    "Security Status",
+    "Tokenization",
+    "Trading"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-written-input-hinza-asif-asia-web3-alliance-japan-awaj-association-071226.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-hinza-asif-asia-web3-alliance-japan-awaj-association-071226.pdf",
+   "key_points": [
+    "Japan’s House of Representatives has reclassified crypto assets as financial instruments under the Financial Instruments and Exchange Act, aligning Japanese law with a securities-law model and facilitating regulatory convergence with the U.S.",
+    "The proposal recommends establishing a bilateral “Sandbox Bridge Board” to enable startups admitted to a regulatory sandbox, exemptive, or no-action pathway in one jurisdiction to receive streamlined intake and coordinated supervision when testing the same product in the other, with mutual-recognition principles to reduce duplicative compliance.",
+    "The proposal requests a formal Japan–U.S. Crypto Regulatory Roundtable in Washington, D.C., to address classification and treatment of tokenized securities and real-world assets, cross-border trading and custody, stablecoin and payments regulation, and investor-protection standards for cross-border offerings."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
   {
    "id": "3b36a5361822eb54",
    "source": "written-input",
@@ -142,6 +195,33 @@
    "date_approximate": false,
    "summarized_by": "sec",
    "takeaway": "Tokenized securities need 1:1 asset backing, equal shareholder rights, and comprehensive custody/surveillance rules before retail trading."
+  },
+  {
+   "id": "d7477d59558e12e7",
+   "source": "written-input",
+   "date": "2026-07-01",
+   "title": "Re: SEC Tokenization Framework Should Favor Issuer-Sponsored Tokens",
+   "author": "Peter Duggan, President, Securities Transfer Association",
+   "topics": [
+    "Custody",
+    "Public Offerings",
+    "Regulatory Sandbox",
+    "Safe Harbor",
+    "Security Status",
+    "Tokenization",
+    "Trading"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-written-input-sta-duggan-070126.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-sta-duggan-070126.pdf",
+   "key_points": [
+    "The SEC should distinguish Issuer-Sponsored Tokens from Third-Party Tokens, ensuring only issuer-authorized, natively issued tokenized securities receive regulatory relief or exemptions.",
+    "Issuer authorization, clear disclosures, and robust transfer controls must be threshold requirements for any tokenized-securities framework, with Third-Party Tokens subject to prominent differentiation and compliance procedures.",
+    "The Commission should modernize the Direct Registration System (DRS) to facilitate efficient conversion between traditional and tokenized securities, preventing infrastructure bottlenecks that disadvantage Issuer-Sponsored Tokens."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
   },
   {
    "id": "a19ae10fc01f92a3",
