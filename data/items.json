@@ -2992,5 +2992,22 @@
   "thin": false,
   "date_approximate": false,
   "summarized_by": "sec"
+ },
+ {
+  "id": "6494ef005527759f",
+  "source": "meetings",
+  "date": "2026-07-14",
+  "title": "Meeting with Hyperliquid Policy Center, XYZ Ltd., and Sullivan & Cromwell LLP",
+  "author": "Hyperliquid Policy Center, XYZ Ltd., and Sullivan & Cromwell LLP",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-hyperliquid-policy-center-xyz-ltd-sullivan-cromwell-llp-071426.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-hyperliquid-policy-center-xyz-ltd-sullivan-cromwell-llp-071426.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
  }
 ]
