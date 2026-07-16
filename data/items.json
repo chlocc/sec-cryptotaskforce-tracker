@@ -3009,5 +3009,22 @@
   "thin": true,
   "date_approximate": false,
   "summarized_by": "none"
+ },
+ {
+  "id": "483d547e663132e4",
+  "source": "meetings",
+  "date": "2026-07-15",
+  "title": "Meeting with Lockton Companies LLP and BGR Group LLC",
+  "author": "Lockton Companies LLP and BGR Group LLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-lockton-companies-llp-bgr-group-llc-071526.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-lockton-companies-llp-bgr-group-llc-071526.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
  }
 ]
