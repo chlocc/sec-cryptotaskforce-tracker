@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T14:12:22+00:00",
+ "generated_at": "2026-07-17T14:05:24+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-16T14:12:08+00:00",
-  "cryptosec": "2026-07-16T14:12:08+00:00",
-  "meetings": "2026-07-16T14:12:15+00:00",
-  "newsroom": "2026-07-16T14:12:16+00:00"
+  "written-input": "2026-07-17T14:05:10+00:00",
+  "cryptosec": "2026-07-17T14:05:11+00:00",
+  "meetings": "2026-07-17T14:05:18+00:00",
+  "newsroom": "2026-07-17T14:05:20+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,32 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "44da382adb3bb55c",
+   "source": "written-input",
+   "date": "2026-07-16",
+   "title": "Re: No-Action Letter Relating to The Depository Trust Company’s Development of the DTCC Tokenization Services (Dec. 11, 2025); the Securities Transfer Association’s Comment Letter of July 1, 2026; and Recommendations for a Coherent, Investor-Protective...",
+   "author": "Dave Hendricks, Vertalo",
+   "topics": [
+    "Custody",
+    "Public Offerings",
+    "Safe Harbor",
+    "Security Status",
+    "Tokenization",
+    "Trading"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-written-vertalo-sec-comment-letter-07-16-2026.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-vertalo-sec-comment-letter-07-16-2026.pdf",
+   "key_points": [
+    "The issuer-sponsored model for tokenized securities, which preserves issuer control and authoritative ownership records, should be the foundation of the regulatory framework; modernization of DRS and FAST is a necessary precondition for fair competition among transfer agents.",
+    "The regulatory framework must recognize and address third-party tokenized products (including custodial and synthetic tokens) already in use, bringing them under clear investor-protective rules rather than driving them offshore.",
+    "Consistent application of the SEC’s January 2026 taxonomy is required, including to DTC’s tokenized entitlements, and relief should not be granted based on incumbency but on investor protection; distributed ledger technology should be considered as the long-term standard for securities ownership records."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
   {
    "id": "483d547e663132e4",
    "source": "meetings",
