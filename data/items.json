@@ -2999,16 +2999,21 @@
   "date": "2026-07-14",
   "title": "Meeting with Hyperliquid Policy Center, XYZ Ltd., and Sullivan & Cromwell LLP",
   "author": "Hyperliquid Policy Center, XYZ Ltd., and Sullivan & Cromwell LLP",
-  "topics": [],
-  "takeaway": "",
+  "topics": [
+   "DeFi Protocols",
+   "Regulatory Framework"
+  ],
+  "takeaway": "Hyperliquid and counsel met with the SEC Task Force to discuss protocol technology and regulatory approaches.",
   "url": "https://www.sec.gov/files/ctf-memo-hyperliquid-policy-center-xyz-ltd-sullivan-cromwell-llp-071426.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-memo-hyperliquid-policy-center-xyz-ltd-sullivan-cromwell-llp-071426.pdf",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "Hyperliquid Policy Center, XYZ Ltd., and Sullivan & Cromwell LLP requested a meeting to discuss the Hyperliquid protocol, its technology, and ecosystem participants.",
+   "The participants aimed to provide an overview of the Hyperliquid protocol to the SEC Crypto Task Force regarding approaches to crypto asset regulation."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none"
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  },
  {
   "id": "483d547e663132e4",
@@ -3016,16 +3021,21 @@
   "date": "2026-07-15",
   "title": "Meeting with Lockton Companies LLP and BGR Group LLC",
   "author": "Lockton Companies LLP and BGR Group LLC",
-  "topics": [],
-  "takeaway": "",
+  "topics": [
+   "Regulatory Framework",
+   "Investor Protection"
+  ],
+  "takeaway": "Lockton Companies provides specialized insurance brokerage to offer market clarity and risk management within the digital asset sector.",
   "url": "https://www.sec.gov/files/ctf-memo-lockton-companies-llp-bgr-group-llc-071526.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-memo-lockton-companies-llp-bgr-group-llc-071526.pdf",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "Lockton representatives stated that insurance serves as a mechanism for providing market clarity in the absence of regulatory certainty within the digital asset space.",
+   "Lockton's LEAP team provides specialized insurance brokerage and claims expertise for companies operating within the blockchain and digital asset sectors globally."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none"
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  },
  {
   "id": "44da382adb3bb55c",
@@ -3059,15 +3069,21 @@
   "date": "2026-07-17",
   "title": "Meeting with Aztec Laboratorium Limited",
   "author": "Aztec Laboratorium Limited",
-  "topics": [],
-  "takeaway": "",
+  "topics": [
+   "Compliance Technology",
+   "Regulatory Framework"
+  ],
+  "takeaway": "Aztec Labs argues zero-knowledge proofs can fulfill KYC/AML obligations while enhancing privacy by avoiding centralized sensitive data storage.",
   "url": "https://www.sec.gov/files/ctf-memo-aztec-laboratorium-limited-071726.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-memo-aztec-laboratorium-limited-071726.pdf",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "Aztec Labs representatives argued that zero-knowledge proofs allow businesses to meet KYC and AML obligations by verifying specific attributes without collecting or storing sensitive personal data.",
+   "The company stated their ZKPassport technology enables identity, sanctions, and jurisdiction checks via on-device processing, avoiding the creation of centralized data 'honeypots'.",
+   "The representatives suggested zero-knowledge proofs could satisfy regulatory requirements for Sybil resistance, unique personhood, and verifiable record-keeping without requiring raw data possession."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none"
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  }
 ]

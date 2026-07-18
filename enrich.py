@@ -92,6 +92,33 @@ def _prompt(item: dict) -> str:
     )
 
 
+def _apply(item: dict, data: dict) -> None:
+    item["takeaway"] = data["takeaway"].strip()
+    # Anthropic's json_schema enum guarantees topics ⊆ TOPICS; OpenRouter's
+    # free models have no such enforcement, so filter defensively either way.
+    topics = [t for t in data["topics"] if t in TOPICS][:3]
+    if not topics:
+        log.warning("no valid topics for %s (got %r)", item["title"][:60], data["topics"])
+    item["topics"] = topics
+    if item["source"] == "written-input" and data.get("key_points"):
+        item["key_points"] = [p.strip() for p in data["key_points"] if p.strip()]
+
+
+def _enrich_openrouter(item: dict) -> dict | None:
+    import openrouter
+
+    schema_hint = (
+        '{"takeaway": "one sentence, <=25 words", '
+        f'"topics": ["1 to 3 tags from: {", ".join(TOPICS)}"], '
+        '"key_points": ["bullet 1", "bullet 2", ...]}'
+    )
+    try:
+        return openrouter.complete_json(SYSTEM, _prompt(item), schema_hint)
+    except Exception as e:
+        log.error("OpenRouter fallback also failed for %s: %s", item["title"][:60], e)
+        return None
+
+
 def enrich_one(item: dict, retries: int = 3) -> dict:
     for attempt in range(retries):
         try:
@@ -110,11 +137,16 @@ def enrich_one(item: dict, retries: int = 3) -> dict:
                 log.warning("refused: %s", item["title"][:60])
                 return item
             body = next(b.text for b in resp.content if b.type == "text")
-            data = json.loads(body)
-            item["takeaway"] = data["takeaway"].strip()
-            item["topics"] = data["topics"][:3]
-            if item["source"] == "written-input" and data["key_points"]:
-                item["key_points"] = [p.strip() for p in data["key_points"] if p.strip()]
+            _apply(item, json.loads(body))
+            item["enriched_by"] = "claude"
+            return item
+        except anthropic.APIStatusError as e:
+            log.warning("Anthropic enrichment failed for %s (%s) — falling back to OpenRouter",
+                        item["title"][:60], e)
+            data = _enrich_openrouter(item)
+            if data:
+                _apply(item, data)
+                item["enriched_by"] = "openrouter"
             return item
         except Exception as e:
             if attempt == retries - 1:

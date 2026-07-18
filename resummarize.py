@@ -38,10 +38,10 @@ def redo(item: dict) -> dict:
         else:
             text = newsroom.page_text(item["doc_url"])
             kind, meta = "SEC crypto newsroom item (speech/statement/announcement)", f"Date: {item['date']}\nSpeaker: {item['author']}"
-        points = summarize.gist(kind, item["title"], meta, text)
+        points, backend = summarize.gist(kind, item["title"], meta, text)
         if points:
             item["key_points"] = points
-            item["summarized_by"] = summarize.MODEL
+            item["summarized_by"] = backend
             item["takeaway"] = ""  # regenerate via enrich.py from the new bullets
             item["thin"] = False
         log.info("done: [%s] %s", item["source"], item["title"][:60])

@@ -21,14 +21,25 @@ from a fixed 14-topic taxonomy (`taxonomy.py`), assigned by `claude-opus-4-6` â€
 Requires Python 3.11 (`/Library/Frameworks/Python.framework/Versions/3.11/bin/python3`).
 
 ```bash
-pip install requests beautifulsoup4 pymupdf anthropic
+pip install requests beautifulsoup4 pymupdf anthropic httpx
 ```
 
 Create `.env` in the project root (gitignored):
 
 ```
 ANTHROPIC_API_KEY=sk-ant-...
+OPENROUTER_API_KEY=sk-or-v1-...
+# OPENROUTER_MODEL=deepseek/deepseek-chat-v3.1:free   # optional override
 ```
+
+`OPENROUTER_API_KEY` is optional but recommended: if an Anthropic call fails
+(e.g. low credit balance, rate limit), `summarize.py` and `enrich.py`
+automatically retry that item against a free OpenRouter model instead of
+giving up. Items processed this way are marked `"claude"` vs `"openrouter"`
+in `summarized_by` / `enriched_by` in `data/items.json`, so quality is easy
+to audit. Free OpenRouter models rotate over time â€” if the default starts
+failing, check https://openrouter.ai/models?max_price=0 and set
+`OPENROUTER_MODEL` to a current one.
 
 ## Running
 

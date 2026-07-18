@@ -56,10 +56,10 @@ def summarize_pending(items: list[dict]) -> None:
                 kind, meta = "SEC crypto newsroom item (speech/statement/announcement)", f"Date: {it['date']}\nSpeaker: {it['author']}"
             if len(text) < 200:
                 raise ValueError(f"too little text ({len(text)} chars)")
-            points = summarize.gist(kind, it["title"], meta, text)
+            points, backend = summarize.gist(kind, it["title"], meta, text)
             if points:
                 it["key_points"] = points
-                it["summarized_by"] = "claude"
+                it["summarized_by"] = backend
             else:
                 raise ValueError("empty summary")
         except Exception as e:
@@ -84,10 +84,10 @@ def condense_long_sec_summaries(items: list[dict]) -> None:
                     if it["source"] == "written-input" else "SEC staff statement / order summary")
             meta = f"Date: {it['date']}\nFrom: {it['author']}"
             text = "SEC-provided key points/summary:\n- " + "\n- ".join(it["key_points"])
-            points = summarize.gist(kind, it["title"], meta, text)
+            points, backend = summarize.gist(kind, it["title"], meta, text)
             if points:
                 it["key_points"] = points
-                it["summarized_by"] = "claude"
+                it["summarized_by"] = backend
         except Exception as e:
             log.warning("could not condense %s (%s) — keeping SEC text", it["url"], e)
 

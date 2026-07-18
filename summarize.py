@@ -46,15 +46,29 @@ def client() -> anthropic.Anthropic:
     return _client
 
 
-def gist(kind: str, title: str, meta: str, text: str) -> list[str]:
-    """Summarize source text into 2-4 bullets. Raises on unrecoverable API errors."""
-    import json
+def gist(kind: str, title: str, meta: str, text: str) -> tuple[list[str], str]:
+    """Summarize source text into 2-4 bullets. Returns (points, backend).
 
+    Tries Anthropic first; falls back to a free OpenRouter model if the
+    Anthropic call fails (e.g. low credit balance). Raises if both fail.
+    """
     prompt = (
         f"Source type: {kind}\nTitle: {title}\n{meta}\n\n"
         f"Source text:\n{text}\n\n"
         "Return the key points as JSON."
     )
+    try:
+        points = _gist_anthropic(prompt, title)
+        return points, "claude"
+    except anthropic.APIStatusError as e:
+        log.warning("Anthropic summarization failed (%s) — falling back to OpenRouter", e)
+        points = _gist_openrouter(prompt)
+        return points, "openrouter"
+
+
+def _gist_anthropic(prompt: str, title: str) -> list[str]:
+    import json
+
     response = client().messages.create(
         model=MODEL,
         max_tokens=4000,  # adaptive thinking counts toward this cap
@@ -71,6 +85,18 @@ def gist(kind: str, title: str, meta: str, text: str) -> list[str]:
         return []
     body = next((b.text for b in response.content if b.type == "text"), "")
     points = json.loads(body)["key_points"]
+    return [p.strip() for p in points if p.strip()][:4]
+
+
+def _gist_openrouter(prompt: str) -> list[str]:
+    import openrouter
+
+    data = openrouter.complete_json(
+        SYSTEM,
+        prompt,
+        schema_hint='{"key_points": ["bullet 1", "bullet 2", ...]}  // 2-4 bullets, each <=30 words',
+    )
+    points = data.get("key_points", [])
     return [p.strip() for p in points if p.strip()][:4]
 
 
