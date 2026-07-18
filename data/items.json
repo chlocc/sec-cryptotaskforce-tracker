@@ -3052,5 +3052,22 @@
   "thin": false,
   "date_approximate": false,
   "summarized_by": "sec"
+ },
+ {
+  "id": "2db1cf98d0dcb277",
+  "source": "meetings",
+  "date": "2026-07-17",
+  "title": "Meeting with Aztec Laboratorium Limited",
+  "author": "Aztec Laboratorium Limited",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-aztec-laboratorium-limited-071726.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-aztec-laboratorium-limited-071726.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
  }
 ]

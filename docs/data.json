@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T14:05:24+00:00",
+ "generated_at": "2026-07-18T14:13:05+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-17T14:05:10+00:00",
-  "cryptosec": "2026-07-17T14:05:11+00:00",
-  "meetings": "2026-07-17T14:05:18+00:00",
-  "newsroom": "2026-07-17T14:05:20+00:00"
+  "written-input": "2026-07-18T14:12:51+00:00",
+  "cryptosec": "2026-07-18T14:12:52+00:00",
+  "meetings": "2026-07-18T14:12:59+00:00",
+  "newsroom": "2026-07-18T14:13:00+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,23 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "2db1cf98d0dcb277",
+   "source": "meetings",
+   "date": "2026-07-17",
+   "title": "Meeting with Aztec Laboratorium Limited",
+   "author": "Aztec Laboratorium Limited",
+   "topics": [],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-memo-aztec-laboratorium-limited-071726.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-aztec-laboratorium-limited-071726.pdf",
+   "key_points": [
+    "Summary unavailable — see the source document on sec.gov."
+   ],
+   "thin": true,
+   "date_approximate": false,
+   "summarized_by": "none"
+  },
   {
    "id": "44da382adb3bb55c",
    "source": "written-input",
