@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-19T20:58:47+00:00",
+ "generated_at": "2026-07-20T14:02:54+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-19T20:58:39+00:00",
-  "cryptosec": "2026-07-19T20:58:40+00:00",
-  "meetings": "2026-07-19T20:58:46+00:00",
-  "newsroom": "2026-07-19T20:58:47+00:00"
+  "written-input": "2026-07-20T14:02:44+00:00",
+  "cryptosec": "2026-07-20T14:02:45+00:00",
+  "meetings": "2026-07-20T14:02:52+00:00",
+  "newsroom": "2026-07-20T14:02:53+00:00"
  },
  "topics": [
   "Security Status",
