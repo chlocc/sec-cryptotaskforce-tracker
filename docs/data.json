@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-20T14:02:54+00:00",
+ "generated_at": "2026-07-21T14:20:20+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-20T14:02:44+00:00",
-  "cryptosec": "2026-07-20T14:02:45+00:00",
-  "meetings": "2026-07-20T14:02:52+00:00",
-  "newsroom": "2026-07-20T14:02:53+00:00"
+  "written-input": "2026-07-21T14:12:06+00:00",
+  "cryptosec": "2026-07-21T14:12:06+00:00",
+  "meetings": "2026-07-21T14:12:13+00:00",
+  "newsroom": "2026-07-21T14:12:14+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,52 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "424f74749588f17b",
+   "source": "meetings",
+   "date": "2026-07-20",
+   "title": "Meeting with Crypto Council for Innovation, Inc., Bitwise Asset Management, Inc., Galaxy Digital LP, Morpho Association, and Wilmer Cutler Pickering Hale and Dorr LLP",
+   "author": "Crypto Council for Innovation, Inc., Bitwise Asset Management, Inc., Galaxy Digital LP, Morpho Association, and Wilmer Cutler Pickering Hale and Dorr LLP",
+   "topics": [
+    "DeFi Protocols",
+    "Regulatory Framework"
+   ],
+   "takeaway": "Stakeholders met to discuss the technical architecture and regulatory implications of onchain vaults in decentralized finance.",
+   "url": "https://www.sec.gov/files/ctf-memo-cci-072026.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-cci-072026.pdf",
+   "key_points": [
+    "The Crypto Council for Innovation requested a meeting to discuss the technical architecture and operational mechanics of onchain vaults.",
+    "The CCI Vault Coalition aims to provide expertise regarding the role of vaults in onchain finance and relevant regulatory considerations."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "ed761b2344bd776a",
+   "source": "written-input",
+   "date": "2026-07-17",
+   "title": "Application of the Federal Securities Laws to Certain Types of Crypto Assets and Certain Transactions Involving Crypto Assets (Release Nos. 33-11412; 34-105020; File No. S7-2026-09)",
+   "author": "GSR International Limited",
+   "topics": [
+    "Public Offerings",
+    "Safe Harbor",
+    "Security Status",
+    "Trading"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-written-input-gsr-071726.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-gsr-071726.pdf",
+   "key_points": [
+    "The SEC’s attachment/separation framework for crypto assets creates significant legal uncertainty for non-issuer liquidity providers, as it lacks clear, objective standards for determining when a non-security crypto asset “separates” from an investment contract, making real-time compliance impracticable.",
+    "GSR requests the SEC to establish a broker-dealer registration safe harbor for OTC and market-making firms transacting in non-security crypto assets, regardless of whether an investment contract may have previously attached or not yet separated, to mitigate compliance risks and preserve market liquidity.",
+    "The proposed safe harbor would not affect obligations related to crypto asset securities, anti-fraud authority, or other federal regimes, but would provide interim relief for principal trading in non-security crypto assets pending further legislative action."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
   {
    "id": "2db1cf98d0dcb277",
    "source": "meetings",
