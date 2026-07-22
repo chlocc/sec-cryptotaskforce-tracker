@@ -3131,5 +3131,52 @@
   "date_approximate": false,
   "summarized_by": "openrouter",
   "enriched_by": "openrouter"
+ },
+ {
+  "id": "4db5f4a7d6815b57",
+  "source": "written-input",
+  "date": "2026-07-21",
+  "title": "Support for STA Letter on Tokenized Securities Framework",
+  "author": "Continental Stock Transfer & Trust Company",
+  "topics": [
+   "Regulatory Framework",
+   "Crypto ETPs",
+   "Custody"
+  ],
+  "takeaway": "The letter emphasizes developing regulatory frameworks for Crypto ETPs, custody standards, and innovation via safe harbor provisions.",
+  "url": "https://www.sec.gov/files/ctf-written-input-cstt-072126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-cstt-072126.pdf",
+  "key_points": [
+   "Developing legal clarity for Crypto ETPs and public offerings.",
+   "Importance of custody and security in tokenization.",
+   "Utilizing regulatory sandboxes and safe harbors for innovation."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "9ade11c4240a6239",
+  "source": "meetings",
+  "date": "2026-07-21",
+  "title": "Meeting with Morpho Association",
+  "author": "Morpho Association",
+  "topics": [
+   "DeFi Protocols",
+   "Regulatory Framework"
+  ],
+  "takeaway": "Morpho Association requested dialogue to ensure regulatory frameworks understand and accommodate diverse non-custodial vault architectures in onchain finance.",
+  "url": "https://www.sec.gov/files/ctf-memo-morpho-association-072126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-morpho-association-072126.pdf",
+  "key_points": [
+   "The Morpho Association requested a meeting to discuss regulatory considerations and the Task Force's agenda regarding vault infrastructure in onchain finance.",
+   "The Association advocated for regulatory frameworks that accommodate diverse non-custodial protocol and vault architectures without privileging any specific design.",
+   "Morpho Association representatives stated that early dialogue could ensure regulatory frameworks reflect an accurate understanding of how vault technologies function."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  }
 ]
