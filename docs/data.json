@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-22T14:07:59+00:00",
+ "generated_at": "2026-07-23T14:22:41+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-22T14:06:34+00:00",
-  "cryptosec": "2026-07-22T14:06:35+00:00",
-  "meetings": "2026-07-22T14:06:42+00:00",
-  "newsroom": "2026-07-22T14:06:43+00:00"
+  "written-input": "2026-07-23T14:22:08+00:00",
+  "cryptosec": "2026-07-23T14:22:09+00:00",
+  "meetings": "2026-07-23T14:22:15+00:00",
+  "newsroom": "2026-07-23T14:22:17+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,50 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "a5eba036c5636617",
+   "source": "meetings",
+   "date": "2026-07-22",
+   "title": "Meeting with Techdollar and Manatt, Phelps & Phillips, LLP",
+   "author": "Techdollar and Manatt, Phelps & Phillips, LLP",
+   "topics": [
+    "Security Status",
+    "Clearing & Settlement",
+    "Safe Harbor & Exemptions"
+   ],
+   "takeaway": "Techdollar seeks regulatory clarity regarding USDte settlement jurisdiction, secured-lending product registration, and no-action assurance for eUSDte offerings.",
+   "url": "https://www.sec.gov/files/ctf-memo-techdollar-072226.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-techdollar-072226.pdf",
+   "key_points": [
+    "Techdollar requested staff views on whether USDte, used as a settlement rail, falls within Commission jurisdiction.",
+    "The representatives sought confirmation that their secured-lending products do not constitute regulated offerings requiring registration.",
+    "Techdollar requested no-action assurance for the eUSDte offering, provided it follows specific exemptions and transfer restrictions."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "2763b16f09d73f51",
+   "source": "newsroom",
+   "date": "2026-07-22",
+   "title": "Headstands and Summervaults: A Statement on Crypto Vaults and Lending Strategies",
+   "author": "Hester M. Peirce",
+   "topics": [],
+   "takeaway": "",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-crypto-vaults-lending-strategies-072226",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-crypto-vaults-lending-strategies-072226",
+   "key_points": [
+    "Commissioner Peirce stated that moving activities onchain does not inherently remove them from the scope of federal securities laws.",
+    "Peirce noted that vaults and lending strategies may implicate securities laws depending on whether they involve common enterprises or function as notes.",
+    "The Commissioner suggested that managing vaults or lending strategies could also trigger investment adviser regulatory issues.",
+    "Peirce encouraged market participants to consult the Commission to find compliant paths for new technologies rather than attempting to bypass existing laws."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter"
+  },
   {
    "id": "9ade11c4240a6239",
    "source": "meetings",
@@ -67,9 +111,9 @@
    "url": "https://www.sec.gov/files/ctf-written-input-cstt-072126.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-input-cstt-072126.pdf",
    "key_points": [
-    "Developing legal clarity for Crypto ETPs and public offerings.",
-    "Importance of custody and security in tokenization.",
-    "Utilizing regulatory sandboxes and safe harbors for innovation."
+    "Regulatory frameworks for Crypto ETPs and Public Offerings are being developed to provide clarity on their legal status and requirements.",
+    "Custody and Security Status are crucial in determining the safety and legitimacy of Crypto assets and Tokenization processes.",
+    "Regulatory Sandbox and Safe Harbor provisions can provide temporary relief and flexibility for companies to innovate and operate in the Crypto space."
    ],
    "thin": false,
    "date_approximate": false,
