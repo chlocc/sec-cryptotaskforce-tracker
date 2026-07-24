@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-23T14:22:41+00:00",
+ "generated_at": "2026-07-24T14:34:07+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-23T14:22:08+00:00",
-  "cryptosec": "2026-07-23T14:22:09+00:00",
-  "meetings": "2026-07-23T14:22:15+00:00",
-  "newsroom": "2026-07-23T14:22:17+00:00"
+  "written-input": "2026-07-24T14:20:21+00:00",
+  "cryptosec": "2026-07-24T14:20:22+00:00",
+  "meetings": "2026-07-24T14:20:29+00:00",
+  "newsroom": "2026-07-24T14:20:30+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,30 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "b93647704e853cbf",
+   "source": "written-input",
+   "date": "2026-07-23",
+   "title": "Support for STA Letter on Tokenized Securities Framework",
+   "author": "Lori Livingston, Transfer Online Inc.",
+   "topics": [
+    "Custody",
+    "Public Offerings",
+    "Security Status",
+    "Tokenization"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-written-input-livingston-072326.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-livingston-072326.pdf",
+   "key_points": [
+    "The letter urges the SEC to clearly distinguish between issuer-sponsored tokenized securities (with issuer consent and integration into official records) and unaffiliated third-party or synthetic tokens (which lack legal issuer relationships).",
+    "It recommends that any regulatory relief for tokenized securities require explicit issuer authorization, prominent disclosures, transfer controls, and robust compliance procedures to protect investors and issuers.",
+    "The letter supports modernizing market infrastructure (such as DRS) to enable efficient movement and fair competition between traditional and tokenized securities, while excluding unaffiliated third-party tokens from regulatory relief unless safeguards are imposed."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
   {
    "id": "a5eba036c5636617",
    "source": "meetings",
