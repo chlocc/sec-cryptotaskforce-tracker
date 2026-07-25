@@ -61,16 +61,25 @@ def complete_json(system: str, user: str, schema_hint: str) -> dict:
     }
 
     # Free-tier models are served by rotating upstream providers that
-    # frequently 429 with a short retry_after — worth one or two retries
+    # frequently 429 or time out under load — worth one or two retries
     # since this call site only fires a handful of times a day.
     last_exc = None
     for attempt in range(3):
-        resp = httpx.post(
-            API_URL,
-            headers={"Authorization": f"Bearer {api_key}"},
-            json=payload,
-            timeout=120,
-        )
+        try:
+            resp = httpx.post(
+                API_URL,
+                headers={"Authorization": f"Bearer {api_key}"},
+                json=payload,
+                timeout=120,
+            )
+        except httpx.TimeoutException as e:
+            last_exc = e
+            if attempt < 2:
+                wait = 2 ** (attempt + 2)
+                log.warning("OpenRouter request timed out, retrying in %ds", wait)
+                time.sleep(wait)
+                continue
+            break
         if resp.status_code == 429 and attempt < 2:
             wait = float(resp.headers.get("Retry-After", 2 ** (attempt + 2)))
             log.warning("OpenRouter rate-limited, retrying in %.0fs", wait)

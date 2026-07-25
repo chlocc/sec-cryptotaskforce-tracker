@@ -2920,14 +2920,11 @@
   "title": "Written Input Ahead of the Anticipated Crypto Assets Rulemaking (RIN 3235-AN38) — Secondary-Market Disclosure Infrastructure and Qualified Disclosure Publisher Recognition",
   "author": "Sherwood Neiss, GUARDD, Inc.",
   "topics": [
-   "Custody",
-   "Public Offerings",
-   "Safe Harbor",
-   "Security Status",
-   "Tokenization",
-   "Trading"
+   "Trading & Market Structure",
+   "Safe Harbor & Exemptions",
+   "Investor Protection"
   ],
-  "takeaway": "",
+  "takeaway": "Proposes Qualified Disclosure Publishers to standardize secondary market disclosures and resolve trading barriers caused by inconsistent regulatory requirements.",
   "url": "https://www.sec.gov/files/ctf-written-input-guardd-071326.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-guardd-071326.pdf",
   "key_points": [
@@ -2937,7 +2934,8 @@
   ],
   "thin": false,
   "date_approximate": false,
-  "summarized_by": "sec"
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
  },
  {
   "id": "ffa39237265c3f72",
@@ -2946,15 +2944,11 @@
   "title": "Re: Proposal to Establish the First U.S.– Japan Crypto Regulatory Sandbox Bridge and Request for the First Japan– U.S. Crypto Regulatory Roundtable in Washington, D.C. in 2026",
   "author": "Hinza Asif, Asia Web3 Alliance Japan (AWAJ) - Association",
   "topics": [
-   "Custody",
-   "Public Offerings",
-   "Regulatory Sandbox",
-   "Safe Harbor",
-   "Security Status",
-   "Tokenization",
-   "Trading"
+   "Regulatory Framework",
+   "Safe Harbor & Exemptions",
+   "Investor Protection"
   ],
-  "takeaway": "",
+  "takeaway": "AWAJ proposes a US-Japan crypto regulatory sandbox bridge and 2026 Washington roundtable to align cross-border standards.",
   "url": "https://www.sec.gov/files/ctf-written-input-hinza-asif-asia-web3-alliance-japan-awaj-association-071226.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-hinza-asif-asia-web3-alliance-japan-awaj-association-071226.pdf",
   "key_points": [
@@ -2964,7 +2958,8 @@
   ],
   "thin": false,
   "date_approximate": false,
-  "summarized_by": "sec"
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
  },
  {
   "id": "d7477d59558e12e7",
@@ -2973,15 +2968,11 @@
   "title": "Re: SEC Tokenization Framework Should Favor Issuer-Sponsored Tokens",
   "author": "Peter Duggan, President, Securities Transfer Association",
   "topics": [
-   "Custody",
-   "Public Offerings",
-   "Regulatory Sandbox",
-   "Safe Harbor",
-   "Security Status",
    "Tokenization",
-   "Trading"
+   "Regulatory Framework",
+   "Clearing & Settlement"
   ],
-  "takeaway": "",
+  "takeaway": "The STA advocates for a regulatory framework distinguishing issuer-sponsored tokens through authorization, disclosure, and modernized DRS integration.",
   "url": "https://www.sec.gov/files/ctf-written-input-sta-duggan-070126.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-sta-duggan-070126.pdf",
   "key_points": [
@@ -2991,7 +2982,8 @@
   ],
   "thin": false,
   "date_approximate": false,
-  "summarized_by": "sec"
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
  },
  {
   "id": "6494ef005527759f",
@@ -3044,14 +3036,11 @@
   "title": "Re: No-Action Letter Relating to The Depository Trust Company’s Development of the DTCC Tokenization Services (Dec. 11, 2025); the Securities Transfer Association’s Comment Letter of July 1, 2026; and Recommendations for a Coherent, Investor-Protective...",
   "author": "Dave Hendricks, Vertalo",
   "topics": [
-   "Custody",
-   "Public Offerings",
-   "Safe Harbor",
-   "Security Status",
    "Tokenization",
-   "Trading"
+   "Clearing & Settlement",
+   "Regulatory Framework"
   ],
-  "takeaway": "",
+  "takeaway": "Vertalo advocates for an issuer-sponsored tokenization model and clear rules for third-party products to ensure domestic investor protection.",
   "url": "https://www.sec.gov/files/ctf-written-vertalo-sec-comment-letter-07-16-2026.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-vertalo-sec-comment-letter-07-16-2026.pdf",
   "key_points": [
@@ -3061,7 +3050,8 @@
   ],
   "thin": false,
   "date_approximate": false,
-  "summarized_by": "sec"
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
  },
  {
   "id": "2db1cf98d0dcb277",
@@ -3093,12 +3083,11 @@
   "title": "Application of the Federal Securities Laws to Certain Types of Crypto Assets and Certain Transactions Involving Crypto Assets (Release Nos. 33-11412; 34-105020; File No. S7-2026-09)",
   "author": "GSR International Limited",
   "topics": [
-   "Public Offerings",
-   "Safe Harbor",
-   "Security Status",
-   "Trading"
+   "Broker-Dealer Registration",
+   "Safe Harbor & Exemptions",
+   "Trading & Market Structure"
   ],
-  "takeaway": "",
+  "takeaway": "GSR requests a broker-dealer safe harbor for OTC and market-making firms to resolve compliance uncertainty regarding the asset attachment/separation framework.",
   "url": "https://www.sec.gov/files/ctf-written-input-gsr-071726.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-gsr-071726.pdf",
   "key_points": [
@@ -3108,7 +3097,8 @@
   ],
   "thin": false,
   "date_approximate": false,
-  "summarized_by": "sec"
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
  },
  {
   "id": "424f74749588f17b",
@@ -3209,8 +3199,12 @@
   "date": "2026-07-22",
   "title": "Headstands and Summervaults: A Statement on Crypto Vaults and Lending Strategies",
   "author": "Hester M. Peirce",
-  "topics": [],
-  "takeaway": "",
+  "topics": [
+   "Regulatory Framework",
+   "DeFi Protocols",
+   "Security Status"
+  ],
+  "takeaway": "Commissioner Peirce emphasizes that onchain vaults and lending strategies may still trigger securities and investment adviser regulations under existing laws.",
   "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-crypto-vaults-lending-strategies-072226",
   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-crypto-vaults-lending-strategies-072226",
   "key_points": [
@@ -3221,7 +3215,8 @@
   ],
   "thin": false,
   "date_approximate": false,
-  "summarized_by": "openrouter"
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  },
  {
   "id": "b93647704e853cbf",
@@ -3230,12 +3225,11 @@
   "title": "Support for STA Letter on Tokenized Securities Framework",
   "author": "Lori Livingston, Transfer Online Inc.",
   "topics": [
-   "Custody",
-   "Public Offerings",
-   "Security Status",
-   "Tokenization"
+   "Tokenization",
+   "Regulatory Framework",
+   "Trading & Market Structure"
   ],
-  "takeaway": "",
+  "takeaway": "The letter advocates for a regulatory framework distinguishing issuer-authorized tokenized securities from unaffiliated synthetic tokens to facilitate market modernization.",
   "url": "https://www.sec.gov/files/ctf-written-input-livingston-072326.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-livingston-072326.pdf",
   "key_points": [
@@ -3245,6 +3239,7 @@
   ],
   "thin": false,
   "date_approximate": false,
-  "summarized_by": "sec"
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
  }
 ]
