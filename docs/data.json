@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-27T15:06:11+00:00",
+ "generated_at": "2026-07-29T14:27:47+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-27T15:06:02+00:00",
-  "cryptosec": "2026-07-27T15:06:03+00:00",
-  "meetings": "2026-07-27T15:06:10+00:00",
-  "newsroom": "2026-07-27T15:06:11+00:00"
+  "written-input": "2026-07-29T14:17:36+00:00",
+  "cryptosec": "2026-07-29T14:23:06+00:00",
+  "meetings": "2026-07-29T14:23:15+00:00",
+  "newsroom": "2026-07-29T14:23:16+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,79 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "7defacde4136d64e",
+   "source": "meetings",
+   "date": "2026-07-28",
+   "title": "Meeting with GUARDD, Inc.",
+   "author": "GUARDD, Inc.",
+   "topics": [
+    "Tokenization",
+    "Trading & Market Structure",
+    "Regulatory Framework"
+   ],
+   "takeaway": "GUARDD, Inc. proposes a Qualified Disclosure Publisher framework to enable secondary liquidity for tokenized and exempt securities.",
+   "url": "https://www.sec.gov/files/ctf-memo-guardd-072826.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-guardd-072826.pdf",
+   "key_points": [
+    "GUARDD, Inc. proposed a Qualified Disclosure Publisher (QDP) framework to address secondary trading limitations for tokenized and exempt securities caused by Rule 15c2-11 and inconsistent state laws.",
+    "The company argued that current regulation fails to provide secondary liquidity for exempt offerings, potentially trapping investors in assets that are legal to hold but impractical to sell.",
+    "GUARDD requested that the Commission recognize QDPs as compliant information pathways to facilitate uniform national secondary trading and standardize token-specific disclosures."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "8bd3acecb09e527b",
+   "source": "written-input",
+   "date": "2026-07-27",
+   "title": "Re: SEC Tokenized Securities Framework – Issuer-Sponsored Tokens & The Depository Trust Company (“DTC”)",
+   "author": "Computershare",
+   "topics": [
+    "Tokenization",
+    "Clearing & Settlement",
+    "Regulatory Framework"
+   ],
+   "takeaway": "Computershare urges regulatory leadership to ensure interoperability between tokenized securities, DTC systems, and direct registration to prevent market fragmentation.",
+   "url": "https://www.sec.gov/files/ctf-written-input-computershare-072826.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-computershare-072826.pdf",
+   "key_points": [
+    "Ensure interoperability and equivalent legal treatment for ISTs, DRS, and DTC entitlement tokens.",
+    "Enhance DTC processes to enable efficient movement between custodial and directly registered positions.",
+    "Promote DTC and transfer agent collaboration to integrate tokenized securities into traditional infrastructure."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "3eada75a70c30d32",
+   "source": "meetings",
+   "date": "2026-07-27",
+   "title": "Meeting with Arkonix Technologies Private Limited",
+   "author": "Arkonix Technologies Private Limited",
+   "topics": [
+    "Security Status",
+    "Tokenization",
+    "Custody"
+   ],
+   "takeaway": "Arkonix Technologies sought guidance on token security status, algorithmic investment adviser rules, smart contract custody, and cross-border Shariah compliance.",
+   "url": "https://www.sec.gov/files/ctf-memo-arkonix-072726.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-arkonix-072726.pdf",
+   "key_points": [
+    "Arkonix Technologies sought clarification on whether vault tokens under the ERC-7540 standard constitute securities or investment contracts under the Howey framework.",
+    "The company inquired whether investment adviser status applies when strategies are executed by cryptographically attested algorithms within a Trusted Execution Environment without human discretion.",
+    "Arkonix requested guidance on calculating AUM and applying custody rules when assets are held in smart contracts rather than traditional accounts.",
+    "The firm sought information regarding the regulatory impact of Shariah certification and the cross-border distribution of products into MENA jurisdictions."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "b93647704e853cbf",
    "source": "written-input",
