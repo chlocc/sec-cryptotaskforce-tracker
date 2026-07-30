@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-29T14:27:47+00:00",
+ "generated_at": "2026-07-30T15:40:24+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-07-29T14:17:36+00:00",
-  "cryptosec": "2026-07-29T14:23:06+00:00",
-  "meetings": "2026-07-29T14:23:15+00:00",
-  "newsroom": "2026-07-29T14:23:16+00:00"
+  "written-input": "2026-07-30T15:39:48+00:00",
+  "cryptosec": "2026-07-30T15:39:49+00:00",
+  "meetings": "2026-07-30T15:39:57+00:00",
+  "newsroom": "2026-07-30T15:39:58+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,29 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "c9c5bb71c2de0926",
+   "source": "meetings",
+   "date": "2026-07-29",
+   "title": "Meeting with Blockworks Inc. and Multicoin Capital Management, LLC",
+   "author": "Blockworks Inc. and Multicoin Capital Management, LLC",
+   "topics": [
+    "Regulatory Framework",
+    "Investor Protection"
+   ],
+   "takeaway": "Blockworks and Multicoin proposed a token disclosure model and shared updates on the Token Transparency Framework to assist regulators.",
+   "url": "https://www.sec.gov/files/ctf-memo-blockworks-inc-multicoin-capital-management-llc-072926.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-blockworks-inc-multicoin-capital-management-llc-072926.pdf",
+   "key_points": [
+    "Blockworks and Multicoin representatives proposed discussing token disclosure models and assessment of pending legislative and rulemaking proposals for digital asset markets.",
+    "Participants aimed to present a disclosure preparation model for the SEC and CFTC to assist both market participants and regulators.",
+    "Representatives intended to share practical learnings from prior regulatory regimes and provide updates regarding the Token Transparency Framework."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "7defacde4136d64e",
    "source": "meetings",
@@ -68,9 +91,9 @@
    "url": "https://www.sec.gov/files/ctf-written-input-computershare-072826.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-input-computershare-072826.pdf",
    "key_points": [
-    "Ensure interoperability and equivalent legal treatment for ISTs, DRS, and DTC entitlement tokens.",
-    "Enhance DTC processes to enable efficient movement between custodial and directly registered positions.",
-    "Promote DTC and transfer agent collaboration to integrate tokenized securities into traditional infrastructure."
+    "Regulatory leadership is required to ensure interoperability and neutral treatment between issuer-sponsored tokens (ISTs), Direct Registration System (DRS) holdings, and DTC-issued entitlement tokens, so all forms of book-entry ownership are treated equivalently as far as legally and operationally feasible.",
+    "The SEC should promote enhancements to DTC systems and processes to remove friction and establish efficient, timely movement of securities between DTC custodial positions and directly registered book-entry positions, supporting investor protection and market fairness.",
+    "The Commission is urged to facilitate collaboration between DTC and transfer agents to future-proof system upgrades, ensuring effective integration and interoperability of tokenized securities within traditional and digital market infrastructure, thereby minimizing liquidity fragmentation and operational barriers."
    ],
    "thin": false,
    "date_approximate": false,
