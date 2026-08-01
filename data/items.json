@@ -3337,5 +3337,50 @@
   "date_approximate": false,
   "summarized_by": "openrouter",
   "enriched_by": "openrouter"
+ },
+ {
+  "id": "ac531e6145f7bf06",
+  "source": "written-input",
+  "date": "2026-07-31",
+  "title": "Re: Written Input to the Crypto Task Force - Tokenization; Project Crypto at One Year",
+  "author": "Alexander Zozos, Superstate",
+  "topics": [
+   "Tokenization",
+   "Custody",
+   "Regulatory Framework"
+  ],
+  "takeaway": "SEC and CFTC interagency coordination and new guidance are facilitating compliant blockchain-based tokenized security markets and custody solutions.",
+  "url": "https://www.sec.gov/files/ctf-written-inpiut-alexander-zozos-superstate-073126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-inpiut-alexander-zozos-superstate-073126.pdf",
+  "key_points": [
+   "Joint SEC-CFTC taxonomy and coordination for compliant onchain tokenized security markets.",
+   "Modernized custody rules permitting blockchain-based master files and state trust company custody for funds.",
+   "Proposed innovation exemptions for AMMs and tokenized securities during rule development."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "d16a9fb1638b0bf0",
+  "source": "meetings",
+  "date": "2026-07-31",
+  "title": "Meeting with Wynd Network and Cravath, Swain & Moore LLP",
+  "author": "Wynd Network and Cravath, Swain & Moore LLP",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "Wynd Network and Cravath sought to discuss regulatory considerations regarding decentralized physical infrastructure networks.",
+  "url": "https://www.sec.gov/files/ctf-memo-wynd-network-cravath-swain-moore-llp-073126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-wynd-network-cravath-swain-moore-llp-073126.pdf",
+  "key_points": [
+   "Wynd Labs and Grass Foundation requested a meeting to provide updates on the Grass Network.",
+   "Representatives sought to discuss regulatory considerations specifically related to decentralized physical infrastructure networks."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  }
 ]
