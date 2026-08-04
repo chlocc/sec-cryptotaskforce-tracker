@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-03T14:39:23+00:00",
+ "generated_at": "2026-08-04T16:58:02+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-08-03T14:39:12+00:00",
-  "cryptosec": "2026-08-03T14:39:13+00:00",
-  "meetings": "2026-08-03T14:39:22+00:00",
-  "newsroom": "2026-08-03T14:39:22+00:00"
+  "written-input": "2026-08-04T15:11:04+00:00",
+  "cryptosec": "2026-08-04T15:11:05+00:00",
+  "meetings": "2026-08-04T15:12:37+00:00",
+  "newsroom": "2026-08-04T15:12:38+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,30 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "2f6a4cdda8206f23",
+   "source": "meetings",
+   "date": "2026-08-03",
+   "title": "Meeting with Birch Hill Holdings, Inc., Cooley LLP, and Chapman and Cutler LLP",
+   "author": "Birch Hill Holdings, Inc., Cooley LLP, and Chapman and Cutler LLP",
+   "topics": [
+    "Custody",
+    "Regulatory Framework",
+    "Safe Harbor & Exemptions"
+   ],
+   "takeaway": "Birch Hill seeks regulatory guidance on smart-contract vault architectures and alignment with investment adviser and custody frameworks.",
+   "url": "https://www.sec.gov/files/ctf-memo-birch-hill-holdings-inc-cooley-llp-chapman-cutler-llp-080326.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-birch-hill-holdings-inc-cooley-llp-chapman-cutler-llp-080326.pdf",
+   "key_points": [
+    "Birch Hill requested a meeting to discuss the intersection of onchain vault architecture with federal securities laws and to seek guidance on registration and exemption pathways.",
+    "Birch Hill indicated an intent to use the investment adviser framework for its actively managed vault products and to comply with existing regulatory perimeters.",
+    "Birch Hill expressed interest in discussing how smart-contract-based vault structures interact with Commission custody requirements and offered to assist in modernizing safeguarding standards."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "d16a9fb1638b0bf0",
    "source": "meetings",
