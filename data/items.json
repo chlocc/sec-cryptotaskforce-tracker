@@ -3406,5 +3406,29 @@
   "date_approximate": false,
   "summarized_by": "openrouter",
   "enriched_by": "openrouter"
+ },
+ {
+  "id": "885bf1614c9be13f",
+  "source": "meetings",
+  "date": "2026-08-04",
+  "title": "Meeting with Inherence, Inc.",
+  "author": "Inherence, Inc.",
+  "topics": [
+   "Compliance Technology",
+   "Custody",
+   "Safe Harbor & Exemptions"
+  ],
+  "takeaway": "Inherence, Inc. proposed using cryptographic proofs and machine-verifiable receipts to demonstrate compliance and support regulatory relief.",
+  "url": "https://www.sec.gov/files/ctf-memo-inherence-labs-080426.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-inherence-labs-080426.pdf",
+  "key_points": [
+   "Inherence, Inc. proposed using cryptographic proofs to verify that crypto asset vaults operate within their disclosed limits without requiring disclosure of underlying positions.",
+   "The company suggested that machine-verifiable receipts could provide a continuous, contemporaneous record of compliance to support regulatory analysis of managerial discretion.",
+   "Inherence, Inc. requested a meeting to discuss how verified conduct records might serve as evidentiary weight or conditions for regulatory relief."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  }
 ]
