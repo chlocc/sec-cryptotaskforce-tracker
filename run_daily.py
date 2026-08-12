@@ -15,6 +15,8 @@ import argparse
 import concurrent.futures
 import json
 import logging
+import os
+import signal
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -103,6 +105,41 @@ def enrich_new_items(items: list[dict]) -> None:
         list(pool.map(enrich.enrich_one, items))  # enrich_one mutates in place
 
 
+# git's HTTP transport has no timeout by default. On 2026-08-12 the remote
+# accepted a push but its response was lost, and `git push` blocked for 44
+# minutes instead of failing. Abort if throughput stays under 1 KB/s for 30s,
+# and never block on a credential prompt.
+PUSH_ENV = {
+    **os.environ,
+    "GIT_HTTP_LOW_SPEED_LIMIT": "1000",
+    "GIT_HTTP_LOW_SPEED_TIME": "30",
+    "GIT_TERMINAL_PROMPT": "0",
+}
+# Hard backstop for stalls the low-speed check can't see.
+PUSH_TIMEOUT = 120
+
+
+def _push() -> int | None:
+    """Run `git push`, returning its exit code, or None if it timed out.
+
+    Runs in its own process group so a timeout kills the whole tree — git
+    delegates to git-remote-https and send-pack, and it was a *grandchild*
+    that hung, so killing only the direct child would leave it orphaned.
+    """
+    proc = subprocess.Popen(
+        ["git", "-C", str(ROOT), "push"], env=PUSH_ENV, start_new_session=True
+    )
+    try:
+        return proc.wait(timeout=PUSH_TIMEOUT)
+    except subprocess.TimeoutExpired:
+        os.killpg(proc.pid, signal.SIGTERM)  # start_new_session => pgid == pid
+        try:
+            proc.wait(timeout=10)
+        except subprocess.TimeoutExpired:
+            os.killpg(proc.pid, signal.SIGKILL)
+        return None
+
+
 def git_publish() -> None:
     if not (ROOT / ".git").exists():
         log.info("not a git repo — skipping commit/push")
@@ -114,9 +151,16 @@ def git_publish() -> None:
         return
     msg = f"Update tracker data {datetime.now(timezone.utc).date().isoformat()}"
     subprocess.run(["git", "-C", str(ROOT), "commit", "-m", msg], check=True)
-    push = subprocess.run(["git", "-C", str(ROOT), "push"])
-    if push.returncode != 0:
-        log.warning("git push failed — commit is local only")
+    rc = _push()
+    if rc is None:
+        log.warning(
+            "git push timed out after %ds and was killed — the commit is local. "
+            "The remote may still have accepted it: check `git ls-remote origin main` "
+            "against `git rev-parse HEAD` before re-pushing.",
+            PUSH_TIMEOUT,
+        )
+    elif rc != 0:
+        log.warning("git push failed (exit %d) — commit is local only", rc)
 
 
 def main():
