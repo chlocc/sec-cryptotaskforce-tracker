@@ -3430,5 +3430,25 @@
   "date_approximate": false,
   "summarized_by": "openrouter",
   "enriched_by": "openrouter"
+ },
+ {
+  "id": "6ec7240bd560baa3",
+  "source": "meetings",
+  "date": "2026-08-10",
+  "title": "Meeting with Sentora",
+  "author": "Sentora",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-sentora-081026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-sentora-081026.pdf",
+  "key_points": [
+   "Sentora requested a meeting to discuss the application of federal securities laws to its vault-curation and onchain-lending activities.",
+   "Sentora seeks staff views on whether curator discretion in protocol selection and risk management constitutes entrepreneurial efforts under securities laws.",
+   "Sentora requested guidance on regulatory frameworks, registration requirements, and potential Investment Company Act implications for curators exercising discretion.",
+   "The request follows Commissioner Peirce's statement identifying potential investment-contract, investment-company, and investment-adviser issues regarding crypto vaults."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
  }
 ]
