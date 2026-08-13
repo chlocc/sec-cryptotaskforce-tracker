@@ -3450,5 +3450,29 @@
   "thin": false,
   "date_approximate": false,
   "summarized_by": "openrouter"
+ },
+ {
+  "id": "898078ace776d4fd",
+  "source": "meetings",
+  "date": "2026-08-12",
+  "title": "Meeting with WisdomTree, Inc. and Thorn Run Partners, LLC",
+  "author": "WisdomTree, Inc. and Thorn Run Partners, LLC",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "takeaway": "WisdomTree and Thorn Run discussed tokenized fund marketplaces, wallet onboarding, and potential commission rulemaking.",
+  "url": "https://www.sec.gov/files/ctf-memo-wisdomtree-inc-thorn-run-partners-llc-081226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-wisdomtree-inc-thorn-run-partners-llc-081226.pdf",
+  "key_points": [
+   "WisdomTree and Thorn Run Partners discussed perspectives regarding the tokenized fund marketplace.",
+   "The meeting addressed wallet onboarding procedures for tokenized fund products.",
+   "The participants discussed potential commission rulemaking and guidance for tokenized assets."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  }
 ]
