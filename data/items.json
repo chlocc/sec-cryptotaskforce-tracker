@@ -3474,5 +3474,30 @@
   "date_approximate": false,
   "summarized_by": "openrouter",
   "enriched_by": "openrouter"
+ },
+ {
+  "id": "0b6fab4838ec0378",
+  "source": "meetings",
+  "date": "2026-08-13",
+  "title": "Meeting with Coalition for Tokenized Markets, Thorn Run Partners, LLC, WisdomTree, Inc., Janus Henderson Investors US LLC, JPMorgan Asset Management Holdings Inc., and Franklin Resources, Inc.",
+  "author": "Coalition for Tokenized Markets, Thorn Run Partners, LLC, WisdomTree, Inc., Janus Henderson Investors US LLC, JPMorgan Asset Management Holdings Inc., and Franklin Resources, Inc.",
+  "topics": [
+   "Tokenization",
+   "Compliance Technology",
+   "Regulatory Framework"
+  ],
+  "takeaway": "The Coalition seeks expanded CIP reliance and modernized Travel Rule standards to improve interoperability and reduce onboarding costs for tokenized funds.",
+  "url": "https://www.sec.gov/files/ctf-memo-coalition-tokenized-markets-thorn-run-partners-llc-wisdomtree-inc-janus-henderson-investors.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-coalition-tokenized-markets-thorn-run-partners-llc-wisdomtree-inc-janus-henderson-investors.pdf",
+  "key_points": [
+   "The Coalition for Tokenized Markets (CTM) requested that Treasury and FinCEN expand Customer Identification Program (CIP) third-party reliance to include state-licensed and state-supervised entities.",
+   "CTM representatives argued that current Bank Secrecy Act frameworks create 'walled gardens,' preventing tokenized funds from moving freely across different supervised financial institutions.",
+   "CTM proposed modernizing the Travel Rule by adopting an 'identity-resolvable network' standard to satisfy recordkeeping requirements through credentialed wallets.",
+   "The coalition suggested that allowing portable identity credentials would reduce redundant onboarding costs while maintaining AML and sanctions compliance."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  }
 ]
