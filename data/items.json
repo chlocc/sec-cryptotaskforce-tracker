@@ -3499,5 +3499,27 @@
   "date_approximate": false,
   "summarized_by": "openrouter",
   "enriched_by": "openrouter"
+ },
+ {
+  "id": "12c0e7214c434441",
+  "source": "cryptosec",
+  "date": "2026-08-12",
+  "title": "No Action Letter – Franklin Templeton",
+  "author": "Division of Investment Management",
+  "topics": [
+   "Custody",
+   "Safe Harbor & Exemptions"
+  ],
+  "takeaway": "SEC's Division of Investment Management provides a no-action letter for Franklin Templeton's custodial arrangement under specific compliance conditions.",
+  "url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-investment-management-staff-no-action-interpretive-letters/franklin-templeton-081226",
+  "doc_url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-investment-management-staff-no-action-interpretive-letters/franklin-templeton-081226",
+  "key_points": [
+   "The Division of Investment Management stated it would not recommend enforcement action regarding Franklin Templeton Investor Services LLC acting as custodian for certain fund investments.",
+   "The Division specified that the proposed arrangement is acceptable provided the investing funds comply with several requirements outlined in the staff's response."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  }
 ]
