@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-16T14:07:14+00:00",
+ "generated_at": "2026-08-19T15:13:54+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-08-16T14:07:05+00:00",
-  "cryptosec": "2026-08-16T14:07:06+00:00",
-  "meetings": "2026-08-16T14:07:13+00:00",
-  "newsroom": "2026-08-16T14:07:13+00:00"
+  "written-input": "2026-08-19T15:11:50+00:00",
+  "cryptosec": "2026-08-19T15:11:51+00:00",
+  "meetings": "2026-08-19T15:11:59+00:00",
+  "newsroom": "2026-08-19T15:12:01+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,174 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "f1bc9b8e9cebe57b",
+   "source": "meetings",
+   "date": "2026-08-19",
+   "title": "Meeting with Public Investors Advocate Bar Association and Jeremy Bratt Consulting L.L.C.",
+   "author": "Public Investors Advocate Bar Association and Jeremy Bratt Consulting L.L.C.",
+   "topics": [
+    "Custody",
+    "Investor Protection",
+    "Regulatory Framework"
+   ],
+   "takeaway": "Advocates urged parity between custodial firms and broker-dealers while emphasizing investor protections and increased congressional reporting on fraud trends.",
+   "url": "https://www.sec.gov/files/ctf-memo-public-investors-advocate-bar-association-jeremy-bratt-consulting-llc-081826.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-public-investors-advocate-bar-association-jeremy-bratt-consulting-llc-081826.pdf",
+   "key_points": [
+    "PIABA and Jeremy Bratt Consulting argued for mandatory antifraud policies and dedicated compliance staff at custodial firms to match existing standards for broker-dealers.",
+    "Representatives advocated for preserving private remedies and state-based enforcement authority to ensure investors retain protections against cryptocurrency-related scams.",
+    "The commenters suggested that the SEC and CFTC should be legally required to provide regular reports to Congress regarding fraud trends and market stability."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "942c23a524383d7c",
+   "source": "newsroom",
+   "date": "2026-08-18",
+   "title": "SEC Proposes New Regulation Crypto Assets",
+   "author": "Press Release",
+   "topics": [
+    "Regulatory Framework",
+    "Safe Harbor & Exemptions",
+    "Public Offerings"
+   ],
+   "takeaway": "The SEC proposes a tailored regulatory framework featuring specific exemptions and a conditional safe harbor for crypto asset offerings.",
+   "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets",
+   "doc_url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets",
+   "key_points": [
+    "The SEC proposed 'Regulation Crypto Assets' to create a tailored securities offering regime for specific investment contracts involving crypto assets.",
+    "Chairman Atkins stated the proposal seeks to provide clear capital-raising pathways for entrepreneurs while preserving core investor protections.",
+    "The proposed rules include exemptions for offerings up to $5 million over four years and $75 million annually, requiring specific disclosures.",
+    "The proposal includes a conditional safe harbor that would exempt certain crypto assets from being deemed investment contracts if conditions are met."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "67444bb74770bc20",
+   "source": "written-input",
+   "date": "2026-08-18",
+   "title": "Subject: Comprehensive Comments on Digital Asset Custody, Receivership Governance, Asset Restitution, and Municipal Infrastructure Integrity",
+   "author": "Vindiciae Contra Tyrannos",
+   "topics": [
+    "Custody",
+    "Investor Protection",
+    "Regulatory Framework"
+   ],
+   "takeaway": "Vindiciae Contra Tyrannos demands immediate asset restitution, strict fiduciary oversight, and regulatory harmonization to prevent fraud during receivership processes.",
+   "url": "https://www.sec.gov/files/ctf-written-input-vindiciae-contra-tyrannos-081726.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-vindiciae-contra-tyrannos-081726.pdf",
+   "key_points": [
+    "Demand for immediate, transparent restitution of assets to verified owners.",
+    "Requirement for strict fiduciary accountability and anti-fraud safeguards.",
+    "Call for regulatory harmonization and independent oversight of digital/traditional intermediaries."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "4d274a9913c12cba",
+   "source": "cryptosec",
+   "date": "2026-08-18",
+   "title": "Proposed Rule: Regulation Crypto Assets",
+   "author": "U.S. Securities and Exchange Commission",
+   "topics": [
+    "Safe Harbor & Exemptions",
+    "Regulatory Framework",
+    "Public Offerings"
+   ],
+   "takeaway": "The SEC proposes a tailored regime featuring specific registration exemptions and a conditional safe harbor for crypto asset investment contracts.",
+   "url": "https://www.sec.gov/files/rules/proposed/2026/33-11434.pdf",
+   "doc_url": "https://www.sec.gov/files/rules/proposed/2026/33-11434.pdf",
+   "key_points": [
+    "The SEC proposed Regulation Crypto Assets to create a tailored offering regime for specific crypto asset investment contracts to balance capital formation with investor protection.",
+    "The proposal introduces two exemptions from Section 5 registration: a $5 million four-year limit and a $75 million annual limit involving specific disclosure requirements.",
+    "The rule includes a conditional safe harbor where satisfying specific conditions would prevent a crypto asset from being deemed an investment contract under federal securities laws."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "1a0471b5efba53ea",
+   "source": "newsroom",
+   "date": "2026-08-18",
+   "title": "Filling the Regulatory Tank: Regulation Crypto Assets Proposing Release",
+   "author": "Hester M. Peirce",
+   "topics": [
+    "Safe Harbor & Exemptions",
+    "Regulatory Framework",
+    "Public Offerings"
+   ],
+   "takeaway": "Commissioner Peirce proposes new fundraising exemptions and a safe harbor to create clearer regulatory pathways for crypto asset offerings.",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-regulation-crypto-assets-081826",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-regulation-crypto-assets-081826",
+   "key_points": [
+    "Commissioner Peirce stated the new proposal aims to establish clear, sensible, and enforceable rules for crypto offerings via tailored fundraising pathways.",
+    "The proposed Regulation Crypto Assets would introduce a $5 million startup exemption and a $75 million fundraising exemption involving specific reporting requirements.",
+    "Commissioner Peirce noted the proposal includes a conditional safe harbor to allow issuers to delink crypto assets from their associated investment contracts."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "144b103c69207924",
+   "source": "newsroom",
+   "date": "2026-08-18",
+   "title": "Statement on Regulation Crypto Assets: Fit-for-Purpose Exemptions for Crypto    Market Innovation",
+   "author": "Paul S. Atkins",
+   "topics": [
+    "Safe Harbor & Exemptions",
+    "Regulatory Framework",
+    "Public Offerings"
+   ],
+   "takeaway": "Chairman Atkins proposes a new regulatory framework featuring specific exemptions to foster domestic crypto innovation and prevent offshore capital flight.",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-regulation-crypto-assets-081826",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-regulation-crypto-assets-081826",
+   "key_points": [
+    "Chairman Atkins proposed a new framework for non-security crypto assets featuring a startup exemption for offerings up to $5 million and a $75 million annual fundraising exemption.",
+    "The proposal introduces an investment contract safe harbor that terminates SEC authority once an issuer certifies it has ceased all essential managerial efforts.",
+    "Atkins argued that previous regulatory approaches and a lack of tailored rules have driven crypto investment offshore and impeded domestic capital formation."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "0ae4a7a0fd7fb7e4",
+   "source": "newsroom",
+   "date": "2026-08-18",
+   "title": "Statement on Regulation Crypto Assets",
+   "author": "Mark T. Uyeda",
+   "topics": [
+    "Safe Harbor & Exemptions",
+    "Regulatory Framework"
+   ],
+   "takeaway": "Commissioner Uyeda proposes a formal regulatory framework with specific exemptions to replace the current reliance on enforcement-led regulation.",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-regulation-crypto-assets-081826",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-regulation-crypto-assets-081826",
+   "key_points": [
+    "Commissioner Uyeda proposed 'Regulation Crypto Assets,' which introduces a specific framework and exemptions for 'covered investment contracts' to provide regulatory certainty for market participants.",
+    "The proposal includes a $5 million four-year startup exemption and a $75 million annual fundraising exemption to help issuers raise capital within the United States.",
+    "Commissioner Uyeda critiqued the Commission's prior reliance on enforcement actions over rulemaking, stating that previous approaches deprived participants of the opportunity to provide input."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "0b6fab4838ec0378",
    "source": "meetings",
