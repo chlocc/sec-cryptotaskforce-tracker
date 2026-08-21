@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-20T18:05:04+00:00",
+ "generated_at": "2026-08-21T14:08:36+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-08-20T18:04:52+00:00",
-  "cryptosec": "2026-08-20T18:04:54+00:00",
-  "meetings": "2026-08-20T18:05:02+00:00",
-  "newsroom": "2026-08-20T18:05:03+00:00"
+  "written-input": "2026-08-21T14:08:00+00:00",
+  "cryptosec": "2026-08-21T14:08:01+00:00",
+  "meetings": "2026-08-21T14:08:08+00:00",
+  "newsroom": "2026-08-21T14:08:09+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,23 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "405e2ace7d90f134",
+   "source": "meetings",
+   "date": "2026-08-20",
+   "title": "Meeting with Offchain Labs, Inc. and Arktouros PLLC",
+   "author": "Offchain Labs, Inc. and Arktouros PLLC",
+   "topics": [],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-memo-offchain-labs-inc-arktouros-pllc-082026.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-offchain-labs-inc-arktouros-pllc-082026.pdf",
+   "key_points": [
+    "Summary unavailable — see the source document on sec.gov."
+   ],
+   "thin": true,
+   "date_approximate": false,
+   "summarized_by": "none"
+  },
   {
    "id": "f1bc9b8e9cebe57b",
    "source": "meetings",

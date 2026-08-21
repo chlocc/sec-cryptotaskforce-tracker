@@ -3689,5 +3689,22 @@
   "date_approximate": false,
   "summarized_by": "openrouter",
   "enriched_by": "openrouter"
+ },
+ {
+  "id": "405e2ace7d90f134",
+  "source": "meetings",
+  "date": "2026-08-20",
+  "title": "Meeting with Offchain Labs, Inc. and Arktouros PLLC",
+  "author": "Offchain Labs, Inc. and Arktouros PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-offchain-labs-inc-arktouros-pllc-082026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-offchain-labs-inc-arktouros-pllc-082026.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
  }
 ]
