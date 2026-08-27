@@ -3706,5 +3706,31 @@
   "thin": true,
   "date_approximate": false,
   "summarized_by": "none"
+ },
+ {
+  "id": "4eb688e8dac57f73",
+  "source": "written-input",
+  "date": "2026-08-26",
+  "title": "Institutional Tokenization: From Digital Representation To Market Architecture",
+  "author": "Monica Pagano, ERC Genesis",
+  "topics": [
+   "Crypto ETPs",
+   "Custody",
+   "Public Offerings",
+   "Security Status",
+   "Tokenization",
+   "Trading"
+  ],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
+  "key_points": [
+   "Tokenized securities in the U.S. are subject to existing securities laws, with the SEC distinguishing between issuer-sponsored and third-party models; the legal architecture and master record are central to regulatory analysis.",
+   "Regulatory frameworks (SEC, CFTC, EU, UK) emphasize that digital representation does not alter the legal rights, custody, or accountability; the focus is on preserving economic substance, investor protection, and operational resilience.",
+   "Institutional tokenization is advancing through regulated production environments, with legal enforceability, custody, and authoritative records prioritized for collateral, settlement, and structured finance instruments."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec"
  }
 ]
