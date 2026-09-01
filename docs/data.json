@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30T00:27:51+00:00",
+ "generated_at": "2026-09-01T14:06:12+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-08-30T00:27:43+00:00",
-  "cryptosec": "2026-08-30T00:27:44+00:00",
-  "meetings": "2026-08-30T00:27:50+00:00",
-  "newsroom": "2026-08-30T00:27:51+00:00"
+  "written-input": "2026-09-01T14:05:49+00:00",
+  "cryptosec": "2026-09-01T14:05:50+00:00",
+  "meetings": "2026-09-01T14:05:57+00:00",
+  "newsroom": "2026-09-01T14:05:59+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,80 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "ead33dcba3b52de5",
+   "source": "written-input",
+   "date": "2026-08-31",
+   "title": "Regulatory Clarity for Pre-Operational, Natural-Capital-Referenced Digital Instruments",
+   "author": "Brian J. Heaton, World Evolution Enterprise PBC",
+   "topics": [
+    "Public Offerings",
+    "Regulatory Sandbox",
+    "Safe Harbor",
+    "Security Status",
+    "Tokenization",
+    "Trading"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-written-input-world-evolution-enterprise-pbc-083126.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-world-evolution-enterprise-pbc-083126.pdf",
+   "key_points": [
+    "The submission requests the SEC to publish practical, pre-launch guidance for early-stage digital asset projects, including a checklist of facts developers should disclose and evaluate before public issuance, such as functional status, transferability, governance concentration, redemption features, and planned use of proceeds.",
+    "It recommends clarifying that referencing independently verified real-world assets or data does not alone establish an investment contract; legal analysis should focus on whether purchasers receive enforceable financial claims, expect profits from others’ managerial efforts, or are promised liquidity, appreciation, or return.",
+    "The submission urges coordinated regulatory classifications across agencies (SEC, Treasury, FinCEN, CFTC, state regulators) to provide coherent guidance on securities, commodities, payments, money-transmission, sanctions, and stablecoin questions before product launch."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
+  {
+   "id": "d532b4e542e5d5f5",
+   "source": "written-input",
+   "date": "2026-08-29",
+   "title": "Building the Distributed Institutional Ecosystem: SSRN Submission Edition v1.3",
+   "author": "Jay Smith, CERTEN / CNoc Labs",
+   "topics": [
+    "Regulatory Framework",
+    "Compliance Technology",
+    "Tokenization"
+   ],
+   "takeaway": "Institutional governance and jurisdictional compliance must remain portable and composable across diverse technologies and cross-border regulatory frameworks.",
+   "url": "https://www.sec.gov/files/ctf-jay-smith-certen-cnoc-labs-082926.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-jay-smith-certen-cnoc-labs-082926.pdf",
+   "key_points": [
+    "Institutional authority and legal accountability must be verifiable and portable across evolving networks and asset classes.",
+    "Composable jurisdictional requirements enable cross-border regulatory sovereignty without necessitating platform standardization.",
+    "Technology-neutral infrastructure and sandboxes support traceable legal authority and safer institutional control paths."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "a38d119d697cbe91",
+   "source": "written-input",
+   "date": "2026-08-29",
+   "title": "Provable Institutional Control for Tokenized Finance: Governance Synchronization as the Missing Infrastructure Layer",
+   "author": "Jay Smith, CERTEN / CNoc Lab",
+   "topics": [
+    "Tokenization",
+    "Compliance Technology",
+    "Regulatory Framework"
+   ],
+   "takeaway": "Scalability in programmable finance requires embedding legal governance and regulatory constraints directly into infrastructure to ensure institutional legitimacy and enforceable property rights.",
+   "url": "https://www.sec.gov/files/ctf-jay-smith-certen-cnoc-labs-fin-082926.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-jay-smith-certen-cnoc-labs-fin-082926.pdf",
+   "key_points": [
+    "Programmable finance's primary bottleneck is legal governance synchronization across interoperable systems rather than transaction execution.",
+    "Embedding regulatory constraints and commercial law (e.g., UCC Article 12) into the control plane enables machine-verifiable compliance and legal property rights.",
+    "Market collapses stem from governance and legal enforceability failures rather than technical settlement issues."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "4eb688e8dac57f73",
    "source": "written-input",
