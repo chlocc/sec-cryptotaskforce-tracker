@@ -3774,9 +3774,9 @@
   "url": "https://www.sec.gov/files/ctf-jay-smith-certen-cnoc-labs-fin-082926.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-jay-smith-certen-cnoc-labs-fin-082926.pdf",
   "key_points": [
-   "Programmable finance's primary bottleneck is legal governance synchronization across interoperable systems rather than transaction execution.",
-   "Embedding regulatory constraints and commercial law (e.g., UCC Article 12) into the control plane enables machine-verifiable compliance and legal property rights.",
-   "Market collapses stem from governance and legal enforceability failures rather than technical settlement issues."
+   "The primary scalability constraint in programmable finance is not transaction execution, but the continuous coordination of institutional legitimacy and governance across interoperable financial systems. This bottleneck is a legal infrastructure issue, as it determines whether financial actions are authorized, enforceable, and institutionally valid.",
+   "Programmable Institutional Control architectures embed regulatory constraints, multi-signature mandates, and commercial law perimeters (e.g., UCC Article 12) directly into the control plane, enabling machine-verifiable compliance and transforming digital asset possession into legally protected property rights that survive insolvency and regulatory scrutiny.",
+   "Major collapses in digital asset markets (e.g., FTX, Celsius, Terra/Luna) are traced to governance failures—such as lack of segregation, legal clarity, and enforceable control—rather than settlement failures. Legal enforceability and operational legitimacy must be continuously synchronized to prevent systemic instability."
   ],
   "thin": false,
   "date_approximate": false,
@@ -3798,13 +3798,1518 @@
   "url": "https://www.sec.gov/files/ctf-jay-smith-certen-cnoc-labs-082926.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-jay-smith-certen-cnoc-labs-082926.pdf",
   "key_points": [
-   "Institutional authority and legal accountability must be verifiable and portable across evolving networks and asset classes.",
-   "Composable jurisdictional requirements enable cross-border regulatory sovereignty without necessitating platform standardization.",
-   "Technology-neutral infrastructure and sandboxes support traceable legal authority and safer institutional control paths."
+   "Institutional authority and governance must remain verifiable and portable across technologies, networks, and asset classes, ensuring that legal responsibilities, approvals, and compliance persist regardless of changes in providers or execution environments.",
+   "Jurisdictional requirements are composable: recognized authorities determine which laws apply and whether requirements are satisfied, enabling cross-border regulatory sovereignty without forcing all regimes into a single asset contract or platform.",
+   "Regulatory sandboxes and technology-neutral infrastructure allow jurisdictions to test and enforce institutional control paths, supporting safer custody, compliance, and market structures while maintaining explicit, traceable legal authority and evidence."
   ],
   "thin": false,
   "date_approximate": false,
   "summarized_by": "sec",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "7407e39e47b9d8ea",
+  "source": "cryptosec",
+  "date": "2026-09-01",
+  "title": "Proposed Rule: Registered Transfer Agents",
+  "author": "U.S. Securities and Exchange Commission",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/rules/proposed/2026/34-106246.pdf",
+  "doc_url": "https://www.sec.gov/files/rules/proposed/2026/34-106246.pdf",
+  "key_points": [
+   "On September 1, 2026, the Securities and Exchange Commission proposed updates to the rules and forms that apply to registered transfer agents.  The proposal would, among other things: (1) Amend the registration and annual reporting requirements for transfer agents, including the questions and instructions on Forms TA-1 and TA-2; (2) modernize the rules to reflect how transfer agents carry out their activities in light of technological advancements, including the use of electronic and blockchain-based recordkeeping and uncertificated securities; (3) establish new requirements related to turnaround, risk management, and inactive securityholders; and (4) introduce two new rules addressing compliance and restrictive legends for registered transfer agents."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "No summary is currently available for this meeting between the SEC Task Force and Clique and C Guidry Law, PLLC.",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "The SEC Crypto Task Force held a meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "No specific regulatory or substantive information is available from the source material regarding this meeting.",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Digital Motion Corporation (DMC) requested a meeting to present its tokenization platform's compliance architecture and discuss frameworks for the secondary transferability of exempt securities.",
+   "DMC proposed discussing how permissioned protocols interact with the definition of an exchange and the distinction between technology provision versus regulated intermediation.",
+   "DMC sought the Task Force's perspective on investor protection considerations and the compliance responsibilities essential for issuer-verified participation models to operate responsibly."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "The SEC Crypto Task Force met with Digital Motion Corporation and Kaimeta S.A. on September 1, 2026.",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "A meeting occurred between the Task Force and Clique and C Guidry Law, PLLC.",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "The SEC Crypto Task Force met with Digital Motion Corporation and Kaimeta S.A. on September 1, 2026.",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "No summary is available for this meeting with Clique and C Guidry Law, PLLC.",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "The SEC Crypto Task Force held a meeting with Digital Motion Corporation and Kaimeta S.A. on September 1, 2026.",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Clique representatives proposed discussing how blockchain data can complement issuer disclosures during token listing due diligence processes.",
+   "The participants suggested exploring onchain evidence, such as wallet relationships and distribution patterns, to enhance visibility into market structures.",
+   "Clique representatives intended to address the limitations of blockchain analytics, including attribution challenges and potential false positives in diligence."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Digital Motion Corporation sought to present its tokenization platform architecture and discuss frameworks for the compliant secondary transferability of exempt securities using permissioned infrastructure.",
+   "The company proposed discussing how permissioned protocols interact with the definition of an 'exchange' and the distinction between providing technology versus regulated intermediation.",
+   "Representatives requested staff feedback regarding compliance responsibilities for issuer-verified participation models, including recordkeeping, surveillance, and controls testing requirements."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Clique representatives proposed discussing how onchain evidence, such as blockchain data, can complement issuer-provided disclosures during token listing due diligence processes.",
+   "The representatives noted that existing diligence processes may have limited visibility into token distribution and suggested analyzing ownership concentration and participant behavior.",
+   "Clique participants highlighted the need to consider the limitations of blockchain analytics, including attribution accuracy and the interpretation of wallet relationships.",
+   "The firm requested the Task Force's perspective on evolving regulatory expectations regarding asset diligence, documentation, and ongoing monitoring for digital asset trading platforms."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Digital Motion Corporation requested a meeting to present its tokenization platform's compliance architecture and discuss frameworks for the secondary transferability of exempt securities.",
+   "DMC representatives proposed discussing how permissioned protocols interact with exchange definitions, regulated intermediation, and established resale frameworks like Rule 144 and Regulation S.",
+   "The company sought the Task Force's perspective on investor protection considerations and essential compliance responsibilities, such as recordkeeping and surveillance, within issuer-verified participation models."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Clique representatives proposed discussing how onchain evidence, such as blockchain data, can complement issuer-provided disclosures during token listing due diligence processes.",
+   "The representatives noted that current diligence processes may have limited visibility into token distribution and suggested using blockchain analytics to examine ownership concentration.",
+   "Clique representatives raised questions regarding the appropriate use, limitations, and interpretation of blockchain analytics in a diligence context to support market integrity."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Clique representatives proposed discussing how onchain evidence, such as blockchain data, can complement traditional disclosures during token listing due diligence processes.",
+   "The firm suggested exploring how analyzing token distribution, ownership concentration, and wallet relationships could enhance transparency and market integrity.",
+   "Representatives noted that discussions should address the practical limitations and risks of blockchain analytics, including attribution accuracy and potential false positives."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "No information is available regarding the content of this meeting between the SEC Task Force and Clique and C Guidry Law, PLLC.",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "The meeting involved discussions with Digital Motion Corporation and Kaimeta S.A. regarding regulatory matters.",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "Information regarding the meeting with Clique and C Guidry Law, PLLC is currently unavailable via the provided summary.",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "takeaway": "Digital Motion Corporation discussed tokenization architecture and the regulatory distinction between technology providers and regulated intermediaries for permissioned security transfers.",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Digital Motion Corporation sought to present its tokenization platform architecture and discuss frameworks for the compliant secondary transferability of exempt securities using permissioned infrastructure.",
+   "The company requested staff perspectives on how permissioned protocols relate to the definition of an exchange under the Exchange Act and Rule 3b-16.",
+   "Digital Motion Corporation proposed discussing the distinction between providing technology and providing regulated intermediation when an operator does not hold customer funds or securities.",
+   "The representatives aimed to understand staff considerations regarding compliance responsibilities, such as recordkeeping and surveillance, within an issuer-verified participation model."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "A meeting occurred between the Task Force and Clique and C Guidry Law, PLLC.",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [
+   "Regulatory Framework"
+  ],
+  "takeaway": "No specific regulatory information is available regarding the meeting between the SEC Task Force and Digital Motion Corporation/Kaimeta S.A.",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Clique representatives proposed discussing how onchain evidence, such as blockchain data, can complement issuer-provided disclosures during token listing due diligence processes.",
+   "The representatives suggested exploring how analyzing token distribution, ownership concentration, and wallet relationships could support market integrity and transparency.",
+   "Clique indicated a desire to discuss the limitations of blockchain analytics, including attribution challenges and the interpretation of wallet relationships, within a diligence context."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Clique representatives proposed discussing how onchain evidence, such as blockchain data, can complement issuer-provided disclosures during token listing due diligence processes.",
+   "The representatives suggested exploring how analyzing ownership concentration and wallet relationships could improve visibility into token distribution and market structures.",
+   "Clique representatives intended to address the limitations of blockchain analytics, including challenges regarding attribution, confidence levels, and the interpretation of wallet relationships."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "93f1a80c19ffefdc",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Clique and C Guidry Law, PLLC",
+  "author": "Clique and C Guidry Law, PLLC",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-clique-c-guidry-law-pllc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "17d86690a58c47d1",
+  "source": "meetings",
+  "date": "2026-09-01",
+  "title": "Meeting with Digital Motion Corporation and Kaimeta S.A.",
+  "author": "Digital Motion Corporation and Kaimeta S.A.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-dmc-090126.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "d20e3a28f2fc4a25",
+  "source": "newsroom",
+  "date": "2026-09-01",
+  "title": "Time to Transfer: Statement on Proposed Transfer Agent Rules",
+  "author": "Hester M. Peirce",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework",
+   "Clearing & Settlement"
+  ],
+  "takeaway": "Commissioner Peirce expresses concerns regarding the implications of proposed transfer agent rules on digital asset market functionality.",
+  "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-transfer-agent-rules-090126-time-transfer-statement-proposed-transfer-agent-rules",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-transfer-agent-rules-090126-time-transfer-statement-proposed-transfer-agent-rules",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "17110de2010cbdf7",
+  "source": "newsroom",
+  "date": "2026-09-01",
+  "title": "Statement on Proposed Amendments to the SEC’s Transfer Agent Rules",
+  "author": "Mark T. Uyeda",
+  "topics": [
+   "Regulatory Framework",
+   "Trading & Market Structure"
+  ],
+  "takeaway": "Commissioner Uyeda addresses proposed updates to transfer agent rules affecting digital asset administration.",
+  "url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-transfer-agent-rules-090126-statement-proposed-amendments-secs-transfer-agent-rules",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-transfer-agent-rules-090126-statement-proposed-amendments-secs-transfer-agent-rules",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "106708abf55c8a06",
+  "source": "newsroom",
+  "date": "2026-09-01",
+  "title": "SEC Proposes to Modernize Rules for Registered Transfer Agents",
+  "author": "Press Release",
+  "topics": [
+   "Trading & Market Structure",
+   "Regulatory Framework"
+  ],
+  "takeaway": "The SEC is proposing rule updates to modernize the regulatory requirements for registered transfer agents.",
+  "url": "https://www.sec.gov/newsroom/press-releases/2026-81-sec-proposes-modernize-rules-registered-transfer-agents",
+  "doc_url": "https://www.sec.gov/newsroom/press-releases/2026-81-sec-proposes-modernize-rules-registered-transfer-agents",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none",
   "enriched_by": "openrouter"
  }
 ]
