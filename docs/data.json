@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T01:06:47+00:00",
+ "generated_at": "2026-09-09T19:30:23+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-09-09T00:55:27+00:00",
-  "cryptosec": "2026-09-09T00:55:28+00:00",
-  "meetings": "2026-09-09T00:55:55+00:00",
-  "newsroom": "2026-09-09T00:55:57+00:00"
+  "written-input": "2026-09-09T19:29:34+00:00",
+  "cryptosec": "2026-09-09T19:29:35+00:00",
+  "meetings": "2026-09-09T19:30:07+00:00",
+  "newsroom": "2026-09-09T19:30:09+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,32 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "c4ef228297d5e463",
+   "source": "written-input",
+   "date": "2026-09-08",
+   "title": "Reconstructing Institutional Finance: Three Real-Market Structures. One Asset-To-Instrument Architecture",
+   "author": "Monica Elizabeth Pagano, ERC Genesis",
+   "topics": [
+    "Crypto Lending",
+    "Custody",
+    "Public Offerings",
+    "Security Status",
+    "Tokenization",
+    "Trading"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/written-input-monica-elizabeth-pagano-erc-genesis-090826.pdf",
+   "doc_url": "https://www.sec.gov/files/written-input-monica-elizabeth-pagano-erc-genesis-090826.pdf",
+   "key_points": [
+    "U.S. regulatory guidance and recent SEC/Nasdaq/DTCC actions confirm that a tokenized security remains the same legal instrument under securities law, with its rights, protections, and obligations intact, regardless of digital representation.",
+    "Institutional tokenization requires maintaining a consistent relationship among the underlying asset or right, authoritative records, financial instrument, and digital representation, ensuring that legal status, encumbrances, and settlement remain intelligible as the instrument moves through market infrastructure.",
+    "A token or message may transfer between systems, but unless legal and economic status is tracked and preserved, the underlying rights, encumbrances, and settlement status may diverge, leading to potential legal uncertainty and operational risk."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
   {
    "id": "42882ff05d92caf3",
    "source": "meetings",
