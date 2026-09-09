@@ -38,6 +38,7 @@ def _key_points(cell) -> list[str]:
 
 def scrape() -> list[dict]:
     items = []
+    seen_keys = set()
     for page in range(MAX_PAGES):
         resp = fetch.get(f"{BASE}?page={page}")
         soup = BeautifulSoup(resp.text, "html.parser")
@@ -46,6 +47,7 @@ def scrape() -> list[dict]:
         if not rows:
             break
         hit_cutoff = False
+        added_this_page = 0
         for row in rows:
             cells = row.find_all("td")
             if len(cells) < 4:
@@ -59,6 +61,10 @@ def scrape() -> list[dict]:
             link = cells[1].find("a")
             if not link:
                 continue
+            key = (d.isoformat(), link["href"])
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
             # Author is the text in the cell before the linked letter title
             author = cells[1].get_text("|", strip=True).split("|")[0].strip()
             title = link.get_text(" ", strip=True)
@@ -74,7 +80,11 @@ def scrape() -> list[dict]:
                 key_points=_key_points(cells[3]),
                 summarized_by="sec",
             ))
+            added_this_page += 1
         if hit_cutoff:
+            break
+        if rows and added_this_page == 0:
+            log.warning("written-input: page %d added no new rows — pagination may be stuck, stopping", page)
             break
     log.info("written-input: %d items since %s", len(items), CUTOFF)
     return items

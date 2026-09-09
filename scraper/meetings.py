@@ -21,6 +21,7 @@ MAX_PAGES = 40
 
 def scrape() -> list[dict]:
     items = []
+    seen_keys = set()
     for page in range(MAX_PAGES):
         resp = fetch.get(f"{BASE}?page={page}")
         soup = BeautifulSoup(resp.text, "html.parser")
@@ -29,6 +30,7 @@ def scrape() -> list[dict]:
         if not rows:
             break
         hit_cutoff = False
+        added_this_page = 0
         for row in rows:
             t = row.find("time")
             if not t or not t.get("datetime"):
@@ -40,6 +42,10 @@ def scrape() -> list[dict]:
             link = row.find("a")
             if not link:
                 continue
+            key = (d.isoformat(), link["href"])
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
             participants = link.get_text(" ", strip=True)
             items.append(record(
                 source="meetings",
@@ -50,7 +56,14 @@ def scrape() -> list[dict]:
                 doc_url=absolute(link["href"]),
                 summarized_by="pending",  # memo PDF summarized in the pipeline
             ))
+            added_this_page += 1
         if hit_cutoff:
+            break
+        if rows and added_this_page == 0:
+            # Site returned a non-empty table but every row was one we already
+            # have — either genuine repeat content or ?page=N isn't being
+            # honored server-side. Either way, further pages won't help.
+            log.warning("meetings: page %d added no new rows — pagination may be stuck, stopping", page)
             break
     log.info("meetings: %d items since %s", len(items), CUTOFF)
     return items

@@ -31,6 +31,7 @@ def _parse_date(text: str) -> date | None:
 
 def scrape() -> list[dict]:
     items = []
+    seen_keys = set()
     for page in range(MAX_PAGES):
         resp = fetch.get(f"{BASE}?page={page}")
         soup = BeautifulSoup(resp.text, "html.parser")
@@ -39,6 +40,7 @@ def scrape() -> list[dict]:
         if not rows:
             break
         hit_cutoff = False
+        added_this_page = 0
         for row in rows:
             cells = row.find_all("td")
             if len(cells) < 3:
@@ -52,6 +54,10 @@ def scrape() -> list[dict]:
             link = cells[1].find("a")
             if not link:
                 continue
+            key = (d.isoformat(), link["href"])
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
             items.append(record(
                 source="newsroom",
                 date_iso=d.isoformat(),
@@ -61,7 +67,11 @@ def scrape() -> list[dict]:
                 doc_url=absolute(link["href"]),
                 summarized_by="pending",  # linked page summarized in the pipeline
             ))
+            added_this_page += 1
         if hit_cutoff:
+            break
+        if rows and added_this_page == 0:
+            log.warning("newsroom: page %d added no new rows — pagination may be stuck, stopping", page)
             break
     log.info("newsroom: %d items since %s", len(items), CUTOFF)
     return items

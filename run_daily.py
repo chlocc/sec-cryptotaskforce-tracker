@@ -196,7 +196,15 @@ def main():
                     log.warning("%s returned 0 rows — keeping prior data", name)
                     continue
             source_status[name] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-            fresh = [it for it in scraped if it["id"] not in seen]
+            # Dedupe against prior runs AND within this scrape itself — a
+            # scraper bug (e.g. broken upstream pagination) can otherwise
+            # return the same "new" row many times in one call.
+            fresh, fresh_ids = [], set()
+            for it in scraped:
+                if it["id"] in seen or it["id"] in fresh_ids:
+                    continue
+                fresh_ids.add(it["id"])
+                fresh.append(it)
             # Refresh SEC-provided key points on already-seen items (SEC sometimes edits)
             for it in scraped:
                 if it["id"] in seen and it["summarized_by"] == "sec":
@@ -204,6 +212,7 @@ def main():
                     if prev["summarized_by"] == "sec":
                         prev["key_points"] = it["key_points"]
             new_items.extend(fresh)
+            seen.update(fresh_ids)
             added_per_source[name] = len(fresh)
         except Exception as e:
             log.error("scrape failed for %s: %s — keeping prior data", name, e)
