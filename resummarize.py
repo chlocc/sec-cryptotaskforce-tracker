@@ -2,7 +2,12 @@
 then clear their takeaways so a follow-up enrich.py run regenerates them from
 the new bullets. Saves incrementally.
 
-Usage: python3 resummarize.py [--limit N]
+By default only redoes items that never got a real summary (summarized_by
+"none"/missing, i.e. the "Summary unavailable" placeholder) — pass --all to
+force every meetings/newsroom item, e.g. after deliberately switching
+summarize.MODEL and wanting consistent quality across the board.
+
+Usage: python3 resummarize.py [--limit N] [--all]
 """
 
 import argparse
@@ -53,11 +58,15 @@ def redo(item: dict) -> dict:
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument("--all", action="store_true",
+                         help="redo every meetings/newsroom item, not just unavailable ones")
     args = parser.parse_args()
 
     items = json.loads(ITEMS_PATH.read_text())
     by_id = {it["id"]: it for it in items}
     todo = [it for it in items if it["source"] in ("meetings", "newsroom")]
+    if not args.all:
+        todo = [it for it in todo if it.get("summarized_by") in (None, "none") or it.get("thin")]
     if args.limit:
         todo = todo[:args.limit]
     log.info("re-summarizing %d items with %s", len(todo), summarize.MODEL)

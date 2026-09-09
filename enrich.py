@@ -13,15 +13,22 @@ import argparse
 import concurrent.futures
 import json
 import logging
+import sys
 import threading
 import time
 from pathlib import Path
 
 import anthropic
 
-from taxonomy import TOPICS
-
 ROOT = Path(__file__).parent
+sys.path.insert(0, str(ROOT))
+
+import run_daily  # noqa: E402 - loads .env before anthropic.Anthropic() reads it
+
+run_daily.load_env()
+
+from taxonomy import TOPICS  # noqa: E402
+
 ITEMS_PATH = ROOT / "data" / "items.json"
 MODEL = "claude-opus-4-6"
 CONCURRENCY = 4

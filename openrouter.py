@@ -1,8 +1,15 @@
 """OpenRouter fallback client.
 
-Used only when the Anthropic API call fails (e.g. out of credit) — free-tier
-OpenRouter models are lower quality than Claude Opus, so this is a fallback
-path, never the primary one. See summarize.py and enrich.py for call sites.
+Used only when the Anthropic API call fails (e.g. out of credit) — this is a
+fallback path, never the primary one. See summarize.py and enrich.py for
+call sites.
+
+Uses a cheap *paid* OpenRouter model rather than a free-tier one: free-tier
+models (e.g. google/gemma-4-26b-a4b-it:free) are served by shared, heavily
+congested upstream capacity and were 429-ing on essentially every call as of
+2026-09-09. Paid models draw on OpenRouter account credit instead (see
+https://openrouter.ai/api/v1/auth/key for balance/usage), so cost is real but
+tiny — gemini-2.5-flash runs a few cents per day of tracker volume.
 """
 
 import json
@@ -15,10 +22,11 @@ import httpx
 log = logging.getLogger("tracker.openrouter")
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-# Free-tier OpenRouter models rotate over time — if this one starts erroring
-# or disappears, check https://openrouter.ai/models?max_price=0 and set
+# Paid model, chosen for reliability + large context (full meeting-memo PDFs
+# and long statements need to fit). If it starts erroring or pricing/quality
+# no longer make sense, check https://openrouter.ai/models and set
 # OPENROUTER_MODEL in .env to override.
-DEFAULT_MODEL = "google/gemma-4-26b-a4b-it:free"
+DEFAULT_MODEL = "google/gemini-2.5-flash"
 
 
 def _extract_json(text: str | None) -> dict:
@@ -35,7 +43,7 @@ def _extract_json(text: str | None) -> dict:
 
 
 def complete_json(system: str, user: str, schema_hint: str) -> dict:
-    """Ask a free OpenRouter model for a JSON object matching schema_hint.
+    """Ask the fallback OpenRouter model for a JSON object matching schema_hint.
 
     Raises on any failure (missing key, network, non-2xx, unparseable JSON) —
     callers are already in a fallback path with nothing further to fall back to.
@@ -58,6 +66,12 @@ def complete_json(system: str, user: str, schema_hint: str) -> dict:
             },
         ],
         "response_format": {"type": "json_object"},
+        # A handful of short bullets never needs more than ~1k tokens, but
+        # without an explicit cap some models (e.g. gemini-2.5-flash) default
+        # their *request* max_tokens to the model's full context (65535),
+        # and OpenRouter 402s up front if the account balance can't cover
+        # that worst case — even though actual usage would be tiny.
+        "max_tokens": 1024,
     }
 
     # Free-tier models are served by rotating upstream providers that
