@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T20:47:40+00:00",
+ "generated_at": "2026-09-10T14:19:26+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-09-09T19:49:59+00:00",
-  "cryptosec": "2026-09-09T19:50:00+00:00",
-  "meetings": "2026-09-09T19:50:02+00:00",
-  "newsroom": "2026-09-09T19:50:04+00:00"
+  "written-input": "2026-09-10T14:19:19+00:00",
+  "cryptosec": "2026-09-10T14:19:20+00:00",
+  "meetings": "2026-09-10T14:19:21+00:00",
+  "newsroom": "2026-09-10T14:19:24+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,30 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "c788af85b9c78c01",
+   "source": "written-input",
+   "date": "2026-09-10",
+   "title": "Re: Tokenized securities – the record behind the register",
+   "author": "Gene Deyev",
+   "topics": [
+    "Tokenization",
+    "Clearing & Settlement",
+    "Compliance Technology"
+   ],
+   "takeaway": "Robust, verifiable issuance records are crucial for tokenized securities, and blockchain use by transfer agents should be accommodated.",
+   "url": "https://www.sec.gov/files/ctf-written-input-deyev-091026.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-deyev-091026.pdf",
+   "key_points": [
+    "SEC's transfer agent proposal for blockchain master files needs to address the lack of verifiable, dated, and sourced issuance records for tokenized offerings.",
+    "A robust issuance record must link facts to source documents, timestamp them, distinguish evidence types, and preserve all versions.",
+    "Public blockchains are compatible with transfer agent requirements for exclusive control through smart contracts, with reconciliation documented, not prohibited."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "c4ef228297d5e463",
    "source": "written-input",
@@ -309,9 +333,9 @@
    "url": "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
    "doc_url": "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
    "key_points": [
-    "U.S. tokenized securities are subject to existing securities laws, with SEC analysis focused on legal architecture and master records.",
-    "Regulatory frameworks globally emphasize that digital representation does not alter legal rights or accountability, preserving economic substance and investor protection.",
-    "Institutional tokenization is progressing in regulated environments, prioritizing legal enforceability, custody, and authoritative records for financial instruments."
+    "Tokenized securities in the U.S. are subject to existing securities laws, with the SEC distinguishing between issuer-sponsored and third-party models; the legal architecture and master record are central to regulatory analysis.",
+    "Regulatory frameworks (SEC, CFTC, EU, UK) emphasize that digital representation does not alter the legal rights, custody, or accountability; the focus is on preserving economic substance, investor protection, and operational resilience.",
+    "Institutional tokenization is advancing through regulated production environments, with legal enforceability, custody, and authoritative records prioritized for collateral, settlement, and structured finance instruments."
    ],
    "thin": false,
    "date_approximate": false,
