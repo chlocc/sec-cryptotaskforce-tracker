@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T14:19:26+00:00",
+ "generated_at": "2026-09-11T14:38:03+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-09-10T14:19:19+00:00",
-  "cryptosec": "2026-09-10T14:19:20+00:00",
-  "meetings": "2026-09-10T14:19:21+00:00",
-  "newsroom": "2026-09-10T14:19:24+00:00"
+  "written-input": "2026-09-11T14:37:55+00:00",
+  "cryptosec": "2026-09-11T14:37:56+00:00",
+  "meetings": "2026-09-11T14:37:58+00:00",
+  "newsroom": "2026-09-11T14:38:00+00:00"
  },
  "topics": [
   "Security Status",
@@ -44,9 +44,33 @@
    "url": "https://www.sec.gov/files/ctf-written-input-deyev-091026.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-input-deyev-091026.pdf",
    "key_points": [
-    "SEC's transfer agent proposal for blockchain master files needs to address the lack of verifiable, dated, and sourced issuance records for tokenized offerings.",
-    "A robust issuance record must link facts to source documents, timestamp them, distinguish evidence types, and preserve all versions.",
-    "Public blockchains are compatible with transfer agent requirements for exclusive control through smart contracts, with reconciliation documented, not prohibited."
+    "The SEC’s transfer agent proposal allows blockchain-based master securityholder files, but does not address the need for a verifiable, dated, sourced issuance record that documents the facts about the issuer and asset—these facts are often missing or scattered, causing tokenized offerings to stall.",
+    "A robust issuance record should: (1) link every material fact to its source document, (2) timestamp each fact, (3) distinguish the type of evidence (issuer assertion, third-party review, authority issuance), and (4) preserve all versions without overwriting prior states.",
+    "The proposal’s requirements for exclusive control do not necessarily exclude public blockchains; transfer agents can maintain authority via smart contracts, and reconciliation between onchain and offchain records should be documented and explained, not prohibited."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "5ecf9b653395941b",
+   "source": "written-input",
+   "date": "2026-09-10",
+   "title": "Re: Digital Asset Vault Framework: A Response to Commissioner Peirce's “Headstands and Summervaults” and a Proposed Approach to the Regulatory Treatment of Vaults",
+   "author": "Georgia Quinn, Forward Industries",
+   "topics": [
+    "Regulatory Framework",
+    "DeFi Protocols",
+    "Investor Protection"
+   ],
+   "takeaway": "A proposed framework for digital asset vaults suggests a conduct-based regulatory approach with tiered oversight based on managerial discretion.",
+   "url": "https://www.sec.gov/files/written-input-georgia-quinn-forward-industries-091026.pdf",
+   "doc_url": "https://www.sec.gov/files/written-input-georgia-quinn-forward-industries-091026.pdf",
+   "key_points": [
+    "The framework defines smart-contract-based \"vaults\" for pooling digital assets and generating yield; regulatory focus should be on human conduct, not the software.",
+    "Proposed tiers of regulation (Type I: Use, Type II: Follow, Type III: Advised) are based on managerial discretion, with joint SEC/CFTC oversight recommended for mixed-asset vaults.",
+    "Mixed-asset vaults holding digital securities, commodities, and other assets necessitate coordinated SEC and CFTC oversight for coherent regulation of curators/advisors."
    ],
    "thin": false,
    "date_approximate": false,
