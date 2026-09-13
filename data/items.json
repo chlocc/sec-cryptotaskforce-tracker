@@ -4043,9 +4043,9 @@
   "url": "https://www.sec.gov/files/written-input-georgia-quinn-forward-industries-091026.pdf",
   "doc_url": "https://www.sec.gov/files/written-input-georgia-quinn-forward-industries-091026.pdf",
   "key_points": [
-   "The framework defines smart-contract-based \"vaults\" for pooling digital assets and generating yield; regulatory focus should be on human conduct, not the software.",
-   "Proposed tiers of regulation (Type I: Use, Type II: Follow, Type III: Advised) are based on managerial discretion, with joint SEC/CFTC oversight recommended for mixed-asset vaults.",
-   "Mixed-asset vaults holding digital securities, commodities, and other assets necessitate coordinated SEC and CFTC oversight for coherent regulation of curators/advisors."
+   "The proposed framework defines “vaults” as smart-contract-based structures that pool digital assets, allocate them to yield-generating strategies, and allow participants to audit and receive proportional returns; legal analysis should focus on the conduct of humans involved, not the vault software itself.",
+   "Vaults may hold mixed asset types (digital securities, commodities, and other assets), requiring coordinated SEC and CFTC oversight; curators or advisors of mixed-asset vaults cannot be regulated coherently by either agency acting alone.",
+   "The framework proposes three regulatory tiers based on managerial discretion: Type I (Use) for off-the-shelf software, Type II (Follow) for predetermined strategies with mandatory co-investment, and Type III (Advised) for actively managed vaults, with joint SEC/CFTC oversight recommended for mixed-asset vaults."
   ],
   "thin": false,
   "date_approximate": false,
