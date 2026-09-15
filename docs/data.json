@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T19:41:54+00:00",
+ "generated_at": "2026-09-15T17:18:24+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-09-13T19:41:49+00:00",
-  "cryptosec": "2026-09-13T19:41:50+00:00",
-  "meetings": "2026-09-13T19:41:52+00:00",
-  "newsroom": "2026-09-13T19:41:53+00:00"
+  "written-input": "2026-09-15T17:18:17+00:00",
+  "cryptosec": "2026-09-15T17:18:18+00:00",
+  "meetings": "2026-09-15T17:18:19+00:00",
+  "newsroom": "2026-09-15T17:18:22+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,75 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "f23c856af70c25ed",
+   "source": "newsroom",
+   "date": "2026-09-14",
+   "title": "Remarks at the Solana Policy Institute Summit: Washington x Wall Street",
+   "author": "Paul S. Atkins",
+   "topics": [],
+   "takeaway": "",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-solana-policy-institute-091426",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-solana-policy-institute-091426",
+   "key_points": [
+    "Summary unavailable — see the source document on sec.gov."
+   ],
+   "thin": true,
+   "date_approximate": false,
+   "summarized_by": "none"
+  },
+  {
+   "id": "c59217b2356decff",
+   "source": "written-input",
+   "date": "2026-09-14",
+   "title": "Re: Recommendations Regarding a Safe Harbor for Certain Applications From the Exchange Registration Requirement of the Securities Exchange Act of 1934",
+   "author": "Andreessen Horowitz (a16z) and DeFi Education Fund (DEF)",
+   "topics": [
+    "Custody",
+    "RFI Responses",
+    "Safe Harbor",
+    "Security Status",
+    "Tokenization",
+    "Trading"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-written-input-andreessen-horowitz-a16z-defi-education-fund-def-091426.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-andreessen-horowitz-a16z-defi-education-fund-def-091426.pdf",
+   "key_points": [
+    "The letter proposes a safe harbor from SEC exchange registration requirements for decentralized exchange protocols (DEXs) and DEX Apps, arguing that systems which do not function as traditional exchanges and do not present intermediary-related risks should not be subject to registration under the Securities Exchange Act of 1934.",
+    "The safe harbor criteria require DEXs and DEX Apps to be non-custodial, automated, permissionless, and credibly neutral, ensuring users retain control and eliminating centralized operator risks that exchange regulation is designed to address.",
+    "The proposal aligns with pending legislation (such as the CLARITY Act) and recent SEC staff guidance, emphasizing that neutral software tools enabling self-directed activity do not trigger exchange registration obligations, thereby supporting regulatory clarity and innovation."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
+  {
+   "id": "388e4ac32b9fdd06",
+   "source": "written-input",
+   "date": "2026-09-14",
+   "title": "Request for Information Regarding National Securities Exchanges and Alternative Trading Systems Trading Crypto Assets (Dec. 17, 2025); Proposal for a Regulatory Framework for the Regulation of Crypto Asset Trading Platforms",
+   "author": "Andreessen Horowitz (“a16z”)",
+   "topics": [
+    "Crypto Lending",
+    "Custody",
+    "RFI Responses",
+    "Safe Harbor",
+    "Security Status",
+    "Trading"
+   ],
+   "takeaway": "",
+   "url": "https://www.sec.gov/files/ctf-written-input-andreessen-horowitz-a16z-091426.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-andreessen-horowitz-a16z-091426.pdf",
+   "key_points": [
+    "Regulation of crypto asset trading platforms (CTPs) should be modeled on the alternative trading systems (ATS) regime, but tailored for crypto markets, allowing for innovation and retail participation while maintaining investor protections.",
+    "CTPs should be permitted to notice-register with the SEC and trade both security/non-security pairs and purely non-security pairs, preventing market fragmentation and supporting efficient, consolidated markets.",
+    "Public disclosure requirements (Form ATS-N) should apply to CTPs trading NMS stocks only above a volume threshold; below this threshold, disclosures should be confidential, protecting proprietary information and encouraging innovation."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec"
+  },
   {
    "id": "c788af85b9c78c01",
    "source": "written-input",
