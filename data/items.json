@@ -4120,5 +4120,131 @@
   "thin": true,
   "date_approximate": false,
   "summarized_by": "none"
+ },
+ {
+  "id": "e1181f3ec78253ab",
+  "source": "written-input",
+  "date": "2026-09-16",
+  "title": "Implementation Verification and Material-Change Revalidation in Digital-Asset Market Structure",
+  "author": "Neil P. Osnato, Persistence Analytics Group LLC",
+  "topics": [
+   "Custody",
+   "Security Status",
+   "Tokenization",
+   "Trading"
+  ],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-written-input-pag-091626.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-pag-091626.pdf",
+  "key_points": [
+   "Regulatory clarity alone is insufficient; institutions must continually verify that operational conditions (such as custody, asset backing, segregation, trading integrity, and cybersecurity) are supported by current evidence, especially after material changes.",
+   "Revalidation is essential: When material facts change (e.g., changes in custodians, reserves, platform architecture, liquidity, cybersecurity, or token structure), institutions must reassess whether prior conclusions remain valid based on updated evidence.",
+   "An implementation-verification layer should be integrated into digital-asset frameworks to identify material representations, supporting evidence, dependencies, downside ownership, conditions requiring renewed verification, and decision points for revalidation—complementing, not replacing, legal classification and regulatory controls"
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec"
+ },
+ {
+  "id": "2ec2ac68e5b4622e",
+  "source": "cryptosec",
+  "date": "2026-09-17",
+  "title": "Order Granting Temporary Conditional Exemptive Relief, Pursuant to Section 36(a)(1) of the Securities Exchange Act of 1934, from the Definition of “Exchange” in Section 3(a)(1) of the Exchange Act for the Use of Certain Distributed Ledger Trading Venues for Tokenized NMS Stocks and from the Definition of “Dealer” in Section 3(a)(5) of the Exchange Act for Certain Liquidity Providers for Tokenized NMS Stocks, and Request for Comment",
+  "author": "U.S. Securities and Exchange Commission",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/rules/exorders/2026/34-106402.pdf",
+  "doc_url": "https://www.sec.gov/files/rules/exorders/2026/34-106402.pdf",
+  "key_points": [
+   "The order grants a five-year, conditional exemption from the definition of “exchange” in the Securities Exchange Act of 1934 (“Exchange Act”) to certain trading venues that provide the use of automated market makers and liquidity pools and set standards for persons to access trading to buy and sell tokenized NMS stock.  The order also grants a five-year, conditional exemption from the definition of “dealer” in the Exchange Act to certain liquidity providers that provide liquidity in tokenized NMS stock and may also be engaged in additional activities that are indicia of dealing activity, such as quoting pricing to customers or entering into agreements to provide committed capital."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec"
+ },
+ {
+  "id": "132c5974299b37e6",
+  "source": "meetings",
+  "date": "2026-09-15",
+  "title": "Meeting with PSG Digital Labs, Inc.",
+  "author": "PSG Digital Labs, Inc.",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/files/ctf-memo-psg-digital-labs-inc-091526.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-psg-digital-labs-inc-091526.pdf",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "1a212259840fbda7",
+  "source": "newsroom",
+  "date": "2026-09-17",
+  "title": "Statement on the Innovation Exemption: A Bridge Toward Durable Rulemaking",
+  "author": "Paul S. Atkins",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-innovation-exemption-bridge-toward-durable-rulemaking-091726",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-innovation-exemption-bridge-toward-durable-rulemaking-091726",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "ef6c149313ddd730",
+  "source": "newsroom",
+  "date": "2026-09-17",
+  "title": "Slumber Number: Innovation Exemption Statement",
+  "author": "Hester M. Peirce",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-slumber-number-innovation-exemption-statement-091726",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-slumber-number-innovation-exemption-statement-091726",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "4e2c8856cd5b499d",
+  "source": "newsroom",
+  "date": "2026-09-17",
+  "title": "Statement on the Innovation Exemption",
+  "author": "Mark T. Uyeda",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726",
+  "doc_url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
+ },
+ {
+  "id": "8bda0ac468eff0cc",
+  "source": "newsroom",
+  "date": "2026-09-17",
+  "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+  "author": "Press Release",
+  "topics": [],
+  "takeaway": "",
+  "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+  "doc_url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+  "key_points": [
+   "Summary unavailable — see the source document on sec.gov."
+  ],
+  "thin": true,
+  "date_approximate": false,
+  "summarized_by": "none"
  }
 ]
