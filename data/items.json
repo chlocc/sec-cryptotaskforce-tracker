@@ -4121,11 +4121,14 @@
   "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-solana-policy-institute-091426",
   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-remarks-solana-policy-institute-091426",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "Chairman Atkins stated the SEC's Project Crypto aims to make the U.S. the 'Crypto Capital of the World' through agency-wide efforts.",
+   "He urged Congress to pass the CLARITY Act to provide certainty for crypto entrepreneurs and investors.",
+   "Proposed Regulation Crypto Assets would modernize securities rules, offering entrepreneurs clarity to raise capital for crypto projects.",
+   "The SEC is also modernizing transfer agent rules and considering a custody framework for advisers and funds."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none",
+  "summarized_by": "openrouter",
   "enriched_by": "openrouter"
  },
  {
@@ -4185,11 +4188,14 @@
   "url": "https://www.sec.gov/files/ctf-memo-psg-digital-labs-inc-091526.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-memo-psg-digital-labs-inc-091526.pdf",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "PSG Digital Labs, Inc. (Ascend) met with the Crypto Task Force to discuss regulated on-chain market infrastructure.",
+   "Ascend plans to launch a broker-dealer for digital securities lending, using ERC-3643 for embedded compliance.",
+   "Ascend views legal stability as key to U.S. leadership in global on-chain market activity.",
+   "Ascend aims to demonstrate progress toward the SEC's vision for U.S. on-chain finance leadership."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none",
+  "summarized_by": "openrouter",
   "enriched_by": "openrouter"
  },
  {
@@ -4206,11 +4212,14 @@
   "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-innovation-exemption-bridge-toward-durable-rulemaking-091726",
   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-innovation-exemption-bridge-toward-durable-rulemaking-091726",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "Chairman Atkins announced an Innovation Exemption allowing tokenized stocks to trade on Tokenized Securities Venues (TSVs).",
+   "The exemption conditionally relieves TSVs from the definition of 'exchange' and liquidity providers from 'dealer' status.",
+   "Key conditions include sanctions compliance, permissioned access, no synthetics, and issuer objection rights.",
+   "Chairman Atkins stated the exemption is temporary, intended to inform durable rulemaking for onchain trading."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none",
+  "summarized_by": "openrouter",
   "enriched_by": "openrouter"
  },
  {
@@ -4227,11 +4236,14 @@
   "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-slumber-number-innovation-exemption-statement-091726",
   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-slumber-number-innovation-exemption-statement-091726",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "Commissioner Peirce stated the SEC issued exemptions for tokenized securities venues (TSVs) to permit onchain stock trading, allowing market experimentation.",
+   "TSVs and liquidity providers are temporarily exempt from 'exchange' and 'dealer' definitions, enabling tokenized NMS stock trading onchain.",
+   "The exemptions are an interim step to gather insights for developing durable rules for tokenized stock trading.",
+   "Commissioner Peirce clarified the order does not apply to truly decentralized systems driven by automated software."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none",
+  "summarized_by": "openrouter",
   "enriched_by": "openrouter"
  },
  {
@@ -4249,11 +4261,14 @@
   "url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726",
   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "Commissioner Uyeda stated the Innovation Exemption allows limited trading of tokenized NMS stocks on certain onchain venues.",
+   "The exemption provides temporary relief from exchange registration requirements for these venues, subject to specific conditions.",
+   "Commissioner Uyeda emphasized the exemption facilitates data collection to inform future policymaking and promote technology-neutral regulation.",
+   "The SEC is soliciting data-supported public feedback to evaluate tradeoffs and shape future proposals regarding tokenized securities."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none",
+  "summarized_by": "openrouter",
   "enriched_by": "openrouter"
  },
  {
@@ -4271,11 +4286,14 @@
   "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
   "doc_url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "The SEC granted temporary exemptive relief to Tokenized Securities Venues (TSVs) from exchange definition for trading tokenized NMS stock.",
+   "Chairman Atkins stated the exemption facilitates onchain trading while the SEC considers further action and seeks public comment.",
+   "TSVs use automated market makers, with conditions on symbols, volume, and holder rights, ensuring smart contracts are auditable on public ledgers.",
+   "Exemptions for TSVs and liquidity providers expire in five years; the SEC requests comment on modifications and next steps."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none",
+  "summarized_by": "openrouter",
   "enriched_by": "openrouter"
  }
 ]
