@@ -23,10 +23,14 @@ log = logging.getLogger("tracker.openrouter")
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 # Paid model, chosen for reliability + large context (full meeting-memo PDFs
-# and long statements need to fit). If it starts erroring or pricing/quality
-# no longer make sense, check https://openrouter.ai/models and set
-# OPENROUTER_MODEL in .env to override.
-DEFAULT_MODEL = "google/gemini-2.5-flash"
+# and long statements need to fit). gemini-2.5-flash-lite matches
+# gemini-2.5-flash's 1M-token context at ~1/3 the input price and ~1/6 the
+# output price ($0.10/$0.40 per M vs $0.30/$2.50 per M as of 2026-09-20) and
+# handles this pipeline's structured JSON calls fine — picked over free-tier
+# or unvetted cheaper models to keep the reliability this fallback needs. If
+# it starts erroring or pricing/quality no longer make sense, check
+# https://openrouter.ai/models and set OPENROUTER_MODEL in .env to override.
+DEFAULT_MODEL = "google/gemini-2.5-flash-lite"
 
 
 def _extract_json(text: str | None) -> dict:
