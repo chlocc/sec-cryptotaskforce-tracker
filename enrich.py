@@ -13,6 +13,7 @@ import argparse
 import concurrent.futures
 import json
 import logging
+import os
 import sys
 import threading
 import time
@@ -32,6 +33,7 @@ from taxonomy import TOPICS  # noqa: E402
 ITEMS_PATH = ROOT / "data" / "items.json"
 MODEL = "claude-opus-4-6"
 CONCURRENCY = 4
+SKIP_ANTHROPIC = os.environ.get("LLM_BACKEND", "").lower() == "openrouter"
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger("enrich")
@@ -127,6 +129,12 @@ def _enrich_openrouter(item: dict) -> dict | None:
 
 
 def enrich_one(item: dict, retries: int = 3) -> dict:
+    if SKIP_ANTHROPIC:
+        data = _enrich_openrouter(item)
+        if data:
+            _apply(item, data)
+            item["enriched_by"] = "openrouter"
+        return item
     for attempt in range(retries):
         try:
             resp = client().messages.create(

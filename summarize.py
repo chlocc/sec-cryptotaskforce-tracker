@@ -8,10 +8,13 @@ matters more than in the tag-classification step. Structured output
 """
 
 import logging
+import os
 
 import anthropic
 
 log = logging.getLogger("tracker.summarize")
+
+SKIP_ANTHROPIC = os.environ.get("LLM_BACKEND", "").lower() == "openrouter"
 
 MODEL = "claude-opus-4-7"
 
@@ -49,14 +52,17 @@ def client() -> anthropic.Anthropic:
 def gist(kind: str, title: str, meta: str, text: str) -> tuple[list[str], str]:
     """Summarize source text into 2-4 bullets. Returns (points, backend).
 
-    Tries Anthropic first; falls back to a free OpenRouter model if the
-    Anthropic call fails (e.g. low credit balance). Raises if both fail.
+    Tries Anthropic first; falls back to OpenRouter if the Anthropic call
+    fails (e.g. low credit balance), or skips straight to OpenRouter when
+    LLM_BACKEND=openrouter is set in .env. Raises if both fail.
     """
     prompt = (
         f"Source type: {kind}\nTitle: {title}\n{meta}\n\n"
         f"Source text:\n{text}\n\n"
         "Return the key points as JSON."
     )
+    if SKIP_ANTHROPIC:
+        return _gist_openrouter(prompt), "openrouter"
     try:
         points = _gist_anthropic(prompt, title)
         return points, "claude"
