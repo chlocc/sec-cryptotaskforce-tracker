@@ -3759,9 +3759,9 @@
   "url": "https://www.sec.gov/files/ctf-written-input-world-evolution-enterprise-pbc-083126.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-world-evolution-enterprise-pbc-083126.pdf",
   "key_points": [
-   "Requests SEC pre-launch guidance for digital assets, including a disclosure checklist covering functional status, transferability, governance, redemption, and use of proceeds.",
-   "Recommends clarifying that real-world asset referencing alone doesn't create an investment contract; focus should be on enforceable financial claims, profit expectation from others' efforts, or promised returns.",
-   "Urges coordinated regulatory classifications across agencies (SEC, Treasury, FinCEN, CFTC, state) for coherent guidance before product launch."
+   "The submission requests the SEC to publish practical, pre-launch guidance for early-stage digital asset projects, including a checklist of facts developers should disclose and evaluate before public issuance, such as functional status, transferability, governance concentration, redemption features, and planned use of proceeds.",
+   "It recommends clarifying that referencing independently verified real-world assets or data does not alone establish an investment contract; legal analysis should focus on whether purchasers receive enforceable financial claims, expect profits from others’ managerial efforts, or are promised liquidity, appreciation, or return.",
+   "The submission urges coordinated regulatory classifications across agencies (SEC, Treasury, FinCEN, CFTC, state regulators) to provide coherent guidance on securities, commodities, payments, money-transmission, sanctions, and stablecoin questions before product launch."
   ],
   "thin": false,
   "date_approximate": false,
@@ -4002,9 +4002,9 @@
   "url": "https://www.sec.gov/files/written-input-monica-elizabeth-pagano-erc-genesis-090826.pdf",
   "doc_url": "https://www.sec.gov/files/written-input-monica-elizabeth-pagano-erc-genesis-090826.pdf",
   "key_points": [
-   "U.S. regulatory actions confirm that a tokenized security retains its legal status and obligations regardless of digital representation.",
-   "Institutional tokenization requires consistent tracking of the underlying asset, authoritative records, financial instrument, and digital representation to ensure legal status and settlement.",
-   "Failure to track legal and economic status across systems can lead to divergence in rights, encumbrances, and settlement, introducing legal uncertainty and operational risk."
+   "U.S. regulatory guidance and recent SEC/Nasdaq/DTCC actions confirm that a tokenized security remains the same legal instrument under securities law, with its rights, protections, and obligations intact, regardless of digital representation.",
+   "Institutional tokenization requires maintaining a consistent relationship among the underlying asset or right, authoritative records, financial instrument, and digital representation, ensuring that legal status, encumbrances, and settlement remain intelligible as the instrument moves through market infrastructure.",
+   "A token or message may transfer between systems, but unless legal and economic status is tracked and preserved, the underlying rights, encumbrances, and settlement status may diverge, leading to potential legal uncertainty and operational risk."
   ],
   "thin": false,
   "date_approximate": false,
@@ -4074,9 +4074,9 @@
   "url": "https://www.sec.gov/files/ctf-written-input-andreessen-horowitz-a16z-091426.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-andreessen-horowitz-a16z-091426.pdf",
   "key_points": [
-   "Regulation of crypto asset trading platforms (CTPs) should adapt the alternative trading systems (ATS) regime, balancing innovation and investor protection.",
-   "CTPs should notice-register with the SEC to trade security and non-security pairs, fostering consolidated markets.",
-   "Public disclosure via Form ATS-N for CTPs should be volume-thresholded, with confidential disclosures below to safeguard proprietary information."
+   "Regulation of crypto asset trading platforms (CTPs) should be modeled on the alternative trading systems (ATS) regime, but tailored for crypto markets, allowing for innovation and retail participation while maintaining investor protections.",
+   "CTPs should be permitted to notice-register with the SEC and trade both security/non-security pairs and purely non-security pairs, preventing market fragmentation and supporting efficient, consolidated markets.",
+   "Public disclosure requirements (Form ATS-N) should apply to CTPs trading NMS stocks only above a volume threshold; below this threshold, disclosures should be confidential, protecting proprietary information and encouraging innovation."
   ],
   "thin": false,
   "date_approximate": false,
@@ -4098,9 +4098,9 @@
   "url": "https://www.sec.gov/files/ctf-written-input-andreessen-horowitz-a16z-defi-education-fund-def-091426.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-andreessen-horowitz-a16z-defi-education-fund-def-091426.pdf",
   "key_points": [
-   "The letter proposes a safe harbor from SEC exchange registration for non-custodial, automated, permissionless, and credibly neutral decentralized exchange protocols (DEXs) and DEX Apps.",
-   "This safe harbor aims to exempt systems that do not function as traditional exchanges and lack intermediary-related risks, aligning with pending legislation and SEC staff guidance.",
-   "The proposal emphasizes that neutral software tools enabling self-directed activity should not trigger exchange registration, fostering regulatory clarity and innovation."
+   "The letter proposes a safe harbor from SEC exchange registration requirements for decentralized exchange protocols (DEXs) and DEX Apps, arguing that systems which do not function as traditional exchanges and do not present intermediary-related risks should not be subject to registration under the Securities Exchange Act of 1934.",
+   "The safe harbor criteria require DEXs and DEX Apps to be non-custodial, automated, permissionless, and credibly neutral, ensuring users retain control and eliminating centralized operator risks that exchange regulation is designed to address.",
+   "The proposal aligns with pending legislation (such as the CLARITY Act) and recent SEC staff guidance, emphasizing that neutral software tools enabling self-directed activity do not trigger exchange registration obligations, thereby supporting regulatory clarity and innovation."
   ],
   "thin": false,
   "date_approximate": false,
@@ -4146,9 +4146,9 @@
   "url": "https://www.sec.gov/files/ctf-written-input-pag-091626.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-pag-091626.pdf",
   "key_points": [
-   "Digital asset institutions require continuous verification of operational conditions (custody, asset backing, trading integrity, cybersecurity), not just regulatory clarity.",
-   "Material changes (e.g., in custodians, reserves, or platform architecture) necessitate revalidation to ensure prior conclusions remain current.",
-   "Integrating an implementation-verification layer into digital-asset frameworks is critical for identifying representations, dependencies, and conditions for renewed verification and revalidation."
+   "Regulatory clarity alone is insufficient; institutions must continually verify that operational conditions (such as custody, asset backing, segregation, trading integrity, and cybersecurity) are supported by current evidence, especially after material changes.",
+   "Revalidation is essential: When material facts change (e.g., changes in custodians, reserves, platform architecture, liquidity, cybersecurity, or token structure), institutions must reassess whether prior conclusions remain valid based on updated evidence.",
+   "An implementation-verification layer should be integrated into digital-asset frameworks to identify material representations, supporting evidence, dependencies, downside ownership, conditions requiring renewed verification, and decision points for revalidation—complementing, not replacing, legal classification and regulatory controls"
   ],
   "thin": false,
   "date_approximate": false,
