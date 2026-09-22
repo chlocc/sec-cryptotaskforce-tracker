@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T15:16:09+00:00",
+ "generated_at": "2026-09-22T14:34:12+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-09-21T15:16:03+00:00",
-  "cryptosec": "2026-09-21T15:16:04+00:00",
-  "meetings": "2026-09-21T15:16:06+00:00",
-  "newsroom": "2026-09-21T15:16:08+00:00"
+  "written-input": "2026-09-22T14:33:57+00:00",
+  "cryptosec": "2026-09-22T14:33:58+00:00",
+  "meetings": "2026-09-22T14:33:59+00:00",
+  "newsroom": "2026-09-22T14:34:01+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,54 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "ea07b3ddae2e612b",
+   "source": "meetings",
+   "date": "2026-09-22",
+   "title": "Meeting with Neufin",
+   "author": "Neufin",
+   "topics": [
+    "Investor Protection",
+    "Tokenization",
+    "Compliance Technology"
+   ],
+   "takeaway": "Neufin shared insights on investor protection within tokenized wealth and AI-driven advice.",
+   "url": "https://www.sec.gov/files/ctf-memo-neufin-092226.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-neufin-092226.pdf",
+   "key_points": [
+    "Neufin discussed investor protection in tokenized wealth and AI-enabled advice.",
+    "Neufin proposed continuous, explainable investor-context monitoring for detecting material changes.",
+    "Discussions explored dynamic controls, portfolio context, AI workflows, and explainability principles.",
+    "Neufin aimed to offer a practical perspective on emerging wealth technology controls."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "cbaf8b48b1de2964",
+   "source": "written-input",
+   "date": "2026-09-21",
+   "title": "Plume and vaults SEC Crypto Task Force",
+   "author": "Salman Banaei, Plume Network",
+   "topics": [
+    "Regulatory Framework",
+    "Investor Protection",
+    "Tokenization"
+   ],
+   "takeaway": "Regulation should focus on vault curators/issuers, not protocol developers, with SEC/CFTC rules applying based on asset nature and discretion.",
+   "url": "https://www.sec.gov/files/ctf-written-input-salman-banaei-plume-network-092126.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-salman-banaei-plume-network-092126.pdf",
+   "key_points": [
+    "Regulation should target vault curators and token issuers based on discretion, compensation, and portfolio, not neutral protocol developers.",
+    "SEC/CFTC adviser and fund operator rules apply based on asset type, discretion, compensation, and distribution method (US vs. offshore)."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "ef6c149313ddd730",
    "source": "newsroom",
