@@ -4311,8 +4311,9 @@
   "url": "https://www.sec.gov/files/ctf-written-input-salman-banaei-plume-network-092126.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-salman-banaei-plume-network-092126.pdf",
   "key_points": [
-   "Regulation should target vault curators and token issuers based on discretion, compensation, and portfolio, not neutral protocol developers.",
-   "SEC/CFTC adviser and fund operator rules apply based on asset type, discretion, compensation, and distribution method (US vs. offshore)."
+   "Regulation should attach to the vault curator and vault token issuer roles, based on discretion, compensation, and portfolio composition, but not to the neutral protocol developer or administrator; vault interests are analyzed under Howey and Reves.",
+   "SEC and CFTC requirements for advisers, commodity trading advisors, investment companies, and commodity pool operators attach depending on the nature of the assets, discretion exercised, compensation, and whether U.S. public or offshore distribution is involved.",
+   "Recommendations include clarifying onchain vault custody, permitting multi-format funds, enabling secondary markets in tokenized fund shares, modernizing transfer agent registration, and building asset-level AML into tokenized fund interests."
   ],
   "thin": false,
   "date_approximate": false,
@@ -4338,6 +4339,79 @@
    "Neufin proposed continuous, explainable investor-context monitoring for detecting material changes.",
    "Discussions explored dynamic controls, portfolio context, AI workflows, and explainability principles.",
    "Neufin aimed to offer a practical perspective on emerging wealth technology controls."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "41243512749227a3",
+  "source": "written-input",
+  "date": "2026-09-22",
+  "title": "Comment on the \"Innovation Exemption\" for Tokenized NMS Stock",
+  "author": "Ceres Coin TA, LLC",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Investor Protection"
+  ],
+  "takeaway": "Tokenized fund shares differ from NMS equities; require transfer agent oversight, not venue relief.",
+  "url": "https://www.sec.gov/files/ctf-written-input-ceres-092226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-ceres-092226.pdf",
+  "key_points": [
+   "Tokenized fund shares lack need for AMM/venue registration relief due to unique liquidity structure.",
+   "Holder-rights parity relies on regulated transfer agent recordkeeping, not venue exemptions.",
+   "Tokenized securities venues must maintain transfer agent-equivalent recordkeeping for holder rights."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "430eda6b8816903a",
+  "source": "written-input",
+  "date": "2026-09-22",
+  "title": "Decision Half-Life: Investor-Context Revalidation for Tokenized Securities and Agentic Investment Workflows",
+  "author": "Varun Srivastava, NeuFin",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Investor Protection"
+  ],
+  "takeaway": "Firms must track investor context validity periods for tokenized securities and agentic workflows.",
+  "url": "https://www.sec.gov/files/ctf-written-input-varun-srivastava-neufin-092226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-varun-srivastava-neufin-092226.pdf",
+  "key_points": [
+   "Defines 'decision half-life' for investor context validity, requiring revalidation of assumptions upon material change in tokenized/agentic workflows.",
+   "Separates asset/infrastructure revalidation from investor-context revalidation for continuous monitoring.",
+   "Mandates record-keeping linking prior state, changes, authority, and outcomes for regulatory reconstruction."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "1e3c57440667cabf",
+  "source": "meetings",
+  "date": "2026-09-22",
+  "title": "Meeting with Plume Network, Inc.",
+  "author": "Plume Network, Inc.",
+  "topics": [
+   "Regulatory Framework",
+   "DeFi Protocols",
+   "Investor Protection"
+  ],
+  "takeaway": "Plume Network proposed functional regulation for vault protocols to protect investors and market integrity.",
+  "url": "https://www.sec.gov/files/ctf-memo-plume-network-inc-092226.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-plume-network-inc-092226.pdf",
+  "key_points": [
+   "Plume Network representatives met with the Crypto Task Force to discuss crypto asset regulation, focusing on vault protocols.",
+   "Plume advocated for regulation to attach by function, not label, particularly to curators and issuers, not neutral protocols or administrators.",
+   "They proposed SEC rule updates to accommodate vault protocols for user protection, market integrity, capital formation, and illicit finance combat.",
+   "Plume detailed how its Nest protocol and Kimber Digital Assets Bermuda facilitate offshore distribution of U.S. registered fund exposure."
   ],
   "thin": false,
   "date_approximate": false,
