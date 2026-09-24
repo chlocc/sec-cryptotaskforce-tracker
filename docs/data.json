@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T14:47:26+00:00",
+ "generated_at": "2026-09-24T15:51:01+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-09-23T14:47:19+00:00",
-  "cryptosec": "2026-09-23T14:47:20+00:00",
-  "meetings": "2026-09-23T14:47:21+00:00",
-  "newsroom": "2026-09-23T14:47:23+00:00"
+  "written-input": "2026-09-24T15:50:51+00:00",
+  "cryptosec": "2026-09-24T15:50:52+00:00",
+  "meetings": "2026-09-24T15:50:54+00:00",
+  "newsroom": "2026-09-24T15:50:57+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,31 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "5076af8ff49aa4df",
+   "source": "newsroom",
+   "date": "2026-09-23",
+   "title": "Looking for Change in Haystacks: Remarks before SIFMA’s Digital Assets Conference",
+   "author": "Hester M. Peirce",
+   "topics": [
+    "Compliance Technology",
+    "Regulatory Framework",
+    "Safe Harbor & Exemptions"
+   ],
+   "takeaway": "Commissioner Peirce questions data collection effectiveness, suggesting tech-driven, privacy-preserving alternatives.",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-looking-change-haystacks-remarks-sifma-s-digital-assets-conference-092326",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-looking-change-haystacks-remarks-sifma-s-digital-assets-conference-092326",
+   "key_points": [
+    "Commissioner Peirce questions whether current data collection, like KYC/AML, is effective or an undue burden on privacy.",
+    "She suggests new technologies could enable better crime detection with less personal information collection.",
+    "Peirce advocates for attribute-based verification and reliance on third-party identity checks to reduce duplicative data collection.",
+    "The SEC's Innovation Exemption is a bridge toward durable rules for tokenized securities trading, inviting comments."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "ea07b3ddae2e612b",
    "source": "meetings",
@@ -69,9 +94,9 @@
    "url": "https://www.sec.gov/files/ctf-written-input-varun-srivastava-neufin-092226.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-input-varun-srivastava-neufin-092226.pdf",
    "key_points": [
-    "Defines 'decision half-life' for investor context validity, requiring revalidation of assumptions upon material change in tokenized/agentic workflows.",
-    "Separates asset/infrastructure revalidation from investor-context revalidation for continuous monitoring.",
-    "Mandates record-keeping linking prior state, changes, authority, and outcomes for regulatory reconstruction."
+    "Establishes a measurable period during which investor context remains materially valid for consequential actions, requiring firms to revalidate assumptions when context changes, especially in tokenized and agentic workflows.",
+    "Separates asset/infrastructure revalidation (custody, token structure, venue operation) from investor-context revalidation (concentration, liquidity, risk capacity), ensuring both operational and investor-specific conditions are continuously monitored for material change.",
+    "Requires firms to maintain records that link prior state, material change, authority boundaries, and outcomes, enabling regulators to reconstruct decision environments and assess compliance in distributed tokenized markets."
    ],
    "thin": false,
    "date_approximate": false,
@@ -93,9 +118,9 @@
    "url": "https://www.sec.gov/files/ctf-written-input-ceres-092226.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-input-ceres-092226.pdf",
    "key_points": [
-    "Tokenized fund shares lack need for AMM/venue registration relief due to unique liquidity structure.",
-    "Holder-rights parity relies on regulated transfer agent recordkeeping, not venue exemptions.",
-    "Tokenized securities venues must maintain transfer agent-equivalent recordkeeping for holder rights."
+    "Tokenized registered-fund shares do not require, and should not receive, Automated Market Maker or venue registration relief, as their structure differs fundamentally from tokenized NMS equities; liquidity is provided by the fund itself, not through secondary trading venues.",
+    "Holder-rights parity for tokenized securities depends on an authoritative, regulated register maintained by a registered transfer agent, not on venue-level relief; this ensures correct execution of dividends, voting, and other corporate actions.",
+    "The Commission should require that any tokenized security traded on a Tokenized Securities Venue be subject to authoritative recordkeeping equivalent to a registered transfer agent, making holder-rights parity enforceable in practice."
    ],
    "thin": false,
    "date_approximate": false,
