@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T14:18:39+00:00",
+ "generated_at": "2026-09-26T15:41:25+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-09-25T14:18:33+00:00",
-  "cryptosec": "2026-09-25T14:18:34+00:00",
-  "meetings": "2026-09-25T14:18:36+00:00",
-  "newsroom": "2026-09-25T14:18:38+00:00"
+  "written-input": "2026-09-26T15:41:02+00:00",
+  "cryptosec": "2026-09-26T15:41:03+00:00",
+  "meetings": "2026-09-26T15:41:06+00:00",
+  "newsroom": "2026-09-26T15:41:08+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,52 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "c986abdcdf54d72d",
+   "source": "cryptosec",
+   "date": "2026-09-25",
+   "title": "FAQs - Application of the Federal Securities Laws to Certain Types of Crypto Assets and Certain Transactions Involving Crypto Assets",
+   "author": "Division of Corporation Finance",
+   "topics": [
+    "Regulatory Framework",
+    "Security Status",
+    "Public Offerings"
+   ],
+   "takeaway": "FAQs clarify the application of federal securities laws to crypto assets and transactions.",
+   "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/faqs-crypto-assets",
+   "doc_url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/faqs-crypto-assets",
+   "key_points": [
+    "Answers to frequently asked questions related to the Interpretive Release issued by the Commission on March 17, 2026."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "9fbe1d6f125082f7",
+   "source": "written-input",
+   "date": "2026-09-25",
+   "title": "Re: Attribute-based verification: what the relying party's record should show",
+   "author": "Douglas C. Borthwick, The Insumer Model",
+   "topics": [
+    "Investor Protection",
+    "Compliance Technology",
+    "Safe Harbor & Exemptions"
+   ],
+   "takeaway": "Attribute-based verification requires timely, privacy-preserving determinations with verifiable, secure digital records.",
+   "url": "https://www.sec.gov/files/ctf-written-memo-douglas-c-borthwick-insumer-model-092526.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-memo-douglas-c-borthwick-insumer-model-092526.pdf",
+   "key_points": [
+    "Attribute-based verification must confirm investor eligibility at the time of sale or access, considering current credential status including expiry and revocation.",
+    "SEC acceptance of attribute-based verification should only require the decision, not personal data, to ensure privacy, unless regulations mandate identification.",
+    "Retained records must be verifiable and secure, using digital signatures and public keys on a public ledger, with algorithms robust for the entire retention period."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "5076af8ff49aa4df",
    "source": "newsroom",
