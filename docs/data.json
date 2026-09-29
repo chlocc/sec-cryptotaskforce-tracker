@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T14:48:12+00:00",
+ "generated_at": "2026-09-29T16:53:03+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-09-28T14:48:07+00:00",
-  "cryptosec": "2026-09-28T14:48:08+00:00",
-  "meetings": "2026-09-28T14:48:10+00:00",
-  "newsroom": "2026-09-28T14:48:11+00:00"
+  "written-input": "2026-09-29T16:52:56+00:00",
+  "cryptosec": "2026-09-29T16:52:57+00:00",
+  "meetings": "2026-09-29T16:52:59+00:00",
+  "newsroom": "2026-09-29T16:53:01+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,30 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "9393d5bdfacaed7a",
+   "source": "written-input",
+   "date": "2026-09-29",
+   "title": "Re: Supplemental Written Input to the SEC’s Crypto Task Force on Digital-Asset Succession Events, Beneficiary Verification, and Continuity of Control for Tokenized and Custodied Assets",
+   "author": "Dmytro Lyushenko, NOTA Digital Currencies Research Center Inc.",
+   "topics": [
+    "Custody",
+    "Investor Protection",
+    "Tokenization"
+   ],
+   "takeaway": "Custodians need clear procedures for digital asset succession, balancing legal authority with technical control.",
+   "url": "https://www.sec.gov/files/ctf-written-input-dmytro-lyushenko-nota-digital-currencies-research-center-inc-092926.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-dmytro-lyushenko-nota-digital-currencies-research-center-inc-092926.pdf",
+   "key_points": [
+    "Regulated entities must distinguish legal authority from technical control for asset succession.",
+    "SEC should mandate auditable procedures for verifying succession claims and managing asset transfers.",
+    "Succession plans must address cross-border issues and synchronize technical transfers with legal ownership records."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "c986abdcdf54d72d",
    "source": "cryptosec",
