@@ -4528,9 +4528,9 @@
   "url": "https://www.sec.gov/files/ctf-written-input-naveen-durvasula-100526.pdf",
   "doc_url": "https://www.sec.gov/files/ctf-written-input-naveen-durvasula-100526.pdf",
   "key_points": [
-   "Mandatory disclosure in securities regulation restores some, but not all, lost trade gains due to asymmetric information and moral hazard.",
-   "The expected buyer overpayment in secondary markets due to asymmetric information is bounded, offering a measurable standard for investor protection.",
-   "The CLARITY Act proposes exemptions for digital assets of mature blockchains where buyer overpayment is minimal."
+   "Mandating full disclosure in securities regulation restores some, but not all, lost gains from trade caused by asymmetric information and moral hazard, improving social welfare but not fully eliminating inefficiencies.",
+   "In secondary markets, the expected buyer overpayment due to asymmetric information is tightly bounded by the product of the buyer’s prior variance and the valuation gap, providing a measurable standard for investor protection under regulation.",
+   "The CLARITY Act proposes exempting digital assets associated with mature blockchain systems from traditional disclosure requirements, justified by the model’s finding that buyer overpayment is minimal when buyers are well informed or when uncertain information has little effect on asset value."
   ],
   "thin": false,
   "date_approximate": false,
@@ -4617,8 +4617,12 @@
   "date": "2026-10-01",
   "title": "Statement on Proposal to Address the Custody of Crypto Assets Under the Investment Advisers Act and the Investment Company Act",
   "author": "Paul S. Atkins",
-  "topics": [],
-  "takeaway": "",
+  "topics": [
+   "Custody",
+   "Investor Protection",
+   "Regulatory Framework"
+  ],
+  "takeaway": "SEC proposal modernizes custody rules for crypto assets to protect investors and foster innovation.",
   "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-crypto-custody-100126-statement-proposal-address-custody-crypto-assets-under-investment-advisers-act-investment-company",
   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-crypto-custody-100126-statement-proposal-address-custody-crypto-assets-under-investment-advisers-act-investment-company",
   "key_points": [
@@ -4629,7 +4633,8 @@
   ],
   "thin": false,
   "date_approximate": false,
-  "summarized_by": "openrouter"
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  },
  {
   "id": "194aa548b08e10e2",
@@ -4639,18 +4644,21 @@
   "author": "Hester M. Peirce",
   "topics": [
    "Custody",
-   "Regulatory Framework",
-   "Investor Protection"
+   "Investor Protection",
+   "Regulatory Framework"
   ],
-  "takeaway": "Peirce expresses concerns that proposed custody rules may hinder crypto innovation and investor access.",
+  "takeaway": "SEC proposal expands crypto custody options for advisers, allowing self-custody under specific conditions.",
   "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-proposed-amendments-custody-rules-100126",
   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-proposed-amendments-custody-rules-100126",
   "key_points": [
-   "Summary unavailable — see the source document on sec.gov."
+   "Commissioner Peirce stated the proposal aims to end investment advisers' challenging crypto custody experiences by expanding authorized custody options.",
+   "The proposal would allow advisers to 'self-custody' crypto assets under limited conditions, including determining no qualified custodian is available.",
+   "Peirce suggested 'shelf-custody' to distinguish adviser custody from true investor self-custody, advocating for investor rights to self-custody.",
+   "The proposal also permits state trust companies as custodians, intending to increase competition and expand investor protection and options."
   ],
-  "thin": true,
+  "thin": false,
   "date_approximate": false,
-  "summarized_by": "none",
+  "summarized_by": "openrouter",
   "enriched_by": "openrouter"
  },
  {
