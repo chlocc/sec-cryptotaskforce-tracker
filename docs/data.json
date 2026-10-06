@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T16:53:03+00:00",
+ "generated_at": "2026-10-06T16:12:07+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-09-29T16:52:56+00:00",
-  "cryptosec": "2026-09-29T16:52:57+00:00",
-  "meetings": "2026-09-29T16:52:59+00:00",
-  "newsroom": "2026-09-29T16:53:01+00:00"
+  "written-input": "2026-10-06T16:11:50+00:00",
+  "cryptosec": "2026-10-06T16:11:51+00:00",
+  "meetings": "2026-10-06T16:11:53+00:00",
+  "newsroom": "2026-10-06T16:11:56+00:00"
  },
  "topics": [
   "Security Status",
@@ -30,6 +30,196 @@
  ],
  "items": [
   {
+   "id": "fa71154896d28f8a",
+   "source": "meetings",
+   "date": "2026-10-06",
+   "title": "Meeting with VolMEX Labs Corporation and Clifford Chance US LLP",
+   "author": "VolMEX Labs Corporation and Clifford Chance US LLP",
+   "topics": [
+    "Regulatory Framework",
+    "Public Offerings"
+   ],
+   "takeaway": "VolMEX and Clifford Chance discussed crypto asset regulation and product clarity with the Crypto Task Force.",
+   "url": "https://www.sec.gov/files/ctf-memo-volmex-labs-corporation-clifford-chance-us-llp-100626.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-volmex-labs-corporation-clifford-chance-us-llp-100626.pdf",
+   "key_points": [
+    "Crypto Task Force Staff met with VolMEX Labs Corporation and Clifford Chance US LLP.",
+    "The meeting focused on approaches to regulating crypto assets.",
+    "VolMEX and Clifford Chance sought to discuss options products using cryptocurrencies.",
+    "They aimed to explore regulatory treatment and promote clarity for such products."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "3a5cc232c425b4f1",
+   "source": "written-input",
+   "date": "2026-10-05",
+   "title": "Quantifying the Benefits of Securities Regulation",
+   "author": "Naveen Durvasula",
+   "topics": [
+    "Investor Protection",
+    "Trading & Market Structure",
+    "Safe Harbor & Exemptions"
+   ],
+   "takeaway": "Securities regulation's disclosure mandates improve social welfare but don't eliminate all trading inefficiencies.",
+   "url": "https://www.sec.gov/files/ctf-written-input-naveen-durvasula-100526.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-naveen-durvasula-100526.pdf",
+   "key_points": [
+    "Mandatory disclosure in securities regulation restores some, but not all, lost trade gains due to asymmetric information and moral hazard.",
+    "The expected buyer overpayment in secondary markets due to asymmetric information is bounded, offering a measurable standard for investor protection.",
+    "The CLARITY Act proposes exemptions for digital assets of mature blockchains where buyer overpayment is minimal."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "eca635836c50729c",
+   "source": "newsroom",
+   "date": "2026-10-01",
+   "title": "Statement on Proposed Amendments to the Custody Rules",
+   "author": "Mark T. Uyeda",
+   "topics": [
+    "Custody",
+    "Regulatory Framework",
+    "Investor Protection"
+   ],
+   "takeaway": "SEC proposes custody rule updates to accommodate digital assets and evolving market structures, including self-custody options.",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-proposed-amendments-custody-rules-100126",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-proposed-amendments-custody-rules-100126",
+   "key_points": [
+    "Commissioner Uyeda stated current custody rules need updates for evolving markets and digital assets.",
+    "The proposal allows self-custody of crypto assets if no qualified custodian is available, with safeguards.",
+    "State-chartered trust companies are now permitted custodians for crypto assets under specific conditions.",
+    "Modernization measures include updating rules for broker-dealers and discretionary trading exceptions."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "b0faefcae07798ec",
+   "source": "newsroom",
+   "date": "2026-10-01",
+   "title": "Statement on Departure of Commissioner Hester Peirce",
+   "author": "Paul S. Atkins, Mark T. Uyeda",
+   "topics": [
+    "Regulatory Framework",
+    "Safe Harbor & Exemptions",
+    "Investor Protection"
+   ],
+   "takeaway": "Commissioners Atkins and Uyeda lauded Hester Peirce's principled leadership on digital assets and regulatory clarity.",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-uyeda-statement-commissioner-peirce-100126",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-uyeda-statement-commissioner-peirce-100126",
+   "key_points": [
+    "Chairman Atkins and Commissioner Uyeda expressed gratitude for Commissioner Peirce's principled leadership and significant contributions.",
+    "They highlighted her advocacy for digital asset innovation and her challenges to regulation by enforcement.",
+    "Peirce was recognized for her efforts to establish a clear path for entrepreneurs to innovate.",
+    "Her leadership on the Crypto Task Force was noted as instrumental in developing a framework for digital assets."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "5f15ade0101ef715",
+   "source": "newsroom",
+   "date": "2026-10-01",
+   "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
+   "author": "Press Release",
+   "topics": [
+    "Custody",
+    "Investor Protection",
+    "Regulatory Framework"
+   ],
+   "takeaway": "SEC proposal offers compliant crypto custody framework for investment advisers and funds.",
+   "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+   "doc_url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+   "key_points": [
+    "The SEC proposed rules to create a framework for investment advisers and funds to custody crypto assets under federal securities laws.",
+    "Chairman Atkins stated the proposal provides a compliant pathway, addressing outdated rules and reducing uncertainty in crypto asset custody.",
+    "The proposal would modernize custody rules, update audit requirements, and permit self-custody under specific conditions.",
+    "It would also allow the use of state trust companies as custodians for client and regulated fund crypto assets."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "306b1558b38e863c",
+   "source": "newsroom",
+   "date": "2026-10-01",
+   "title": "Statement on Proposal to Address the Custody of Crypto Assets Under the Investment Advisers Act and the Investment Company Act",
+   "author": "Paul S. Atkins",
+   "topics": [],
+   "takeaway": "",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-crypto-custody-100126-statement-proposal-address-custody-crypto-assets-under-investment-advisers-act-investment-company",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/atkins-crypto-custody-100126-statement-proposal-address-custody-crypto-assets-under-investment-advisers-act-investment-company",
+   "key_points": [
+    "Chairman Atkins stated the proposal addresses a gap in lawful crypto asset custody for investment advisers and funds.",
+    "The proposal aims to modernize SEC rules, which predate the internet, for safeguarding crypto assets.",
+    "Atkins noted this proposal is part of a broader SEC effort to clarify crypto asset regulation and foster innovation.",
+    "He emphasized the need for updated rules to accommodate modern asset classes and industry practices."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter"
+  },
+  {
+   "id": "2e0b865b997a053e",
+   "source": "cryptosec",
+   "date": "2026-10-01",
+   "title": "Proposed Rule: Investment Adviser and Regulated Fund Custody Rules; Crypto Custody Rules",
+   "author": "U.S. Securities and Exchange Commission",
+   "topics": [
+    "Custody",
+    "Investor Protection",
+    "Regulatory Framework"
+   ],
+   "takeaway": "SEC proposes updated custody rules for advisers and funds, allowing self-custody and state trust company use for crypto assets.",
+   "url": "https://www.sec.gov/files/rules/proposed/2026/ia-7023.pdf",
+   "doc_url": "https://www.sec.gov/files/rules/proposed/2026/ia-7023.pdf",
+   "key_points": [
+    "Proposed rules would permit advisers and funds to self-custody crypto assets under specific conditions.",
+    "The proposal allows advisers and funds to use state trust companies for crypto asset custody, subject to requirements.",
+    "Modernized custody rules aim to address current industry practices and incorporate feedback.",
+    "Updated recordkeeping and disclosure requirements for advisers and funds related to crypto custody are included."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "194aa548b08e10e2",
+   "source": "newsroom",
+   "date": "2026-10-01",
+   "title": "Roller Coaster Ride: Statement on Proposed Adviser and Regulated Fund Custody Rules; Crypto Custody Rules",
+   "author": "Hester M. Peirce",
+   "topics": [
+    "Custody",
+    "Regulatory Framework",
+    "Investor Protection"
+   ],
+   "takeaway": "Peirce expresses concerns that proposed custody rules may hinder crypto innovation and investor access.",
+   "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-proposed-amendments-custody-rules-100126",
+   "doc_url": "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-proposed-amendments-custody-rules-100126",
+   "key_points": [
+    "Summary unavailable — see the source document on sec.gov."
+   ],
+   "thin": true,
+   "date_approximate": false,
+   "summarized_by": "none",
+   "enriched_by": "openrouter"
+  },
+  {
    "id": "9393d5bdfacaed7a",
    "source": "written-input",
    "date": "2026-09-29",
@@ -44,9 +234,9 @@
    "url": "https://www.sec.gov/files/ctf-written-input-dmytro-lyushenko-nota-digital-currencies-research-center-inc-092926.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-input-dmytro-lyushenko-nota-digital-currencies-research-center-inc-092926.pdf",
    "key_points": [
-    "Regulated entities must distinguish legal authority from technical control for asset succession.",
-    "SEC should mandate auditable procedures for verifying succession claims and managing asset transfers.",
-    "Succession plans must address cross-border issues and synchronize technical transfers with legal ownership records."
+    "Regulated custodians and intermediaries should establish procedures that distinguish between legal authority (e.g., executor, trustee, beneficiary) and technical control (e.g., possession of private keys or credentials), ensuring that lawful successors can access assets even if they lack technical credentials, and preventing unauthorized transfers by those with technical access but no legal entitlement.",
+    "The SEC should consider requiring regulated entities to maintain documented, auditable procedures for verifying succession claims, including claimant identity, legal authority, and technical execution, with temporary protective measures during verification and clear records of transfer-of-control events.",
+    "Succession procedures must address cross-border legal documents and ensure that technical transfers of tokenized assets are synchronized with legally recognized ownership records, especially for tokenized securities and real-world assets, to avoid gaps between operational and legal ownership."
    ],
    "thin": false,
    "date_approximate": false,
