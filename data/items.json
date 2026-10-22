@@ -4710,5 +4710,196 @@
   "date_approximate": false,
   "summarized_by": "openrouter",
   "enriched_by": "openrouter"
+ },
+ {
+  "id": "f3bdc22df1353d59",
+  "source": "written-input",
+  "date": "2026-10-18",
+  "title": "Institutional Tokenisation and the Perimeter: Ledger Permissioning in a Proposed Definition and in a Granted Exemption",
+  "author": "Evelyse Carvalho Ribas",
+  "topics": [
+   "Tokenization",
+   "Safe Harbor & Exemptions",
+   "Regulatory Framework"
+  ],
+  "takeaway": "Clarification sought on ledger permissioning for tokenization and its impact on regulatory exemptions.",
+  "url": "https://www.sec.gov/files/ctf-written-input-evelyse-carvalho-ribas-101826.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-evelyse-carvalho-ribas-101826.pdf",
+  "key_points": [
+   "SEC should clarify if proposed \"crypto asset\" definition covers permissioned ledgers, common in institutional tokenization.",
+   "Potential inconsistency: proposed definition is ledger-agnostic, but an exemptive order requires public, permissionless ledgers.",
+   "Request to clarify if ledger permissioning is a transparency condition or a substantive eligibility criterion for regulatory relief."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "63c6a90116157349",
+  "source": "written-input",
+  "date": "2026-10-16",
+  "title": "Re: Regulation Crypto Assets, Release No. 33-11434 (Aug. 18, 2026), 91 FR 54510 (Aug. 21, 2026); File No. S7-2026-27",
+  "author": "Action Committee for Crypto Clarity within the United States (ACFCC)",
+  "topics": [
+   "Security Status",
+   "Safe Harbor & Exemptions",
+   "DeFi Protocols"
+  ],
+  "takeaway": "ACFCC seeks clarity on functional crypto systems, independent administrators, and automated buybacks under SEC rules.",
+  "url": "https://www.sec.gov/files/ctf-written-input-acfcc-101626.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-input-acfcc-101626.pdf",
+  "key_points": [
+   "Urges codification that ongoing maintenance services post-launch are not 'essential managerial efforts.'",
+   "Requests exclusion for independent administrators performing limited, non-discretionary functions.",
+   "Seeks confirmation that automated buybacks funded by third-party payments don't invalidate safe harbor or create securities."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "f6341d96936cd6df",
+  "source": "written-input",
+  "date": "2026-10-14",
+  "title": "Subject: Establishing Public Disclosure Standards for Crypto Assets Comparable to SEC EDGAR Requirements",
+  "author": "Lucas Stuyt",
+  "topics": [
+   "Investor Protection",
+   "Regulatory Framework",
+   "Public Offerings"
+  ],
+  "takeaway": "Proposes EDGAR-like public disclosure standards for crypto assets to enhance investor protection.",
+  "url": "https://www.sec.gov/files/ctf-written-crypto-standards-10-14-2026.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-written-crypto-standards-10-14-2026.pdf",
+  "key_points": [
+   "Mandates standardized disclosures for crypto issuers, mirroring SEC public company reporting (financials, ownership, supply, etc.).",
+   "Recommends a centralized, EDGAR-like framework for initial, periodic, and material event reporting with machine-readable data.",
+   "Advocates for ongoing reporting akin to SEC forms (10-K, 10-Q, 8-K) to ensure timely disclosure and investor protection."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "b40eee0fd06e9ef4",
+  "source": "cryptosec",
+  "date": "2026-10-20",
+  "title": "Frequently Asked Questions on the Innovation Exemption",
+  "author": "Division of Trading and Markets",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Safe Harbor & Exemptions"
+  ],
+  "takeaway": "SEC FAQs detail conditional exemptive relief for tokenized NMS stock trading venues and liquidity providers.",
+  "url": "https://www.sec.gov/rules-regulations/staff-guidance/trading-markets-frequently-asked-questions/frequently-asked-questions-innovation-exemption",
+  "doc_url": "https://www.sec.gov/rules-regulations/staff-guidance/trading-markets-frequently-asked-questions/frequently-asked-questions-innovation-exemption",
+  "key_points": [
+   "The SEC's Division of Trading and Markets issued FAQs addressing an order granting conditional exemptive relief.",
+   "The relief concerns distributed ledger trading venues for tokenized NMS stocks.",
+   "It also addresses liquidity providers for tokenized NMS stocks.",
+   "The exemptions are from the definitions of 'exchange' and 'dealer' under the Exchange Act."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "7599e227401a5214",
+  "source": "cryptosec",
+  "date": "2026-10-20",
+  "title": "Innovation Exemption Web Page",
+  "author": "Division of Trading and Markets",
+  "topics": [
+   "Safe Harbor & Exemptions",
+   "Regulatory Framework"
+  ],
+  "takeaway": "The Division of Trading and Markets launched an Innovation Exemption webpage.",
+  "url": "https://www.sec.gov/about/divisions-offices/division-trading-markets/innovation-exemption",
+  "doc_url": "https://www.sec.gov/about/divisions-offices/division-trading-markets/innovation-exemption",
+  "key_points": [
+   "The Division of Trading and Markets has created an Innovation Exemption web page with guidance, resources, and links."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "sec",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "d48fb89de18df4d2",
+  "source": "meetings",
+  "date": "2026-10-19",
+  "title": "Meeting with Blockchain Association, 1inch Labs, and ZeroShadow LLC",
+  "author": "Blockchain Association, 1inch Labs, and ZeroShadow LLC",
+  "topics": [
+   "DeFi Protocols",
+   "Compliance Technology",
+   "Regulatory Framework"
+  ],
+  "takeaway": "Crypto Task Force met with industry representatives to discuss DeFi regulation and illicit finance prevention methods.",
+  "url": "https://www.sec.gov/files/ctf-memo-blockchain-association-101926.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-blockchain-association-101926.pdf",
+  "key_points": [
+   "Crypto Task Force staff met with Blockchain Association, 1inch Labs, and ZeroShadow LLC.",
+   "The meeting focused on approaches to regulating crypto assets.",
+   "Representatives requested a live demonstration of DeFi illicit-finance prevention methods.",
+   "Discussion points included device fingerprinting and on-chain intelligence."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "ddddd063592d7cbd",
+  "source": "meetings",
+  "date": "2026-10-09",
+  "title": "Meeting with Franklin Templeton, Inc.",
+  "author": "Franklin Templeton, Inc.",
+  "topics": [
+   "Tokenization",
+   "Trading & Market Structure",
+   "Safe Harbor & Exemptions"
+  ],
+  "takeaway": "Franklin Templeton discussed tokenized funds and trading relief with the Crypto Task Force.",
+  "url": "https://www.sec.gov/files/ctf-memo-franklin-templeton-100926.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-franklin-templeton-100926.pdf",
+  "key_points": [
+   "Franklin Templeton met with the Crypto Task Force to discuss crypto asset regulation.",
+   "The company sought discussion on potential 1940 Act issues regarding tokenized money market funds and NMS ETFs.",
+   "Specific concerns included trading relief for tokenized assets on a TSV and liquidity pool treatment.",
+   "Franklin Templeton proposed addressing these issues via the SEC's Innovation Exemption."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
+ },
+ {
+  "id": "7060436d17e7e9ee",
+  "source": "meetings",
+  "date": "2026-10-09",
+  "title": "Meeting with Bellementis PLLC",
+  "author": "Bellementis PLLC",
+  "topics": [
+   "Safe Harbor & Exemptions",
+   "Regulatory Framework"
+  ],
+  "takeaway": "Meeting discussed an innovation exemption order with Bellementis PLLC.",
+  "url": "https://www.sec.gov/files/ctf-memo-bellementis-pllc-100926.pdf",
+  "doc_url": "https://www.sec.gov/files/ctf-memo-bellementis-pllc-100926.pdf",
+  "key_points": [
+   "Crypto Task Force staff met with Bellementis PLLC representatives on October 9, 2026.",
+   "The meeting involved discussions regarding the order establishing an innovation exemption (Release No. 34-106402).",
+   "Participants included staff from the Crypto Task Force and the Division of Corporation Finance."
+  ],
+  "thin": false,
+  "date_approximate": false,
+  "summarized_by": "openrouter",
+  "enriched_by": "openrouter"
  }
 ]
