@@ -163,24 +163,15 @@ def git_publish() -> None:
         log.warning("git push failed (exit %d) — commit is local only", rc)
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--backfill", action="store_true",
-                        help="explicit alias; the pipeline always processes unseen items since 2026-01-01")
-    parser.add_argument("--no-git", action="store_true", help="skip git commit/push")
-    args = parser.parse_args()
+def scrape_new_items(existing: list[dict], by_id: dict, seen: set, source_status: dict) -> tuple[list[dict], dict]:
+    """Scrape all four sources and return (new_items, added_per_source).
 
-    load_env()
-
-    import generate_site
+    Shared by the API pipeline (main) and the in-session pipeline
+    (session_refresh.py), so the dedupe and keep-prior-data-on-failure rules
+    live in one place. Mutates `seen` and `source_status` in place, and
+    refreshes SEC-provided key points on already-seen items in `by_id`.
+    """
     from scraper import cryptosec, meetings, newsroom, written_input
-
-    existing = generate_site.load_items()
-    seen = {it["id"] for it in existing}
-    by_id = {it["id"]: it for it in existing}
-
-    status_file = ROOT / "data" / "source_status.json"
-    source_status = json.loads(status_file.read_text()) if status_file.exists() else {}
 
     new_items, added_per_source = [], {}
     for name, scraper in [("written-input", written_input),
@@ -218,6 +209,28 @@ def main():
             log.error("scrape failed for %s: %s — keeping prior data", name, e)
 
     log.info("new items: %s", added_per_source or "none")
+    return new_items, added_per_source
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--backfill", action="store_true",
+                        help="explicit alias; the pipeline always processes unseen items since 2026-01-01")
+    parser.add_argument("--no-git", action="store_true", help="skip git commit/push")
+    args = parser.parse_args()
+
+    load_env()
+
+    import generate_site
+
+    existing = generate_site.load_items()
+    seen = {it["id"] for it in existing}
+    by_id = {it["id"]: it for it in existing}
+
+    status_file = ROOT / "data" / "source_status.json"
+    source_status = json.loads(status_file.read_text()) if status_file.exists() else {}
+
+    new_items, added_per_source = scrape_new_items(existing, by_id, seen, source_status)
 
     summarize_pending(new_items)
     condense_long_sec_summaries(new_items)

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T18:17:25+00:00",
+ "generated_at": "2026-11-12T16:37:34+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-10-22T18:16:54+00:00",
-  "cryptosec": "2026-10-22T18:16:55+00:00",
-  "meetings": "2026-10-22T18:16:57+00:00",
-  "newsroom": "2026-10-22T18:16:59+00:00"
+  "written-input": "2026-11-12T16:37:24+00:00",
+  "cryptosec": "2026-11-12T16:37:25+00:00",
+  "meetings": "2026-11-12T16:37:26+00:00",
+  "newsroom": "2026-11-12T16:37:28+00:00"
  },
  "topics": [
   "Security Status",
@@ -29,6 +29,151 @@
   "Public Offerings"
  ],
  "items": [
+  {
+   "id": "3f1e92a0891acd22",
+   "source": "written-input",
+   "date": "2026-11-09",
+   "title": "How Tokenized Securities Can Reach Emerging-Market Investors from Within the US Regulatory Perimeter",
+   "author": "Hersh Patel, Opacity Labs",
+   "topics": [
+    "Tokenization",
+    "Compliance Technology",
+    "Regulatory Framework"
+   ],
+   "takeaway": "Tokenized securities can expand investor access using verifiable digital credentials under current US regulations.",
+   "url": "https://www.sec.gov/files/cft-written-opacity-comment-emerging-markets-110926.pdf",
+   "doc_url": "https://www.sec.gov/files/cft-written-opacity-comment-emerging-markets-110926.pdf",
+   "key_points": [
+    "Tokenization can reduce onboarding and compliance costs for emerging-market investors through reusable, verifiable digital credentials.",
+    "The proposal uses cryptographic proofs (zkTLS-based verifiable credentials) for customer identification, aligning with existing AML/KYC and investor eligibility rules.",
+    "Recent guidance confirms verifiable digital credentials can be used under current customer identification programs without altering legal obligations."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "bbf9d702f227cd2e",
+   "source": "written-input",
+   "date": "2026-11-05",
+   "title": "Bitcoin Market Integrity and Full-Reserve Framework",
+   "author": "Gary Farr",
+   "topics": [
+    "Custody",
+    "Trading & Market Structure",
+    "Investor Protection"
+   ],
+   "takeaway": "Proposes a full-reserve Bitcoin custody model and market integrity enhancements for trading and derivatives.",
+   "url": "https://www.sec.gov/files/cft-written-bitcoin-market-integrity-memo-110526.pdf",
+   "doc_url": "https://www.sec.gov/files/cft-written-bitcoin-market-integrity-memo-110526.pdf",
+   "key_points": [
+    "Advocates for a full-reserve Bitcoin custody regime with asset segregation and verification.",
+    "Requires affirmative customer consent for lending/rehypothecation of custody Bitcoin and clear disclosures.",
+    "Suggests evaluating spot Bitcoin short-sale locate requirements and enhancing leveraged derivative oversight."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "8ef70426ce7f32df",
+   "source": "cryptosec",
+   "date": "2026-11-03",
+   "title": "No-Action Letter – Canton Coin",
+   "author": "Division of Corporation Finance",
+   "topics": [
+    "Security Status",
+    "Safe Harbor & Exemptions",
+    "Regulatory Framework"
+   ],
+   "takeaway": "SEC grants no-action relief for Canton Coin, classifying it as a digital commodity.",
+   "url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326",
+   "doc_url": "https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326",
+   "key_points": [
+    "The Division of Corporation Finance views Canton Coin as a “digital commodity” based on representations linking its value to network operation and market dynamics, not managerial efforts.",
+    "The Division found no central party in the Canton Network, a key factor in its no-action position.",
+    "The Division will not recommend enforcement action regarding Canton Coin’s programmatic minting without registration under the Securities Act or Exchange Act."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "944191ac795e8da4",
+   "source": "written-input",
+   "date": "2026-10-29",
+   "title": "Under Control: A Framework for Applying the Federal Securities Laws to Crypto Vaults",
+   "author": "Crypto Council for Innovation (CCI)",
+   "topics": [
+    "Regulatory Framework",
+    "Investor Protection",
+    "DeFi Protocols"
+   ],
+   "takeaway": "CCI proposes a control-focused framework for applying securities laws to crypto vaults.",
+   "url": "https://www.sec.gov/files/ctf-written-cci-under-control-10-29-2026.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-cci-under-control-10-29-2026.pdf",
+   "key_points": [
+    "CCI suggests federal securities laws for crypto vaults should focus on post-deposit control and investor reliance, not labels.",
+    "Vaults limiting managerial discretion may weaken grounds for Securities Act, Investment Company Act, and Advisers Act coverage.",
+    "Autonomous, overcollateralized lending vaults may fall outside Howey/Reves due to code-governed mechanics and loan-like traits."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "37190d1c11195271",
+   "source": "written-input",
+   "date": "2026-10-28",
+   "title": "Helping Retail Investors Verify Tokenized Assets and Avoid Impersonation Scams",
+   "author": "Ryan Runnan Zhang, Arievia Foundation",
+   "topics": [
+    "Tokenization",
+    "Investor Protection",
+    "Compliance Technology"
+   ],
+   "takeaway": "Proposals aim to bolster retail investor confidence in tokenized assets through enhanced disclosure and verification tools.",
+   "url": "https://www.sec.gov/files/ctf-written-input-arievia-foundation-10-27-2026.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-written-input-arievia-foundation-10-27-2026.pdf",
+   "key_points": [
+    "Mandate disclosure of official token contract addresses and retired addresses across blockchain networks in SEC filings for verification.",
+    "Develop plain-language investor guidance and tools to verify crypto platforms, registration, and token authenticity.",
+    "Implement standardized disclosures, language access, investor testing, and coordinated anti-impersonation efforts."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "sec",
+   "enriched_by": "openrouter"
+  },
+  {
+   "id": "112fb81dd89edb74",
+   "source": "meetings",
+   "date": "2026-10-26",
+   "title": "Meeting with Zeropoint Labs, Inc. and Manatt, Phelps & Phillips LLP",
+   "author": "Zeropoint Labs, Inc. and Manatt, Phelps & Phillips LLP",
+   "topics": [
+    "Broker-Dealer Registration",
+    "DeFi Protocols",
+    "Safe Harbor & Exemptions"
+   ],
+   "takeaway": "Zeropoint Labs sought views on a Section 206A exemptive order for strategy curators on SuperformOS.",
+   "url": "https://www.sec.gov/files/ctf-memo-zeropoint-102626.pdf",
+   "doc_url": "https://www.sec.gov/files/ctf-memo-zeropoint-102626.pdf",
+   "key_points": [
+    "Zeropoint Labs sought staff views on a Section 206A exemptive order for curators designing public, one-to-many strategies on SuperformOS.",
+    "Zeropoint proposed specific conditions for this relief, including a review window, independent veto, and fee caps.",
+    "The request focused on a narrow exemption from Section 203 registration, preserving Section 206 anti-fraud provisions.",
+    "Discussions also covered client identity, Section 205(a)(1) application, and other potential regulatory paths."
+   ],
+   "thin": false,
+   "date_approximate": false,
+   "summarized_by": "openrouter",
+   "enriched_by": "openrouter"
+  },
   {
    "id": "b40eee0fd06e9ef4",
    "source": "cryptosec",
@@ -115,9 +260,9 @@
    "url": "https://www.sec.gov/files/ctf-written-input-evelyse-carvalho-ribas-101826.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-input-evelyse-carvalho-ribas-101826.pdf",
    "key_points": [
-    "SEC should clarify if proposed \"crypto asset\" definition covers permissioned ledgers, common in institutional tokenization.",
-    "Potential inconsistency: proposed definition is ledger-agnostic, but an exemptive order requires public, permissionless ledgers.",
-    "Request to clarify if ledger permissioning is a transparency condition or a substantive eligibility criterion for regulatory relief."
+    "The submission argues that the SEC should expressly clarify whether the proposed definition of “crypto asset” includes assets recorded on permissioned and private distributed ledgers, because the current definition is unqualified and institutional tokenization models commonly use permissioned infrastructures.",
+    "The submission identifies a potential regulatory inconsistency: the proposed crypto asset definition is agnostic as to ledger permissioning, while the SEC’s September 2026 exemptive order requires certain trading venue smart contracts to be deployed on a public, permissionless distributed ledger, effectively making ledger architecture determinative for access to the relief.",
+    "The submission requests that the SEC clarify whether the public, permissionless ledger requirement is intended to be merely a transparency condition for participating venues or a substantive eligibility criterion that defines which tokenization infrastructures may use the regime, because the two interpretations produce materially different regulatory outcomes."
    ],
    "thin": false,
    "date_approximate": false,
@@ -139,9 +284,9 @@
    "url": "https://www.sec.gov/files/ctf-written-input-acfcc-101626.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-input-acfcc-101626.pdf",
    "key_points": [
-    "Urges codification that ongoing maintenance services post-launch are not 'essential managerial efforts.'",
-    "Requests exclusion for independent administrators performing limited, non-discretionary functions.",
-    "Seeks confirmation that automated buybacks funded by third-party payments don't invalidate safe harbor or create securities."
+    "Urges the SEC to codify in the final rule that, once a crypto system is functional, ongoing services to maintain, secure, or enhance the system do not constitute “essential managerial efforts,” including when those services are performed by an independent service provider rather than the issuer.",
+    "Requests a bright-line exclusion for independent ministerial administrators that perform limited functions (such as KYC/AML onboarding and payment routing) without discretion over token economics, governance, treasury assets, or protocol parameters, so they are not treated as issuers, promoters, or providers of essential managerial efforts.",
+    "Seeks clarification that automated buyback-and-burn mechanisms funded by third-party commercial payments and executed through immutable smart contracts do not defeat the safe harbor, do not create rights to income or profits, and should not cause the associated token to be treated as a security; also requests coordination with the CFTC to confirm post-safe-harbor treatment of qualifying crypto assets as commodities."
    ],
    "thin": false,
    "date_approximate": false,
@@ -163,9 +308,9 @@
    "url": "https://www.sec.gov/files/ctf-written-crypto-standards-10-14-2026.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-crypto-standards-10-14-2026.pdf",
    "key_points": [
-    "Mandates standardized disclosures for crypto issuers, mirroring SEC public company reporting (financials, ownership, supply, etc.).",
-    "Recommends a centralized, EDGAR-like framework for initial, periodic, and material event reporting with machine-readable data.",
-    "Advocates for ongoing reporting akin to SEC forms (10-K, 10-Q, 8-K) to ensure timely disclosure and investor protection."
+    "Supports mandatory, standardized disclosure obligations for crypto issuers comparable to SEC public company reporting, including financial condition, ownership/control, token supply, financing arrangements, insider transactions, and material developments.",
+    "Recommends a centralized public reporting framework similar to EDGAR requiring initial offering disclosures, periodic reports, material event reporting, beneficial ownership disclosures, historical filing access, and machine-readable public data.",
+    "Advocates ongoing reporting obligations and investor-protection principles comparable in purpose to Forms 10-K, 10-Q, and 8-K, including timely disclosure of material changes and maintaining disclosure requirements even where regulatory exemptions apply."
    ],
    "thin": false,
    "date_approximate": false,
