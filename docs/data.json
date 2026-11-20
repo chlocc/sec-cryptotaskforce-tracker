@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:37:34+00:00",
+ "generated_at": "2026-11-20T15:38:30+00:00",
  "source_labels": {
   "written-input": "Written Input",
   "cryptosec": "Staff Statements",
@@ -7,10 +7,10 @@
   "newsroom": "Newsroom"
  },
  "source_status": {
-  "written-input": "2026-11-12T16:37:24+00:00",
-  "cryptosec": "2026-11-12T16:37:25+00:00",
-  "meetings": "2026-11-12T16:37:26+00:00",
-  "newsroom": "2026-11-12T16:37:28+00:00"
+  "written-input": "2026-11-20T15:38:25+00:00",
+  "cryptosec": "2026-11-20T15:38:26+00:00",
+  "meetings": "2026-11-20T15:38:27+00:00",
+  "newsroom": "2026-11-20T15:38:29+00:00"
  },
  "topics": [
   "Security Status",
@@ -44,9 +44,9 @@
    "url": "https://www.sec.gov/files/cft-written-opacity-comment-emerging-markets-110926.pdf",
    "doc_url": "https://www.sec.gov/files/cft-written-opacity-comment-emerging-markets-110926.pdf",
    "key_points": [
-    "Tokenization can reduce onboarding and compliance costs for emerging-market investors through reusable, verifiable digital credentials.",
-    "The proposal uses cryptographic proofs (zkTLS-based verifiable credentials) for customer identification, aligning with existing AML/KYC and investor eligibility rules.",
-    "Recent guidance confirms verifiable digital credentials can be used under current customer identification programs without altering legal obligations."
+    "Tokenization can expand access to U.S. securities for emerging-market investors by reducing onboarding and ongoing compliance costs through reusable, verifiable digital credentials, while keeping existing legal and regulatory obligations unchanged for funds, transfer agents, and other intermediaries.",
+    "The proposal relies on cryptographic proofs (zkTLS-based verifiable credentials) derived from third-party records to improve customer identification and verification. It argues that stronger, independently verifiable evidence can reduce manual review and supervisory burdens without altering applicable AML/KYC, sanctions-screening, or investor-eligibility requirements.",
+    "The comment cites recent FinCEN and federal banking regulator guidance confirming that verifiable digital credentials may be used under existing customer identification program requirements, emphasizing that the guidance does not modify underlying legal obligations or supervisory expectations."
    ],
    "thin": false,
    "date_approximate": false,
@@ -68,9 +68,9 @@
    "url": "https://www.sec.gov/files/cft-written-bitcoin-market-integrity-memo-110526.pdf",
    "doc_url": "https://www.sec.gov/files/cft-written-bitcoin-market-integrity-memo-110526.pdf",
    "key_points": [
-    "Advocates for a full-reserve Bitcoin custody regime with asset segregation and verification.",
-    "Requires affirmative customer consent for lending/rehypothecation of custody Bitcoin and clear disclosures.",
-    "Suggests evaluating spot Bitcoin short-sale locate requirements and enhancing leveraged derivative oversight."
+    "Recommends a full-reserve Bitcoin custody regime requiring custodians to maintain sufficient unencumbered BTC to satisfy customer entitlements, with legal segregation, defined insolvency treatment, liability-inclusive verification, and independent assurance over assets, liabilities, liens, and off-chain obligations.",
+    "Calls for affirmative customer consent before lending, pledging, or rehypothecating custody-only Bitcoin, along with clear product labeling and disclosure standards distinguishing custody services from yield-bearing or lending arrangements.",
+    "Proposes regulatory evaluation of spot Bitcoin short-sale locate-and-borrow requirements and enhanced oversight of leveraged derivatives through transparency, surveillance, margin controls, and potential leverage limits, while recognizing the need to preserve legitimate hedging and price-discovery functions."
    ],
    "thin": false,
    "date_approximate": false,
@@ -140,9 +140,9 @@
    "url": "https://www.sec.gov/files/ctf-written-input-arievia-foundation-10-27-2026.pdf",
    "doc_url": "https://www.sec.gov/files/ctf-written-input-arievia-foundation-10-27-2026.pdf",
    "key_points": [
-    "Mandate disclosure of official token contract addresses and retired addresses across blockchain networks in SEC filings for verification.",
-    "Develop plain-language investor guidance and tools to verify crypto platforms, registration, and token authenticity.",
-    "Implement standardized disclosures, language access, investor testing, and coordinated anti-impersonation efforts."
+    "Recommends requiring issuers (or transfer agents) of tokenized securities to disclose and maintain official token contract addresses by blockchain network in SEC filings, including retired addresses, so investors and intermediaries can verify whether a tokenized asset is authentic and detect counterfeit versions.",
+    "Recommends enhancing investor verification tools by linking registered firms offering crypto or tokenized products to their official domains and creating plain-language guidance on how investors can verify crypto platforms, registration status, token addresses, and report impersonation scams.",
+    "Recommends investor-protection measures focused on disclosure and fraud prevention, including a standardized \"key facts\" disclosure format, language-access requirements, investor testing of disclosures, and coordinated anti-impersonation initiatives across regulators."
    ],
    "thin": false,
    "date_approximate": false,
